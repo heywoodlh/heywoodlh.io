@@ -41,13 +41,17 @@ apt-get install -y debootstrap arch-install-scripts
 
 List your disks and their partitions with the following command:
 
-`lsblk`
+```bash
+lsblk
+```
 
 The output will show a list of disks, their partitions and their sizes. My disk is an 80 GB drive named `/dev/sda`. Change your drive paths as needed in the following commands to fit your installation.
 
-Now, let's edit the drive partitions with `fdisk`
+Now, let's edit the drive partitions with `gdisk`
 
-`gdisk /dev/sda`
+```bash
+gdisk /dev/sda
+```
 
 
 Create the EFI partition:
