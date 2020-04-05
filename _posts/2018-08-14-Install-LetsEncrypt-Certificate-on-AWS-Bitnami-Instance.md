@@ -1,7 +1,7 @@
 ---
 title: 'Install LetsEncrypt Certificate on AWS Bitnami Instance'
 date: 2018-08-14 
-layout: post.html
+layout: post
 collection: linux, server, all 
 --- 
 1. Install Certbot: https://certbot.eff.org/ 

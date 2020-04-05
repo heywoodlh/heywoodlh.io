@@ -1,6 +1,6 @@
 ---
 title: 'Raspberry Pi GSM Phone Modem Setup'
-layout: post.html
+layout: post
 date: 2018-09-12
 draft: false
 ---

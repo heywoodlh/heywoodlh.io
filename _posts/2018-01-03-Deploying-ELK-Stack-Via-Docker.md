@@ -3,7 +3,7 @@ title: 'Deploying ELK Stack Via Docker'
 date: 2018-01-03
 autotoc: true
 excerpt: true
-layout: post.html
+layout: post
 collection: all, cybersecurity
 ---
 

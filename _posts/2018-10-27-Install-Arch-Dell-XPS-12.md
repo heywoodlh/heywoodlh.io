@@ -1,5 +1,5 @@
 ---
-layout: post.html
+layout: post
 date: 2018-10-27
 title: 'Install Arch Linux on Dell XPS 12/Dell XPS 12 Crash on Arch Linux'
 collections: all, linux

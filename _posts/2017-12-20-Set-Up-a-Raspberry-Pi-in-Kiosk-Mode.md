@@ -2,7 +2,7 @@
 title: 'Set Up a Raspberry Pi in Kiosk Mode' 
 date: 2017-12-20
 collections: all
-layout: post.html
+layout: post
 ---
 
 Raspberry Pi's make super useful TV kiosks. Where I work, we prefer not to connect Smart-TVs to the network, instead we prefer managed Raspberry Pis. Typically, the staff just need the TV to display a single website. This article will walk through setting up a current version of Raspbian to run Chromium in Kiosk mode (current at the time of this writing).

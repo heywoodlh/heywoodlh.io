@@ -1,11 +1,9 @@
 ---
 title: 'Using Volatility on Arch Linux'
-slug: arch-linux-router
+permalink: arch-linux-router
 date: 2020-03-26
-autotoc: true
-excerpt: true
-layout: post.html
-collection: all, linux, security
+layout: post
+tags: all, linux, security
 ---
 
 This article will walk through using Volatility on Arch Linux. Volatility's documentation didn't make too much sense to me with generating profiles so I am taking it upon myself to write up how I set it up. Also, Volatility is written in Python 2 and I don't like having that installed on my system, so I created a Docker image to fill that need.

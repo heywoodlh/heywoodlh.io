@@ -4,7 +4,7 @@ slug: port-forward-iptables
 date: 2020-02-16
 autotoc: true
 excerpt: true
-layout: post.html
+layout: post
 collection: all, linux, security, networking
 ---
 

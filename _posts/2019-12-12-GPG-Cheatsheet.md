@@ -4,7 +4,7 @@ slug: gpg-cheatsheet
 date: 2019-12-12
 autotoc: true
 excerpt: true
-layout: post.html
+layout: post
 collection: all, security, privacy
 ---
 

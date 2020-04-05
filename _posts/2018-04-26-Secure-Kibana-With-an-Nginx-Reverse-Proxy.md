@@ -1,7 +1,7 @@
 ---
 title: 'Secure Kibana With an Nginx Reverse Proxy' 
 date: 2018-04-26
-layout: post.html
+layout: post
 collection: cybersecurity, linux, server, all 
 ---
 ### Securing Kibana: 

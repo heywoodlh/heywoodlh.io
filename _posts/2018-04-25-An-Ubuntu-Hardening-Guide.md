@@ -1,7 +1,7 @@
 ---
 title: 'An Ubuntu Hardening Guide'
 date: 2018-04-25
-layout: post.html 
+layout: post 
 collection: cybersecurity, linux, server, all
 --- 
 

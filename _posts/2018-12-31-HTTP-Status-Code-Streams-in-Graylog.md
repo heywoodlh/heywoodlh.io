@@ -1,5 +1,5 @@
 ---
-layout: post.html
+layout: post
 date: 2018-12-31
 title: 'Configuring HTTP Status Code Streams in Graylog'
 collections: all, linux, cybersecurity

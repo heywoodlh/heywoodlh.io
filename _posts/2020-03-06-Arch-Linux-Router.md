@@ -4,7 +4,7 @@ slug: arch-linux-router
 date: 2020-03-06
 autotoc: true
 excerpt: true
-layout: post.html
+layout: post
 collection: all, linux, security, networking
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "A Hacker's First Look Into Your Network: Port Scanning" 
-layout: post.html
+layout: post
 date: 2018-08-21
 collections: all, cybersecurity
 ---

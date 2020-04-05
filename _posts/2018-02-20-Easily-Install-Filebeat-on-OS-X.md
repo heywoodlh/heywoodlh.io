@@ -1,7 +1,7 @@
 ---
 title: 'Easily Install Filebeat on OS X' 
 date: 2018-02-20
-layout: post.html
+layout: post
 collection: all, cybersecurity 
 ---
 

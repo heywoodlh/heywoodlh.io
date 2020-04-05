@@ -1,6 +1,6 @@
 ---
 title: "SAINTCON 2018 VIDEO -- A Hacker's First Look Into Your Network: Port Scanning"
-layout: post.html
+layout: post
 date: 2018-10-02
 collections: all, cybersecurity
 ---

@@ -3,7 +3,7 @@ title: 'Install Ansible Awx on Ubuntu'
 date: 2019-02-01
 autotoc: true
 excerpt: true
-layout: post.html
+layout: post
 collection: all, linux
 ---
 

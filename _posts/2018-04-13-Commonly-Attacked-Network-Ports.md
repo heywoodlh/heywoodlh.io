@@ -1,7 +1,7 @@
 ---
 title: 'Commonly Attacked Network Ports'
 date: 2018-04-13 
-layout: post.html
+layout: post
 collection: cybersecurity, server, all
 ---
 

@@ -4,7 +4,7 @@ slug: fly-phishing
 date: 2020-01-13
 autotoc: true
 excerpt: true
-layout: post.html
+layout: post
 collection: all, linux, security, phishing
 ---
 

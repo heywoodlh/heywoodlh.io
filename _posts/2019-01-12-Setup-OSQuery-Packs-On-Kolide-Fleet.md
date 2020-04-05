@@ -3,7 +3,7 @@ title: 'Setup OSQuery Packs on Kolide Fleet'
 date: 2019-01-12
 autotoc: true
 excerpt: true
-layout: post.html
+layout: post
 collection: all, cybersecurity
 ---
 

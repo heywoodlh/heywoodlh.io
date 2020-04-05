@@ -4,7 +4,7 @@ slug: android-dev
 date: 2020-01-02
 autotoc: true
 excerpt: true
-layout: post.html
+layout: post
 collection: all, android, linux, mobile, security
 ---
 
