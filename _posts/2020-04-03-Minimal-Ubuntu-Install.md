@@ -1,11 +1,7 @@
 ---
 title: 'Minimal Ubuntu Install (Install Ubuntu the Arch Way)'
-slug: minimal-ubuntu-install
-date: 2020-04-03
-autotoc: true
-excerpt: true
-layout: post.html
-collection: all, linux
+permalink: minimal-ubuntu-install
+tags: all, linux
 ---
 
 This article will walk through a minimal and manual installation of Ubuntu, comparable to the Arch Linux installation process.
