@@ -1,0 +1,35 @@
+ title: Wordpress Database Connection Error date: '2016-05-30 03:49:00'
+tags: - wordpress 
+WordPress Database Connection Error
+All WordPress installations need two things: WordPress files and a database. If
+either of those are missing, a WordPress installation will not function
+properly.
+A database connection error is just that â WordPress files not being able to
+connect with a database. This can be an indicator of two things:
+1. There is no database to connect to.
+2. The WordPress installation is not configured properly to connect to the
+database.
+If there is no database to connect to, there is not very much to do except for
+locate that database.
+However you can fix a database connection error if the configuration is
+incorrect, and this typically is the case.
+There are a few things that you can do to fix this:
+1. Locate the code for the database name, username and password in the wp-
+config.php file for your wordpress installation. It will look like this:
+ define('DB_NAME', 'DB_name');
+ define('DB_USER', 'DB_username');
+ define('DB_PASSWORD', 'password');
+2. Make sure that the DB_name, DB_username and DB_password are the correct
+credentials for you to log in to the database that is for the WordPress
+installation. If the database name or username are incorrect, fix them. Update
+your database user to have the password in between each single quote mark.
+3. Make sure that the layout for each value is correct. I.E.
+define('DB_NAME', 'DB_name')
+If there is a single quote missing or mispelling, the error will be showing,
+and your WordPress installation may not work.
+4. The error may be caused by a broken theme or plugin. Click_here for more
+information on how to change the theme without using wp-admin. Click_here for
+more information on how to disable plugins without wp-admin.
+5. Replace core files that may be malfunctioning. Click_here for more
+information on how to replace malfunctioning core files.
+***If all these suggestions do not work consult with a developer***

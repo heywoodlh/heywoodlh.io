@@ -1,0 +1,47 @@
+ title: Wordpress 500 Internal Server Error date: '2016-05-30 03:54:00'
+tags: - wordpress 
+500 Internal Server Error:
+The 500 Internal Server Error is rarely caused by the hosting server of a
+website. Normally the 500 error is caused by a broken .htaccess file that is
+preventing the server from interacting properly with the website and preventing
+anyone from displaying the website.
+Common fixes:
+1. Replace the .htaccess file:
+To do this log in to your file manager. Make sure that you are viewing the
+hidden files because if you are not viewing the hidden files you will not be
+able to view the .htaccess. Before modifying any files, you should always make
+a backup of the file, so copy the .htacccess and make a backup. Or you can
+rename it to .htaccess.old and make a new file called .htaccess.
+Regardless, if you make a new file or a copy, this is the code you can use for
+a basic wordpress .htaccess:
+     # BEGIN WordPress
+
+     <IfModule mod_rewrite.c>
+     RewriteEngine On
+     RewriteBase /
+     RewriteCond %{REQUEST_FILENAME} !-f
+     RewriteCond %{REQUEST_FILENAME} !-d
+     RewriteRule . /index.php [L]
+     </IfModule>
+
+     # END WordPress
+
+Check to see if your website is working.
+
+
+2. Disable plugins:
+Often times, plugins you have may be modifying your .htaccess, even after you
+change the .htaccess to the default .htaccess.
+You can follow the steps in this article to disable plugins:
+Disabling_Plugins_When_Your_Wordpress_Site_is_Down
+
+
+3. Disable the theme:
+Rarely does a theme cause this issue. However, if the previous two options have
+not worked out, changing the theme may work.
+Follow the steps in this article to change the theme:
+How_to_Change_Wordpress_Theme_Through_PhpMyAdmin
+***If none of these options are working separately, it may be a combination of
+all three***
+If all of these options do not resolve the problem, you may need to contact
+your hosting provider or contact a web developer for further assistance.

@@ -1,0 +1,32 @@
+ title: Basic Linux Command Line File Manipulation date: '2016-05-30 03:45:
+00' tags: - linux - server - ssh 
+Create a File or Folder
+touch â creates a file.
+     touch filename
+mkdir â make a directory, aka folder.
+     mkdir folder
+
+Moving and Copying Files and Folders
+mv â move a file or folder.
+     mv file destination
+
+     mv folder destination
+cp â copy a file or folder.
+     cp file destination
+
+     #to copy a folder and its content, you need to include the recursive flag
+     cp -r folder destination
+Simple File Editing
+There are a few file editors available in most terminal. For starters, there
+are two that are easy to begin with:
+1. nano â Nano is a very simple file editor. There are a lot of things that
+make it really easy to use and very effective.
+     #to edit a file in nano
+     nano file
+When in Nano it will open up a screen with the file contents displayed. You can
+edit and navigate these very easily. To exit Nano, press ctrl+x. The tips at
+the bottom have more help (replace the â^â symbol with ctrl).
+2. gedit â The command âgeditâ opens up your gedit application on a Linux
+server. This is a familiar, easy to navigate, GUI document editor.
+     #to edit a file in gedit
+     gedit file

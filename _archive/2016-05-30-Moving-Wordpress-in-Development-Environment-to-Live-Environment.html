@@ -1,0 +1,42 @@
+ title: Moving Wordpress in Development Environment to Live Environment
+date: '2016-05-30 03:49:00' tags: - wordpress 
+Developing a WordPress in a Development Environment
+Often, people choose to develop their WordPress site in a development
+environment. This is done for a few reasons â to develop a site to replace
+their current one without disturbing the current live site; to prepare a site
+before moving their hosting; or to prepare a site because they do not have a
+domain name ready to receive it. An example of a development can be a
+subdirectory on the website: i.e. yourdomain.com/dev.
+Whenever a WordPress installation is configured to work from a temp URL (we
+will use the previous example of yourdomain.com/dev), the database is
+configured to use that temp URL for all pages, links, etc. on the WordPress
+installation. So for example, if you have created a page in your WordPress site
+called âthepageâ, your WordPress installation will go to yourdomain.com/
+dev/thepage. That is because your database and your files are configured to use
+the URLÂ yourdomain.com/dev/ before every page, post, etc. that your WordPress
+site creates.
+Therefore, when the site needs to be live on yourdomain.comÂ withoutÂ the /dev/
+at the end, there are some things that need to happen in order for that to work
+properly.
+How to Move the Site to the correct URL
+   1. Move your website files to the server you are going to be hosting the
+      site on: All of the website files need to be moved to the correct
+      directory for yourdomain.com from yourdomain.com/dev. If you are not
+      familiar with your file structure for your websites, you should contact
+      your hosting provider for additional support on how your file structure
+      is set up.
+   2. Move your database to the server your site will be hosted on: Export a
+      copy of your database from phpmyadmin and import it to the database that
+      will be on the server associated with the domain.
+   3. Update your home and site URL in your database to the actual URL that you
+      hope to have as the actual URL for the site. Log in to phpmyadmin and
+      select your database. Find your wp_options table and change the "Home"
+      and "Site" table values to equal the correct URL where your site will be
+      located.
+   4. Make sure the permalinks work properly. If a 404 error shows up on your
+      pageÂ go to your wp-admin login (which will now be yourdomain.com/wp-
+      admin, not the previous development URL) select Settings > Permalinks >
+      click save. If the 404 error persistsÂ click_hereÂ for further
+      troubleshooting.
+If the issue persists, we would love to help. You can purchase our Wordpress
+Migration_Service and we can move the site for you.

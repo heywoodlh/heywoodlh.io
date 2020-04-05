@@ -1,0 +1,100 @@
+ title: How to Install Ubuntu Linux From a Bootable USB date: '2016-06-02
+03:02:00' tags: - linux  Some basic terms: Boot:To process for a computer to
+load an operating system Operating System:the software that allows you to
+interact with the computer -- essentially the personality of the computer (for
+example Windows is an operating system, same with Mac OS X, etc.) USB:Universal
+Serial Bus, a type of port on a computer, in this case synonymous for a USB
+flash drive Bootable USB: a USB that, essentially, has an operating system that
+has been installed to it and is capable of allowing a computer to boot the
+installed operating system What is Ubuntu?Â Ubuntu Linux is an open source
+operating system, perhaps one of the best open source projects online. It is a
+free operating system capable of resurrecting old computers and turning them
+into useful, working machines again. It has evolved and has become the most
+popular of all the Linux distributions currently. It is also probably the most
+user friendly Linux distribution, yet it still offers the administrative power
+and customizability that Linux is well known for. The purpose of this article
+is to walk a user through installing Ubuntu to a computer from a USB flash
+drive. The same general principles can be applied to most other Linux
+distributions such as CentOS, Puppy Linux, etc. Why would anyone ever want to
+do this?My main motivation for doing this was that I had a really old computer
+that was very slow with its native operating system. Any Linux distribution
+typically is a lot more lightweight and can do a lot more with fewer resources
+in comparison to Windows or Mac (although Windows and Mac do have their own
+benefits). Another reason would be for the learning. Linux is a great
+playground for those wanting to understand web development, coding or how to
+use a BASH terminal. How to do it?After creatingÂ an Ubuntu bootable USB, you
+can either install it from the flash drive to the computer you have it
+connected to or you can just run Ubuntu from the flash drive rather than
+competing with the current operating system on the computer. You also have the
+option to install multiple operating systems to your computer's hard drive,
+although I wouldn't recommend this unless you have a pretty powerful computer
+that wouldn't be affected by splitting resources.
+1. Create a Bootable USB:Â For each operating system there are different steps
+to create a bootable USB.
+[Image]To summarize the process of creating a bootable USB you first need to
+format your flash drive (choose the FAT32 format preferably as most computers
+can read that format). Download the Ubuntu Iso from http://www.ubuntu.com/
+download. Next, you would need to use some sort of software such as RufusÂ or
+USB_Pen_DriveÂ to install the iso to a flash drive and add the necessary
+bootloader files (files needed for the computer to boot the operating system
+properly).
+Luckily, Ubuntu.com has created articles for each operating system as to how to
+make one. For Windows:
+http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows
+For Mac:
+http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-mac-osx
+For Ubuntu: http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu
+Alternatively, if you are wanting to create a bootable USB while using a Linux
+computer, I would recommend the program UNetBootin over Ubuntu's startup disk
+creator. UNetBootin is a program created just for the purpose of making
+bootable USBs for Linux distributions. Essentially, all you would do is insert
+your USB into your Linux computer, select the drive in UNetBootin and select
+the Linux distribution you would like to have installed to the USB. 2. Restart
+your computer and enter the BIOS menu:This is the part that was not so obvious
+for me when I first wanted to install Ubuntu to my computer. When I first got
+the bootable USB I thought I would plug it into my computer while it was
+running and then it would pull up a smart prompt for me to follow to install it
+and somehow wipe out the current operating system. This is not the way it
+works. Essentially, the BIOS (Basic-Input-Output-System) menu is a set up menu
+for the computer before it actually boots into, or "enters", your Operating
+System. From this menu you are able to make some basic configuration changes,
+one of these changes being what hard drive your computer will boot into.
+Entering the BIOS menu varies from machine to machine. What I recommend is
+Googling the make and model of your computer with a specific search to enter
+the BIOS menu of that make and model. Typically, to enter the BIOS menu at
+startup you need to hold a specific button down when you see your computer's
+loading menu (not to be confused with your operating system loading menu).
+Certain computers may have a prompt to press F12 to enter the Boot Menu whereas
+others may not have any indicator of how to do it. From the BIOS menu select
+your bootable USB. If you created a good bootable USB Ubuntu will start
+loading. If you end up installing Ubuntu it might be a good idea to revisit the
+BIOS menu and set the boot order preference, which determines what hard drive
+the computer will boot from by default. ***Troubleshooting step 2:Â If there is
+some sort of error, you may want to start at step one and try creating the USB
+again. If you cannot even see the USB as a drive to boot into, try a different
+USB port on your computer.*** 3. Follow the prompts to either try Ubuntu or to
+Install it:I would definitely recommend trying Ubuntu before installing it.
+Ubuntu is way different than Windows or Mac, the operating systems most people
+are familiar with. If you opt to try Ubuntu it will simply leave your current
+operating system alone and will run out of your flash drive. For those who love
+their Windows OS or Mac OS but only want to get familiar with Linux, I would
+recommend just trying it rather than installing it. If you give it a try and
+decide you want to install it, restart your computer again and enter BIOS
+again. This time select that you want to install Ubuntu. When installing Ubuntu
+you have two options: 1. You can either completely wipe out the other operating
+system and install Ubuntu in its place (the option that comes up in the prompt
+is to Erase Disk and Install Ubuntu) 2. You can install Ubuntu alongside the
+other operating system (this would be called partitioning, or splitting, the
+hard drive) As mentioned earlier, I would only recommend the second option if
+you have a high power computer as the resources would need to be shared between
+the two operating systems.
+After you have cleared these steps, Ubuntu makes it really straightforward. I
+won't elaborate any further as the prompts are very clear. Ubuntu should
+install and if you opted in to wiping out the previous operating system Ubuntu
+will load from that point on. Hopefully this article makes it a little simpler
+as to how to create the bootable USB and boot from the USB. I mostly touched on
+what I felt was relevant and what I didn't know when I first attempted to
+install Ubuntu from a bootable USB. Another extremely helpful article with
+quite a bit more information is found atÂ https://builtvisible.com/the-ubuntu-
+installation-guide/. Contact usÂ with any questions, or guidance needed for
+help with installing Ubuntu.

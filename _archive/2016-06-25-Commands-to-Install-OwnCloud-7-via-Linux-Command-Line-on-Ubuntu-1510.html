@@ -1,0 +1,17 @@
+ title: Commands to Install OwnCloud 7 via Linux Command Line on Ubuntu
+15.10 date: '2016-06-25 23:07:27' tags: - owncloud 
+cd /tmp
+
+wget http://download.opensuse.org/repositories/isv:ownCloud:community/
+xUbuntu_15.10/Release.key
+
+sudo apt-key add - < Release.key
+
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/
+community/xUbuntu_15.10/ /' >> /etc/apt/sources.list.d/owncloud.list"
+
+sudo apt-get update
+
+sudo apt-get install owncloud
+    [caption id="attachment_20" align="aligncenter" width="300"][Screenshot of
+OwnCloud GUI] Screenshot of OwnCloud GUI[/caption]

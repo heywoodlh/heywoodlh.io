@@ -1,0 +1,55 @@
+ title: How to Fix the White Screen of Death in Wordpress date: '2016-05-30
+04:06:00' tags: - wordpress 
+The White Screen of Death (WSOD)
+The White Screen of Death is typically the sign of a break in PHP code. Most of
+the time WordPress installations come with an error log that can be viewed at
+http://yourdomain.com/error_log where you can view the break in the coding.
+It is typically caused by either plugins or themes being incompatible with the
+environment that they are in. The factors of the environment and content being
+incompatible may be:
+1. Your contentÂ isÂ not working with the php version being run on your server.
+Updating your php handler may be the solution to the problem, but shouldnât
+be done first. You should troubleshoot your theme and plugins first before
+updating your version of php.
+2. If you have recently undergone a Wordpress update, your content may not be
+up-to-date or compatible with the newest version of Wordpress.
+Deactivating Plugins:
+The best way to fix this is to replace the code that is causing the issue.
+However, a temporary fix may be toÂ deactivate the plugin(s) that is causing
+the issue. As your wp-admin is most likely inaccessible, you will need to do
+this from your hosting server end, through your file manager.
+How to deactivate your plugins folder, or individual plugins: 1. Find the wp-
+content folder for your site.
+2. Find the plugins folder.
+3. Rename it to plugins.old or plugins.deactivated
+4. Check to see if your site is up and running.
+5. If you know what plugin is causing the issue, go into your plugins folder
+and deactivate the specific plugins folder by renaming it to .old
+How to Change the Theme:
+If that does not fix the issue rename the plugins.old folder to plugins and go
+to the folder named âthemesâ in your wp-content folder. Look at the
+available themes that you have installed there. Preferably, it would be best if
+you had the default twentyfifteen, twentyfourteen, etc. themes to use. Keep
+those handy for step 3 of this section.
+These are the tools available in many LinuxÂ hosting platforms that can help
+youÂ to change your theme without have access to wp-admin.
+1. Access and find your database in phpmyadmin.
+2. Find the database table ending with _options (if there are multiple check
+what the database prefix is in the wp-config.php file and find the table
+beginning with the specified prefix ending with _options)
+3. Find the âTemplateâ and âStylesheetâ rows. Change the values to
+whatever default themes you have available in your wp-content/themes folder.
+4. Check to see if your site is up and running.
+***If deactivating the plugins and changing the theme to a default theme
+doesnât work individually, it may be a combination of both and it may be
+worth trying to have both the plugins deactivated and one of the default
+Wordpress themes running.***
+WordPressÂ Core File Issue: If neither of those work, it could potentially be a
+WordpressÂ core file issue, meaning that one or more of the core files (core
+files are the basic files that are exactly the same in every Wordpress
+installation) are incorrect. You can most likely find which one is broken in
+the error logs. With core file issues, the best way to do this is to replace
+the broken core file with a fresh new copy of that core file from the newest
+version of Wordpress. If you canât nail down which core file is broken,
+replacing them all may work. You can download a compressed copy of the latest
+version of WordPress by visiting http://wordpress.org/latest.zip.

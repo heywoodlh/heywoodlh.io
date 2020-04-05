@@ -1,0 +1,61 @@
+ title: Basic Web Hosting Concepts date: '2016-07-25 04:22:15' tags: -
+server 
+***** Domain Name: *****
+A domain name, put simply, is the name of a website. Google's domain name is
+google.com. Facebook's domain name is facebook.com.
+Domain Registration:In order to own a domain name, the domain name needs to be
+purchased, or "registered", from a registrar. Think of it like a car. A person
+is not legally recognized as the owner of the car until it is registered under
+their name. Like a car, domain registration can expire and if it does it is
+expensive to reclaim the domain until a certain amount of time. Web hosts are
+often also registrars that one can purchase (or register) domain names from.
+***** Â  *****
+***** FTP: *****
+FTP is an acronym for File Transfer Protocol. It uses port 21.FTP is
+essentially just a way for a person to transfer files to and from a server. For
+customers of a web hosting company, an example of why this is useful is if one
+wants to develop some content for a website on their local computer they can
+easily transfer the files to their website's web server via FTP.
+Filezillais the one of the most common FTP clients. Knowing that it is
+associated with FTP will help.
+***** Â  *****
+***** Email: *****
+Incoming or Receiving Email - POP3 AND IMAP POP3 and IMAP are two different
+processes that allow a client to receive e-mails. POP3 is an acronym for Post
+Office Protocol 3. PORTS FOR POP3 ARE 110 (insecure) AND PORT 995 (secure by
+SSL).Â When email is set up on a computer using POP3 protocol any email
+received will be downloaded to the computer that it received it on and will be
+stored there. So if your computer with a POP3 connection dies and you haven't
+backed up your e-mails to another location they are basically all gone. IMAP is
+an acronym for Internet Mail Access Protocol.Â PORTS FOR IMAP ARE 143
+(insecure) AND 993 (secured by SSL)Â IMAP doesn't download, it leaves the email
+messages on the server until the user explicitly deletes them. IMAP also allows
+multiple client logins to the same mailbox. Difference between IMAP and POP3:
+POP3 downloads all the emails to whatever computer that has a POP3 process set
+up with, IMAP keeps the e-mails on a server somewhere so that multiple devices
+can access them when they connect to a server. Outgoing or Sending Email SMTP
+is an acronym for Simple Mail Transport Protocol. web host'S SMTP PORT IS
+26.Â SMTP is a protocol for sending e-mail messages.
+***** HTML: *****
+HTML is the building block of most websites. It is a basic language that is
+used to build a website. HTML is an acronym for Hyper Text Markup Language.
+http://www.w3schools.com/html/html_intro.asp  
+***** DNS: *****
+DNS stands for Domain Name System (or Service). DNS is a system used to point a
+browser to an IP address. An example of how DNS works is for the every day user
+on the internet. That user's internet browser does not have all the IP
+addresses stored of every website and so DNS allows browsers to locate the
+server a domain name is stored on and display whatever is on that server. Many
+web hosts are also DNS hosts. They must be able to diagnose DNS issues so that
+if the DNS is incorrect they can help the customer take necessary steps to
+correct the DNS. There are multiple DNS records that are important: - A Record:
+The value of an A Record points to the IP address of the server that a website
+is hosted at. If the A record of example.com is pointed to an incorrect IP
+address then it most likely won't show up correctly. - CNAME: A CName is
+basically an alias for an A Record. So if one has multiple CNames pointing to
+one A record that means that they are all pointing to the same IP address. -
+Â MX Record:An MX record controls where email is going to be sent to. This
+value can be the same location that the website is hosted at or it can be
+changed to point to another location where the mail will be hosted. Common
+tools to look at DNS information about a domain include the
+"dig"Â command,Â and the "whois"Â command.

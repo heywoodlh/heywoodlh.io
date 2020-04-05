@@ -1,0 +1,31 @@
+ title: How to Replace Wordpress Core Files date: '2016-05-30 03:52:00'
+tags: - wordpress 
+WordPress Core Files:
+    * Q: What is a WordPress âcore fileâ?
+      Wordpress core files refer to the standard installation files that are
+      found in every single WordPress installation. Essentially, core files are
+      every single file in a WordPress directory except for the wp-content
+      folder and the wp-config.php file â as both of those house info that
+      are unique to a WordPress installation.
+
+Malfunctioning core files can break an entire website. This is important to
+know how to do as it may help you fix a broken WordPress site. It may not even
+be the cause of an entire website breaking, but some key features of your site
+may not work properly until you replace a broken core file.
+You can most likely identify malfunctioning core files in the error logs of
+your website, typically able to be seen from yourdomain.com/error_log.
+With core file issues, after identifying the problem file, the best way to do
+this is to replace the broken core file with a fresh new copy of that core file
+from the newest version of WordPress. If you canât nail down which core file
+is broken, replacing them all may work. You can download a compressed copy of
+the latest version of WordPress by visiting http://wordpress.org/latest.zip.
+Replace core files by disabling or removing (removing or deleting is not
+recommended) the old wp folders and/or wp files that you would like to replace,
+and swap it in for a new version of the latest WordPress core file.
+-Helpful Tip: Whenever making file changes to a site it is recommended not to
+delete the file or folder but turn it into a backup folder that is disabled.
+This can easily be done by renaming the WordPress folders and files to wp-
+file.old (replacing âfileâ with the folder or file you want to replace).
+-Helpful Tip: A folder of common core files that may be causing issues is wp-
+includes. That is a directory that seems to have problems often as the coding
+in wp-includes is drawn upon by plugins, themes, etc.

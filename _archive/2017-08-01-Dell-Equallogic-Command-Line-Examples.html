@@ -1,0 +1,47 @@
+ title: Dell Equallogic Command Line Examples date: '2017-08-01 17:11:25'
+tags: - server - ssh  Here are some example uses of the Dell Equallogic
+command line. There was very little explanation as to what all the jargon meant
+in regard to SANs and the Equallogic command line when I first started using
+Dell Equallogic SANs so I will attempt to explain a few basic terms: 1. Member:
+A single SAN. 2. Group: A *group* of individual members or SANs that are all
+managed together. 3. Volume: A section of disk space spanning a single SAN or
+multiple SANs that are available over the iSCSI network. 4. Management network:
+The network from which all the SANs are managed from. From this network, a user
+would be able to connect to the SANs from either the web interface or via SSH
+and configure settings. However, from this network, a user would not be able to
+access the storage of the SAN. Assuming there are multiple SANs in a single
+group, as long as one of the SANs is correctly connected to the network, the
+entire group can be managed from a signle SAN. 5. Storage/iSCSI network: This
+network is the network in which volumes are accessed. Please refer to Dell's
+documentation for further information at http://psonlinehelp.equallogic.com/
+v4.0/Content/GABook/CLI_preface.htm#CLI_preface_1740409989_1024631. ##help
+command help ##display information regarding each group/member (such as model
+info, storage space, disk usage, etc.) show ##create diagnostic report for
+troubleshooting/support purposes diag ##show members member show ##show
+ethernet connections for specific member member select member_name eth show  
+#### HOW TO ASSIGN IP ADDRESS TO INDIVIDUAL ETHERNET PORT #### ##select
+ethernet port syntax member select member_name eth select port_number ##assign
+IP to port (after selecting a port) ipaddress 192.168.1.2 subnet 255.255.255.0
+##enable management-only mgmt-only enable ##show current configuration (to
+verify it is correct) show ##bring interface up up ##bring interface down down
+##specific example: select eth3 on member exmem2 member select exmem2 eth
+select 3 ##upon selection of port you can then assign an ip address to that
+port and use the commands above ##"Note, You need to configure management
+interface on the highest eth port for each member in the group with a unique IP
+address!"   #### END INDIVIDUAL IP ADDRESS ASSIGNMENT SYNTAX ####   #### GROUP
+MANAGEMENT NETWORK #### ##"Enable Management network for the Group (this step
+is done after you configure the highest eth interfaces for with the management
+IP's for ALL members): ##"You need to enable the management network and assign
+a unique Management IP (on the same subnet as the interfaces setup for the
+management port) ##"Now enable the management network IP address (this is like
+the iSCSI group IP, but is used to connect to the management network from other
+systems). This address must be unique and different from the management ip
+address you entered for each eth interface."   ##enter group parameter mode
+grpparams ##set the group management IP def-mgmt-gateway ipaddress 192.168.1.1
+##set the group management IP management-network ipaddress 192.168.1.2 ##verify
+group management network settings management-network show ##exit grpparams mode
+exit all   ### REMOVE GROUP MANAGEMENT NETWORK ### ##enter group parameter mode
+grpparams ##remove management network ip address management-network ipaddress
+none ##show management network configuration management-network show ##leave
+group parameter mode exit all ### END REVOKE GROUP MANAGEMENT NETWORK ###  
+#### END GROUP MANAGEMENT NETWORK ####  

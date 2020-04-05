@@ -1,0 +1,73 @@
+ title: How to Easily Spoof E-Mail date: '2017-10-23 17:03:50' tags: -
+cybersecurity - linux 
+**** Disclaimer ****
+I in no way endorse spoofing e-mail maliciously. It is illegal to spoof e-mail
+addresses without the permission of the owner. I would highly recommend that
+you get written permission of the owner of the domain/e-mail address prior to
+spoofing the e-mail. The purpose of this article is to outline the steps on how
+to easily spoof e-mail. The legal use of this article will allow system admins
+to test their own domains to see if they are vulnerable to e-mail spoofing and
+then correct the issue.    
+**** Prerequisites ****
+1. Vulnerable domain to test on. 2. Server on a public facing WAN IP. This
+requirement can be met by spinning up a server on hosting providers such as
+DigitalOcean, Linode, etc.    
+**** Setup ****
+*** Testing the domain ***
+This can be done from any machine that has python installed. Download the
+spoofcheck repository developed by BishopFox from here. Download the repository
+and install its dependencies: git clone https://github.com/bishopfox/spoofcheck
+cd spoofcheck sudo pip install -r requirements.txt Then test the domain: sudo
+./spoofcheck.py example.com Here is an example of the output of a vulnerable
+domain:    Assuming the domain is vulnerable, all that is needed to do is setup
+an SMTP server in order to spoof the domain.      
+*** E-mail Spoofing Server ***
+The server I will be using as an example to setup will be an Ubuntu server on
+DigitalOcean -- some of the commands will be specific to Ubuntu. Upon logging
+into the server, these commands can be used to install postfix as the SMTP
+server: sudo apt-get update sudo apt-get install postfix   When the postfix
+configuration prompt comes up, select "Internet Site":    When Postfix
+configuration asks for the System Mail Name, input the domain that will be
+spoofed:    Once this is set up, some configuration of the e-mail server should
+be performed: sudo vim /etc/postfix/main.cf   Edit the line beginning with
+'myhostname':  Change that to the domain you are spoofing.    Then, edit the
+line beginning with 'mydestination':  Remove '$myhostname,' from this line. I
+would also recommend removing the domain name that you are spoofing from this
+line. As you want Postfix to resolve wherever the actual domain is.  The
+following 'ubuntu, localhost.localdomain, localhost' are of no concern.   If
+you are sending a spoofed e-mail to another e-mail in the same domain append
+this line to the very bottom of the file: local_recipient_maps =   Once the
+configuration has been edited save the files. If you have already started
+postfix, the service would need to be restarted after the configuration would
+be edited. This will be true after any time configuration is edited and postfix
+has already been started or enabled on boot.   As we have not started postfix
+yet, we will start the service: sudo systemctl start postfix.service If you
+would like to start postfix on boot: sudo systemctl enable postfix.service  
+*** E-mail Spoofing Script ***
+A python script for spoofing e-mail has been developed by lunarca here. Install
+Python and Pip: sudo apt-get install python python-pip Download the repository
+and install the required dependencies: git clone https://github.com/lunarca/
+SimpleEmailSpoofer.git cd SimpleEmailSpoofer sudo pip install -
+r requirements.txt   Now we are ready to run the script. If you'd like to get
+additional flags and usage information use the -h flag: ./SimpleEmailSpoofer.py
+-h The script has to use an html file to generate the e-mail contents. I have
+created a sample one. Download it with this command: wget 'https://
+gist.githubusercontent.com/heywoodlh/91b0361e3a44e6d7ebef79a0f02ee230/raw/
+712e5d803b264e8e563b3aaf1b5a298a46b9caa8/email.html' If you would like to edit
+the contents of the e-mail, edit the email.html file that has downloaded, or
+create your own.     With an html file ready to use this would be the syntax to
+use the SimpleEmailSpoofer.py program: ./SimpleEmailSpoofer.py -e email.html -
+t targetemail@somedomain.com -f spoofedemail@example.com -n 'Firstname
+Lastname' -j 'E-mail Subject'   The -e flag is followed by the file that we
+will be using to generate content. The -t flag is followed by the target e-mail
+which it will be sent to. The -f flag is followed by the e-mail that the e-mail
+will be sent from, AKA the spoofed e-mail address. The -n flag is followed by
+the first and last name of the sender of the spoofed e-mail, preferably in
+quotes. The -j flag is followed by the subject of the e-mail, preferably in
+quotes.   Assuming all went well, the e-mail should have sent and will look
+like it was sent from the owner of the spoofed e-mail.    
+**** Defense Against Spoofed Domain E-mails ****
+In order to attempt to prevent this, a DNS record called an SPF record needs to
+be created for the domain, which will help mail servers identify if incoming e-
+mail from that domain is legitimate. Implementing DMARC records specified via
+DKIM will also make e-mail spoofing much more difficult.

@@ -1,0 +1,128 @@
+ title: Basic Steps to Secure Linux Servers date: '2017-07-21 18:59:24'
+tags: - cybersecurity - linux - server - ssh 
+***** Securing Linux Servers *****
+The importance of securing Linux servers that are running key applications is
+self-evident. I see attempts to compromise the servers I manage at least a few
+times every hour. The purpose of this article is to provide some basics steps
+to secure a Linux server in order to mitigate these hacking attempts. This
+article is written for anyone just beginning with Linux. If you would rather
+not read the explanations just refer to the "How to: " portion of each section.
+ 
+**** Disable Root SSH Login: ****
+The root user is the administrator on every Unix based operating system. That
+means on Linux, Mac OS X, BSD and other operating systems that are Unix
+descendants have this user on their systems. If on an SSH server, remote login
+is not disabled for the root user a hacker can attempt to crack the root user's
+password by brute force. Brute forcing is attempting to continuously try
+passwords until the password is accepted. If remote root login is disabled not
+only will hackers have to get what password is needed to be used but they will
+also need to guess what username is being used on the server to login with SSH.
+Assuming that the other user has sudo access, the root user should not be
+needed to be logged in with anyway.  
+*** How to: ***
+I would recommend making sure that you have another that you can log in with
+and make sure that user has sudo access, in order to still fully control the
+server before proceeding with these steps. In openSSH on Linux, root login can
+be disabled by editing the /etc/ssh/sshd_config file. This file needs to be
+edited by the root user or by a user with sudo privileges. Before disabling
+root login I would recommend testing that you can login with another user and
+execute sudo commands with said user. Change this line (making sure to remove
+the comment or '#'): PermitRootLogin yes to: PermitRootLogin no Then, restart
+ssh: Ubuntu/Debian syntax: sudo systemctl restart ssh.service RedHat/CentOS
+syntax: sudo systemctl restart sshd.service Now, the root user cannot be used
+to login to the system remotely.  
+**** Disable Password Authentication -- Use Key-Based Authentication ****
+Passwords are somewhat secure based on how complicated a user makes their
+passwords. There is a better alternative to password authentication, however,
+and that is key-based authentication. An SSH private key is a file that stores
+a huge string of randomly generated characters that permit a user to login to a
+server that recognizes that key. The SSH private key is tested against a public
+key to verify if it is the correct key or not. This is what an SSH private key
+looks like: --BEGIN RSA PRIVATE KEY-
+- MIIEogIBsndndsojw0932714$#21239420342812374EPDeh5RMwpr8VT+/DKl/
+M l9uTq8oXz3TT4eDiRCjbxdjsiofpasdfnDKW4j4mTSkh0MDgrc/i/roYM6xmyJtM
+oSRKjVL0acNIM6bbAF+nDlIKTjsBACzwG/IEhfqukCVTdA0fIt0WW/S6c/ppjLYS
+iEV4Y0TQ3lIOOEpBzEzpxhz0JrfSVpbO8IbKUAAobE3eZkDkJ+po7tf1udf7a41E
+viEXlzMcQqgl7jp0CtBXNDy6FQpLAHKU+s6OgWY/Zc2OWVzuzarF2JZ8ihpxZxmT
+fFCH7fTbqrWsWsdjnf8alksdbfowqrcjGwIDAQABAoIBABfyXEniLCSvIOundjfo
+9LjnHxNglTFw1zAAT+1I56nH7PYSNiEd5mu+5s7uGSZoKTtMqOsFkdVTz6Q+gPcs
+pDd93B5c6ObMCKvautDJXn+XFFhRbZ5yGqMNAblYgc4Y9nj+sqDYxJxu2EXmbdZq C/LNnCY/
+t8dc9zQO1QqCAxMdh0JhioSGOrKFbVEblh6RDYmkC9NmcSvZ9bzZ1SID
+J+NqL7lrKP4Q+weGlMqs+dPRY/Ce6tzPLp5KEKYM3MsC4GMfnQao8fFSBH9LayTh qTSBOY58/
+bZK1IRU/pIsdjafnlsdfsd3VvSIY5ert4wks5rriNsL0V2UHPMHfTBi
+EqkBGlECgYEA76Ra87ZLtzqzLwzCdzCuNSzBRQV2TSNcqSaSB8MbMM+lAYVcEUwn
+dEUYC99AQQ71kVDtci6zqjRZpHGwHSIObwlP0MPCmu7RbRpPfznVUCAe3GAyC63o
+T8H9L32GKNoBoUJNJ9PNL5h8DQS4T/W40ocOY4TJEmTfLRVh+pv62LMCgYEA614a
+rBKy7DswcUIeVuyGnMMdymgyuZnQ5o+AKc/dtC7ZNuMiyKnD437YYiLG1Oe8X2da
+uwni2GAHHgr83zcOprnEW6lMqgu8yVSfk+Wd6wuvrV8UD0v7E3Jeqis/bYQ/84EQ
+2luW2x34NNSheLtNbQRAR7E+uLFb6oP525gIr/kCgYBEMvb7Ysbbh2YVHsF9ICqD 0Y/
+TL8HCJC0rqmFmuhzT4FQqQaS4+35C9aLpRgjIOxSh3XElzKqu5qUYSo5/TADl
+krXXSM7qPsr1DMbRA0l0ux9tQicb8csqX5/JUyTKHXjXRsIkcn9zaybqoYw+nUST DYKHyfNbO7/
+T2cD/jEJwRwKBgGOXnyuege0ponbaJmJblR4yBaIG8yfL6TQWFoIa
+vdInXKw38hj8lLHnk4H6+y1NnUy1PBQWu9EY2QoiVhvRfTaZNngerBzr+IcscpWv
+PGIfwMdYivFqEiSJaXsR77XUlwbfXxU2Wh//j24zZtviTYHKobR0UHjwO1eBXrFH
+pK1pAoGANoX+Di9b5os+6KHAcZyVSncftyld/BMvLXcE3kFB1MLZMhEuhB7rBNb+
+D8t+HQsI5pZaVpyWqJXwpgCh9IwgitTQTn/ktK/y6I1qJHzqscSrcAeWqaIvqFNl
+10ljfGJNtyS1sXQwKMCloTs++oRCTt46F45Yb6ymouNSfsIZmm4= --END RSA PRIVATE KEY--
+ Clearly, this type of file would be difficult to falsify or replicate.  
+*** How to: ***
+Do steps 1-3 on the machine that will be connecting to the server, not on the
+server itself. Step 4 will be on the server. 1. Generate the private/public key
+pair On Mac OS X, Linux or BSD the ssh-keygen command will walk the user
+through generating a public and private key pair. Make sure that a folder named
+.ssh has been created in the home directory before running the ssh-keygen
+command. Here is an example walkthrough of the ssh-keygen command: ssh-keygen
+Generating public/private rsa key pair. Enter file in which to save the key (/
+Users/heywoodlh/.ssh/id_rsa): /Users/fakeuser/.ssh/id_rsa Enter passphrase
+(empty for no passphrase): Enter same passphrase again: Your identification has
+been saved in /Users/fakeuser/.ssh/id_rsa. Your public key has been saved in /
+Users/fakeuser/.ssh/id_rsa.pub. The passphrase can be empty, but I would
+recommend using a passphrase as that will encrypt the keys which will make them
+very secure. *Generally, you will want to store the id_rsa and id_rsa.pub files
+in a folder named .ssh in the user's home folder. This way, the connecting
+machine will automatically attempt to use the key before attempting to use a
+password to login to the server. On Mac, the folder would be /Users/
+username/.ssh/ while on Linux it would be /home/username/.ssh.   2. Give more
+secure permissions to the ~/.ssh folder, the id_rsa file and the id_rsa.pub
+file. On Mac or Linux the commands to do this would be the following: chmod 700
+~/.ssh chmod 600 ~/.ssh/id_rsa*   3. Copy the contents of ~/.ssh/id_rsa.pub
+into the ~/.ssh/authorized_keys file in the user's home directory that you will
+be using to log into on the server. Copy the correct key by running this
+command on the local machine: ssh-copy-id user@64.29.120.2 Replace 'user' with
+the username on the server and the specifying the correct IP or hostname of the
+server that will be logged into. Then attempt to login as the user: ssh
+user@64.29.120.2 If all goes correctly, logging in will not require a password
+-- unless a passphrase was set when creating the keys. Enter the passphrase and
+it should log in.   4. Disable password authentication. Change this line in /
+etc/ssh/sshd_config: #PasswordAuthentication yes to: PasswordAuthentication no
+Then reset SSH: On Ubuntu/Debian: sudo systemctl restart ssh.service On RedHat/
+CentOS: sudo systemctl restart sshd.service Now password authentication is
+disabled and key based login should be the only way to login. Any machine that
+will be used to ssh into the servers will need to have the ~/.ssh/id_rsa file
+copied to it.  
+**** Change the Port SSH Uses: ****
+This step is one I usually don't take -- but is very effective at mitigating
+brute force SSH attacks. SSH uses port 22 by default. Hackers typically scan
+the web for servers with port 22 open and will attempt to login as root into
+that server. Assuming key-based authentication is enabled, this is an extra
+layer of security that shouldn't be necessary but is extremely useful in
+providing another hoop for a hacker to jump through.  
+*** How to: ***
+On the server, change this line in /etc/ssh/sshd_config: Port 22 to: Port 1022
+(or any other port number you'd rather use -- just remember it) Then restart
+ssh: On Ubuntu/Debian: sudo systemctl restart ssh.service On RedHat/CentOS:
+sudo systemctl restart sshd.service If logged into the server at the time, the
+SSH connection may break, requiring the user to login again. Do so but specify
+the correct port on the server: ssh -p 1022 user@64.29.120.2 (replacing 1022 if
+another port was specified for SSH to use) This will deflect hackers in
+attempting to exploit port 22.  
+**** Use UFW for Simple Firewalling ****
+UFW is a very simple firewall that comes with Ubuntu and can be installed on
+Arch Linux as well (sorry RedHat/CentOS guys). It is a simple command line tool
+that allows the user to interact with iptables, Linux's super powerful but
+somewhat complex firewall. The syntax is really simple. In order to allow port
+22 (for SSH) run this command: sudo ufw allow 22 Replace 22 with any other
+ports that are needed such as port 80 for web traffic or port 443 for https
+traffic. Once the rules are in place enable ufw: sudo ufw enable Now only
+network traffic using the ports that were specified will be accepted by the
+server. The rules in ufw can be modified at any time after they were created.

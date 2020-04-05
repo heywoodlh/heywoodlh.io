@@ -1,0 +1,60 @@
+ title: A Web Based Man-in-the-Middle Attack date: '2017-11-09 03:07:51'
+tags: - cybersecurity  Disclaimer: I in no way endorse this activity for
+illegal purposes. This should be performed in a controlled environment where
+you have written permission to perform this kind of attack for testing
+purposes.
+**** Description ****
+A man-in-the-middle (MitM) attack consists of an attacker intercepting
+communication between two machines by somehow getting between those machines
+within a network. There are different MitM attacks; arp-spoofing/poisoning, DNS
+spoofing, etc. This attack is a web based MitM attack that will trick
+computers/users by spoofing the login portal to either Dropbox, Facebook,
+Google, iCloud, Linkedin or Live. It is also powerful enough to be impervious
+to 2 factor authentication. In this example I will demonstrate using Google as
+the spoofed website. The project that makes this possible is called evilginx
+and was developed by kgretzky and is available here. It is a Python program
+that is extremely user friendly and makes this type of MitM attack very
+accessible.
+**** Recommended Prerequisites ****
+1. Cloud based server with Python and git are installed. In my example, I use
+an Ubuntu 16.04 server hosted on DigitalOcean. 2. Convincing domain name
+pointing to the IP address of this server. Since I am spoofing Google, I
+purchased the domain googlevalidation.com, which looks somewhat convincing as a
+URL. 3. DNS configured correctly: for Google spoofing, the subdomains 'ssl' and
+'accounts' need to be pointing to the server along with the domain name being
+used. In my configuration, I had the A record for googlevalidation.com pointing
+to the server, while 'ssl' and 'accounts' were CNAMEs of my domain pointing to
+googlevalidation.com.
+**** Setup ****
+Upon logging in to your cloud based server -- assuming Python is installed -
+- setup is not difficult for this service. The README.md file of the repo lays
+out the installation steps: git clone https://github.com/kgretzky/evilginx cd
+evilginx chmod 700 install.sh ./install.sh With my domain googlevalidation.com,
+this was the command to set my server up to spoof Google: python evilginx.py
+setup --enable google -d googlevalidation.com You will then be prompted if you
+would like the server to do verbose logging and Letsencrypt SSL certificates to
+be generated. I would recommend responding with yes for both as more logging is
+better to analyze and an SSL on a site makes it look more legitimate. Once the
+setup process completes, the server should be ready to go. With my setup, I
+just needed to go to https://accounts.googlevalidation.com/ and then it would
+display the evil portal. Here is a screenshot:  Upon successful login, the
+service redirects to a legitimate Google web page. No alarming signs are thrown
+up to indicate anything malicious occurred. On the server, the credentials are
+logged. I used a test account, but two factor authentication was enabled. Here
+is a screenshot of the logged credentials:  Clearly, this e-mail is for testing
+only, and I have changed the password since (feel free to try to log in). But
+the credentials were logged correctly. These credentials were stored in the
+evilginx repository in log/google/test.email89798574@gmail.com/
+************creds.txt
+**** Recommended Distribution Method ****
+I will not get into various methods of social engineering, but the attacker
+need only get a victim to go to the URL of the domain pointing to the server.
+Once an unwitting victim logs in, the attacker then has access to the victim's
+Google e-mail address and password.
+**** Recommended Defense ****
+Aside from not trusting links sent from anyone, I have not come up with a good
+defense to this type of attack if the victim does not know the URL is
+illegitimate. Even without social engineering, an attacker could spoof the DNS
+for google.com and have the victim's machine point google.com to the URL of the
+malicious portal. I will update this article with a recommended defense should
+I come across one or come up with my own solution.

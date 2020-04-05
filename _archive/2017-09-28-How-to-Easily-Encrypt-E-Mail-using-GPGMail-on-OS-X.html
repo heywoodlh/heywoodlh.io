@@ -1,0 +1,60 @@
+ title: 'How to: Easily Encrypt E-Mail using GPGMail on OS X' date: '2017-
+09-28 17:22:44' tags: - cybersecurity  Working where I do requires a way in
+which to communicate securely without sacrificing convenience. Using e-mail
+alone is insecure. However, encrypting e-mails makes it virtually impossible
+for someone to intercept and read e-mails unless they have the correct key.
+However, the concepts behind using GPG can be a little confusing to first-time
+users. The purpose of this article is to show users how to set up GPGSuite on
+OS X and encrypt e-mail in order to make it secure and show practical examples
+of the GPG Suite in use. By the end of this article, I hope that using GPG and
+some of the basic concepts of e-mail encryption make sense.  
+**** Why Should I Encrypt E-Mails? ****
+E-mail alone is extremely insecure. The information being sent over e-mail is
+sent in plain text, meaning that if an e-mail is intercepted it can be read.
+Encrypting e-mail provides a mechanism to prevent unauthorized third parties
+from reading e-mail that is not intended for them.  
+**** Install GPGSuite ****
+Go to the GPGTools_website. Download the GPG Suite .dmg file. Mount the image
+and run the installer.  
+**** Generate a GPG Key Pair ****
+What is a GPG key pair? A GPG Key pair consists of a private and public GPG
+key. Each of these keys contain a huge amount of random characters that the GPG
+program can read and use to encrypt and decrypt files, in this case e-mails.
+The public key is used to Open the GPG Keychain application and press "New".
+This will open a wizard to generate a public and private GPG key. You will then
+be prompted to name the key and set a passphrase for the key. This passphrase
+will be required each time you use the key unless you save the passphrase in
+the keychain. A password is not required, but definitely recommended as an
+extra layer of security if somehow the private key was stolen. A pair will need
+to be created for each e-mail address in which GPG encryption will be
+implemented. The generation may take some time and will often benefit if you
+are doing work on other applications as the key uses entropy, or random
+generation, to create a more random -- and more secure -- key pair.    Once the
+key pair have been generated you will see it listed as you can see the two key
+pairs I have generated on my machine in the above picture. In order for people
+to more easily access your public key I would recommend right clicking on the
+key pair that have been generated and select "Send Public Key to Keyserver".
+This will send your public key to a public keyserver and allow people to search
+for your public key and send you an encrypted e-mail that only you can decrypt
+with your private key. Your public key is intended to be public and does not
+provide a security risk if someone obtains it because that only enables them to
+send encrypted e-mails to you, while only YOU can decrypt it assuming you keep
+your private key secure.    
+**** Import Another Public Key ****
+In order to send an encrypted e-mail to somebody, you need to import their
+public key into your keychain. You can lookup another user using the "Lookup
+Key" button. In this screenshot I looked up my own public key by typing in my
+personal e-mail into the lookup utility.  Import the key by selecting "Retrieve
+Key".  
+**** Send an Encrypted E-mail ****
+  Now that you have the public key imported of the person you will be sending
+an e-mail to, you are ready to send an encrypted e-mail to that person. In the
+Mail application an OpenPGP plugin, GPGMail, has been installed due to the GPG
+Suite install performed earlier. GPGMail integrates the GPG Keychain into the
+OS X native Mail application to encrypt and decrypt E-mails. Assuming your e-
+mail address is the one used to generate the GPG key pair and you have imported
+the public key of the e-mail address that you will be sending to all you need
+to do is click the lock icon in the Subject row.    Upon sending or receiving
+an encrypted e-mail, you will have to enter the passphrase for your key pair if
+you have a passphrase. Assuming the email was encrypted, there should be an
+indicator that states the e-mail is encrypted, like so:

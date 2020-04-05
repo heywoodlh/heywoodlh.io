@@ -1,0 +1,35 @@
+ title: Changing the URL for Your Wordpress Site date: '2016-05-30 03:59:00'
+tags: - wordpress 
+Changing the URL in Your Database
+Often times WordPress users like to set up their websites in a development
+environment. This development environment can be in a subdomain
+(dev.yourdomain.com) on an addon directory to your main site (yourdomain.com/
+dev) or on a temporary URL. Regardless, whenever you are building your
+WordPress site on a URL that you are not intending to be the final URL, you
+will eventually need to change your database URL to the URL that you hope to be
+the permanent.
+1. If you do not know your database name you need to locate your database name,
+username and password in the wp-config.php file in your website files. The code
+containing the database name, username and password will look like:
+ define('DB_NAME', 'DB_name');
+ define('DB_USER', 'DB_username');
+ define('DB_PASSWORD', 'password');
+These credentials will log you into phpmyadmin, straight to your database. 2.
+Also in wp-config.php is your database main prefix. Find that as well. The code
+should look like:
+ table_prefix = 'wp_pref_'
+
+If you have plugins that require similar tables in your database this will be
+helpful later.
+3. Log in to PHPMyAdmin. Find your database and find the table within the
+database ending with wp_pref_options (replacing âwp_prefâ with your
+database prefix). Select the _options table.
+4. Find the rows with âHome URLâ and âSite URLâ. Change the values from
+the old URL to the new URL that you would like to be the permanent. Save your
+changes.
+5. Check your site at the new URL to see if it is functioning. Make sure that
+you test out any pages or other links on your website as they are most likely
+broken and showing a 404 error.
+***If you have a 404 error on your pages, there is a very simple fix: Go to
+your WordPress login > Settings > Permalinks > click save. That should fix the
+issue. If not click_here for additional help.***

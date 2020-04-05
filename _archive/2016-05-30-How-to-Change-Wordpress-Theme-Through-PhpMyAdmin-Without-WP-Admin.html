@@ -1,0 +1,17 @@
+ title: How to Change Wordpress Theme Through PhpMyAdmin (Without WP-Admin)
+date: '2016-05-30 03:56:00' tags: - wordpress 
+How to Change the Theme through your Database:
+This is useful if you do not have access to your wp-admin, if wp-admin isnât
+working, etc. You can look at the available themes that you have installed in
+your website files in wp-content/themes. Preferably, it would be best if you
+had  the default twentyfifteen, twentyfourteen, etc. themes to use. Keep those
+handy for step 3 of this section.
+These are the tools available in many Linux hosting platforms that can help
+you to change your theme without needing to access to wp-admin.
+1. Access and find your database in phpmyadmin.
+2. Find the database table ending with _options (if there are multiple check
+what the database prefix is in the wp-config.php file and find the table
+beginning with the specified prefix ending with _options)
+3. Find the âTemplateâ and âStylesheetâ rows. Change the values to
+whatever default themes you have available in your wp-content/themes folder
+(some examples would be "twentyfifteen" or "twentysixteen")

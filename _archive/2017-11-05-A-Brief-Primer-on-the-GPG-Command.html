@@ -1,0 +1,106 @@
+ title: A Brief Primer on the GPG Command date: '2017-11-05 15:15:51' tags:
+- cybersecurity  GPG stands for GNU Privacy Guard, and does exactly what it
+stands for -- guard privacy. Knowing how to use the gpg command is very helpful
+when attempting to keep your data secure. The purpose of this article is to
+serve as a brief primer on how to use the gpg command by showing some practical
+examples.    
+**** Some Explanation ****
+Before diving into the commands, I'll try to briefly run through some very
+basic but useful information on the way GPG uses keys.
+*** Keys ***
+GPG uses keys to encrypt and decrypt everything. In layman's terms, these keys
+are just files stored on a computer that GPG uses to encrypt/decrypt content.
+GPG uses high-level cryptography in combination with these keys to securely
+guard the content that is encrypted. When creating these keys for oneself, the
+process typically requires that you generate a key "pair". This pair consists
+of two keys: a private key, and a public key.
+*** The Public Key ***
+The public key is intended to be made public, as the name implies. The public
+key is used to encrypt the information that only a person with the correct
+private key can decrypt. For example, if I'm going to send an encrypted e-mail
+to Joe at joe@myfakedomain.com, I need Joe's public key. Once I have obtained
+Joe's public key I can send him a securely encrypted e-mail that only Joe can
+read with his private key.
+*** The Private Key ***
+The private key is intended to be kept private, as the name implies. The
+private key is used to decrypt any information that is encrypted using the
+matching public key. In the example above with sending an encrypted e-mail to
+Joe at joe@myfakedomain.com, I would encrypt an e-mail for Joe using his public
+key. Upon receiving that e-mail that has been encrypted, Joe would use his
+private key to decrypt that e-mail and read it.     Now that we have some basic
+concepts explained, we will run through some basic, yet essential gpg command
+examples.
+**** Key Management ****
+*** Generate a Key Pair ***
+As explained above, GPG uses keys to encrypt/decrypt information. Therefore,
+the first thing to do is generate your own key pair: gpg --gen-key This command
+will walk the user through a brief GPG key setup wizard. Here is an example
+screenshot of the wizard on OS X:  Tips on a passphrase: On OS X, a graphical
+prompt appears to enter a passphrase for your key pair, whereas on Linux the
+command itself will prompt for a passphrase. I would recommend setting up a
+strong passphrase for your key pair. This ensures that only someone with your
+private key as well as the passphrase to the key can decrypt your private
+information. If you have the key but do not know the passphrase it is almost
+useless. So never forget your passphrase!
+*** Uploading Your Public Key to a Public Key Server ***
+As explained above, your public key is meant to be public. As such, I would
+recommend uploading the public key to a key server in order for others to
+easily access and download your public key -- enabling them to encrypt
+information for your eyes only. gpg --keyserver pgp.mit.edu --send-key
+joe@myfakedomain.com In this command I uploaded the key to the public key
+server hosted at pgp.mit.edu. This server can be replaced with any public key
+server.
+*** Viewing Keys ***
+An important part of key management is knowing what keys are available. This
+command will list all keys in the GPG keyring: gpg --list-keys
+*** Finding and Importing Other's Public Keys ***
+I would say there are two main ways to get others' public keys: 1. They send it
+to you via e-mail or a file. 2. Download it from a public key server. If they
+send it to you via e-mail, the contents of their public key will be in the e-
+mail or it will be an attached file. Copy and paste that into a text file. If
+they send you a file of the public key save it. Once that file is saved, import
+the public key using this command. gpg --import /path/to/keyfile If you would
+like to retrieve a key from a public key server, this would be the command to
+search for that key: gpg --keyserver pgp.mit.edu --search-keys
+'joe@myfakedomain.com' Note that you do not have to search by e-mail, you could
+also do a search by first and last name. Also note that you can replace
+'pgp.mit.edu' with any other key server. Each matching result will be numbered.
+For each key that you would like to import, you would enter the respective
+number of the key you would like to import and then hit enter. If you would
+like to import multiple keys, you would need to enter each number of the keys
+you would like to import separated by a comma. Assuming all goes well, you will
+then have the keys that you attempted to retrieve in your GPG keyring.
+*** Delete a Key Pair ***
+As shown in the screenshot, I created a fake key pair for Joe Brown at
+joe@myfakedomain.com. As I am not Joe, I want to delete this key pair. To
+delete the private key I would use this command: gpg --delete-secret-keys
+joe@myfakedomain.com Here is the output:  To delete the public key I would use
+this command: gpg --delete-key joe@myfakedomain.com Here is the output:
+**** Encrypting/Decrypting Files ****
+Once the keyring has the keys needed to work with, encrypting files is not very
+difficult.
+*** Encrypting Files ***
+If I were to encrypt a file for Joe Brown at joe@myfakedomain.com, this is the
+command that would be used to encrypt that file: gpg -r joe@myfakedomain.com --
+encrypt /path/to/file.txt The file will then be copied and encrypted to a new
+file ending in .gpg. Once that file is encrypted, only Joe's private key can be
+used to decrypt the file. That file could more securely be sent to Joe via
+unencrypted e-mail or another method with a much lower risk that somebody
+unauthorized would be able to access that file -- as the file itself is
+encrypted.
+*** Decrypting Files ***
+Assuming I had sent Joe at joe@myfakedomain.com an encrypted file via e-mail,
+USB or any other method, once he received that file he would need to decrypt
+it. Joe would use this command to decrypt the file: gpg --decrypt /path/to/
+file.txt.gpg The file would then be decrypted using his private key after he
+entered his passphrase and the file's contents would be printed out.
+**** Summary ****
+GPG is a very powerful tool for protecting data without sacrificing very much
+convenience. Once its basic concepts are understood, using the gpg command is
+not very difficult and can provide another crucial layer of protection for
+personal and corporate data from the prying eyes of hackers. For further
+information I would also check out the GNU_Privacy_Handbook. It has much more
+in-depth information. A side note: GPG is synonymous with PGP, Pretty Good
+Privacy. GPG and PGP are essentially the same technology, GPG is just a free
+and open source implementation of the OpenPGP standard (check out the GPG
+website here)

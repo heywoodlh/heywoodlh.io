@@ -1,0 +1,24 @@
+ title: Wordpress Plugins Not Updating date: '2016-05-30 03:36:00' tags: -
+wordpress 
+Plugins Not Updating:
+Possible causes:
+   1. Malfunctioning core files. Typically error logs will alert your to this
+      (you can often view them by visiting yourdomain.com/error_log). If this
+      is the case, either replace all of the Wordpress core files (which
+      normally does not cause any issues), or locate the corrupted core file(s)
+      and replace it with a brand new copy. You can get a brand new copy of
+      Wordpress at wordpress.org/latest.zip. Unzip the file and copy the core
+      file that you need that was corrupted and upload it to your server.
+      Disable the corrupted file by deleting it or renaming it to wp-file.old
+   2. Faulty plugins. Try disabling each plugin one at a time that does not
+      need the update and try updating the plugin each time. If there is a
+      plugin malfunctioning that is causing the issue, it should be deactivated
+      and replaced. Also if the plugin that is being updated is trying to pull
+      an update from a server that no longer exists it will not update.
+   3. Malfunctioning theme. Try changing the theme to see if the theme is
+      causing the issue.
+   4. PHP version. Make sure that the PHP engine version that is being run is
+      compatible with the version of WordPress that is being used as well as
+      the plugin/plugin update.
+   5. Bad connection to the pluginâs update server. Contact the plugin
+      developer if this is the case. 

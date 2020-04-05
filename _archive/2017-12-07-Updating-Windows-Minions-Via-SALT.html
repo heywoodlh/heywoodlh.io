@@ -1,0 +1,16 @@
+ title: Updating Windows Minions Via SALT date: '2017-12-07 21:56:09' tags:
+- cybersecurity - linux - server 
+***** SALT Description: *****
+SaltStack allows users to manage many servers at once using few commands. This
+page will provide some basic Salt commands that will allow a user to download
+and install updates on Windows minions via SALT.
+***** Updating Windows Minions: *****
+Updating Windows minions is a little bit of a process. You have to list the
+available updates, download them, and then install them. I prefer managing the
+updates using GUIDs, rather than KBs. List available updates for all Windows
+minions: salt -G 'os:Windows' win_wua.list_updates The output should display
+the updates and their respective GUID. You need to download the update using
+it's GUID and then you can install it. Note the GUID and copy it down. To
+download the update to all Windows minions, this is the command: salt -G 'os:
+Windows' win_wua.download_update [GUID] Once the download is complete, install
+the update: salt -G 'os:Windows' win_wua.install_update [GUID]

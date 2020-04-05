@@ -1,0 +1,53 @@
+ title: Wordpress/Web Server Penetration Testing Tools date: '2017-12-04 21:
+40:25' tags: - cybersecurity - server - wordpress published: false  As a
+Wordpress developer and server admin I often follow simple steps to test the
+security of my VPS running Wordpress. There are so many useful tools out there
+but I will only focus on a few that can help improve visibility:
+    * nmap
+    * wpscan
+    * openvas
+  I will walk through some basic usage for each of these tools. All of these
+tools are available on Windows, OS X and Linux, except for OpenVAS. OpenVAS is
+strictly built for Linux -- which means it can be run on OS X or Windows using
+Docker. However, I would recommend dedicating a computer or a virtual machine
+to run Kali Linux for anyone who would like to do serious penetration testing.
+For developers who do not have access to the server nmap will not be extremely
+helpful in the situations I will show as nmap will be used to identify ports
+that commonly used services will be running as well as the operating system.
+Openvas and wpscan will help a developer find issues with web applications. In
+this case, Wordpress will be the web application.  
+***** nmap *****
+Nmap is a tool used for network mapping (hence the name nmap). The following
+two commands I will use will attempt to identify the ports that are open on the
+the server and its operating system.  
+*** Identify open ports: ***
+sudo nmap -sS hostname.com  
+*** Identify OS: ***
+sudo nmap -O hostname.com Knowing what ports are running as well as knowing
+what operating system is running on your target is pretty essential to knowing
+what your attack approach should be.
+*** Aggressive scan: ***
+sudo nmap -A hostname.com This will gather a lot of information and will
+attempt to be a lot more intrusive in order to gain more intel. One thing to
+keep in mind is that doing an aggressive scan will be much easier to identify
+if the target is running some sort of Intrusion Detection Software. So unless
+the target has no security in place whatsoever, it may not be the best idea to
+do an aggressive scan.
+*** Service and Version Scan: ***
+sudo nmap -sV hostname.com This will attempt to find out what services are
+running on the target as well as what version of the service is running. Also,
+this scan is a little more intrusive so it may not be best if you are hoping to
+avoid detection. However, being able to identify the version of services
+running can often be valuable for identifying specific exploits for the
+respective version.  
+***** wpscan *****
+Wpscan is a utility for scanning Wordpress instances. It follows a very simple
+syntax: ./wpscan http://urltoscan.com Despite it's initial simplicity, wpscan
+can be an incredibly useful tool for developers looking to secure their
+Wordpress instance. Upon doing a scan, wpscan will output a whole bunch of
+potential security vulnerabilities that it can identify on the target. Overall,
+the warnings are fairly readable and a simple Google search can often lead to a
+solution to remedy the issue.    
+***** OpenVAS *****
+Of all of these tools, OpenVAS is probably the most difficult to setup, but
+will produce the most successful and helpful scans. OpenVAS

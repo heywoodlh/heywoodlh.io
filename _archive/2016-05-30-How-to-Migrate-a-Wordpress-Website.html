@@ -1,0 +1,38 @@
+ title: How to Migrate a Wordpress Website date: '2016-05-30 03:51:00' tags:
+- wordpress 
+Instructions for manually moving a WordPress site from one host to another:
+The application for this is pretty straightforward: you will need to know how
+to do this if you are moving your WordPress website from one hosting provider
+to another.
+General instructions:
+At the old host:
+1. Get a backup of website files
+2. Export the WordPress database(s) as a .sql file
+At the new host:
+3. Upload all the website files via FTP to the directory of your website on
+your new hostâs server
+4. Create a new database (write down the full database name, username and
+password for step 6)
+5. Import database tables into the new database using a mysql importing tool
+such as phpMyAdmin
+6. Edit wp-config.php file to point to new database and update database name,
+database username and database password
+
+Potential Errors:
+If you do all these steps and you get a DATABASE CONNECTION ERROR, that means
+that you have the database name, user or password values in wp-config.php
+incorrect. The code should look like:
+define('DB_NAME', 'DB_name');
+define('DB_USER', 'DB_username');
+define('DB_PASSWORD', 'password');
+If you do all these steps and you log in to your site you may get a screen
+telling you to install WordPress again, make sure you have the correct DB
+prefix. You can view the database prefix that you need in your database (notice
+the prefix in the upcoming example)  and look at the prefix on each row in your
+database that you imported. The code should look like:
+table_prefix = 'wp_'
+Edit this code to reflect the prefixes in your main database tables. If your
+main database tables begin with:
+wp_pre
+update the table prefix code to:
+table_prefix = 'wp_pre'

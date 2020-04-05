@@ -1,0 +1,54 @@
+ title: How to Install a New Copy of Wordpress Via Command Line date: '2016-
+06-12 23:50:00' tags: - linux - ssh - wordpress  This article is intended to
+walk a user through installing a new copy of Wordpress via BASH command line.
+First, navigate to the directory which you would like to install the new copy
+of Wordpress to. Run this string of commands to download and extract a new copy
+of Wordpress to the current working directory in Linux command line:
+wget http://wordpress.org/latest.zip; unzip latest.zip; cd wordpress; mv * ..;
+cd ..; rm -rf wordpress
+As an example, presume you ran this command in the document root folder of
+example.com. Upon navigating to http://example.com/ you should find a Wordpress
+install page.[Image] This means that Wordpress was downloaded and extracted to
+the correct directory. If you do not see this screen, clear your browser cache
+and cookies and refresh. If you still don't see this you probably downloaded
+and extracted Wordpress to the wrong directory -- meaning you need to locate
+your website's document root directory and then run the first string of
+commands in the correct folder. Once you have selected the language press
+continue.
+[Image]
+We now have to create a database that the new Wordpress installation will use.
+To run these commands successfully you will need to know your main MySQL
+username and password. In this example we will pretend that my main MySQL
+username is "user" and my password is "password". In your command prompt run:
+mysql -u user -p
+Then type in your password to log in to the MySQL command prompt. If it fails
+you are most likely using the wrong password or username. Once logged in to
+mysql command prompt type in this command to create a database. This example
+will create a database named "wordpress".
+CREATE DATABASE wordpress;
+Now that we have a database created we need to assign a user to it. If you
+would like to create a new user to it run this command to create the new user
+and set the user's password:
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
+Once the user is created, or if you have already created the user, run this
+command to assign "user" to the database named "wordpress" by granting user
+with all the permissions for wordpress.
+GRANT ALL ON wordpress.* TO 'user'@'localhost';
+Now you are ready to fill out the information needed to finish the Wordpress
+information, as shown in the next image. Go back to example.com and press
+"Let's Go!". Again, the example image will show the MySQL database user is
+"user", with "password" as the password, and "wordpress" as the database name.
+[Image]
+Assuming all your file permissions are correct in the document root directory
+of your website you should be given a prompt to "Run the Install". ***Common
+Error*** If you get an error that Wordpress cannot write to the directory and
+to add a file named wp-config.php with the code specified on the screen, you
+will need to fix your document root directory permissions to be 755 and ensure
+that your web server user is the owner of the folder or you will need to create
+a file named wp-config.php with the specified code in it in the document root
+of example.com. I would recommend fixing the permissions rather than just
+throwing the file in because Wordpress will need the correct file permissions
+*** Â *** If the install worked properly you will be asked to then create a wp-
+admin username and password, so that you can then login to example.com/wp-admin
+and then focus on building your site. If these steps do not work for you or
+make sense, feel free to contact us.

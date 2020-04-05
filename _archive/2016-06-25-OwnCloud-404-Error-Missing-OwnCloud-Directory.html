@@ -1,0 +1,34 @@
+ title: OwnCloud 404 Error (Missing OwnCloud Directory) date: '2016-06-25
+22:59:55' tags: - owncloud  Background: This article is for those users who
+find that their OwnCloud directory has been deleted, either by personal mistake
+or someone else's. At one point, when I first started getting used to OwnCloud
+I got it all up and running and then a few days later I found that the OwnCloud
+directory had been deleted. I don't recall if I had just gotten fed up with
+OwnCloud and just decided to delete the directory to clean up my Apache web
+server folder, but my OwnCloud directory was gone and I wanted to try OwnCloud
+again. There were no helpful articles on how to get it back, but the solution
+was pretty easy once I figured it out after I had tried and tried to get a
+blank copy of my missing OwnCloud directory.
+[https://2.bp.blogspot.com/-csMQkzHpVpY/V18M83Aqb-I/AAAAAAAAMpo/
+S_u_m1DmZdsup33l8JC6cyGzqA5CLVFagCLcB/s320/404-error.png]
+1. Make sure OwnCloud has already been installed:If OwnCloud has not been
+installed, that would be the first issue and may be the fix to your problem.
+Follow the steps for your operating system for instructions on how to install
+OwnCloud. 2. Attempt to reinstall:After OwnCloud installation has been verified
+try reinstalling.Â This can be done by uninstalling OwnCloud and attempting to
+install it again. On Ubuntu this can be done by running these commands:
+sudo apt-get remove owncloud
+sudo apt-get purge owncloud
+The first command will uninstall OwnCloud, the second will completely remove
+the configuration files for OwnCloud -- essentially wiping OwnCloud out
+completely. If you would not like to remove the configuration, void the second
+command.
+sudo apt-get install owncloud
+This will install OwnCloud again, and may resolve the issue of the missing
+OwnCloud directory. 3. Download OwnCloud Server Manually:If reinstalling did
+not recreate the OwnCloud directory, go toÂ https://owncloud.org/install/# and
+download the latest version of OwnCloud, according to your respective operating
+system. Extract the downloaded file and you will find the contents are a brand
+new OwnCloud directory. Place the extracted contents in the correct location on
+your web server. If none of these steps helped feel free to contact us and we
+would love to help.

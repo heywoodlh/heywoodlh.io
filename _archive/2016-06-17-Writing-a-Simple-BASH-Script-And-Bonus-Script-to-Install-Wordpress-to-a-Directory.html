@@ -1,0 +1,86 @@
+ title: Writing a Simple BASH Script (And Bonus Script to Install Wordpress
+to a Directory) date: '2016-06-17 15:32:00' tags: - linux - server - ssh -
+wordpress  [Image]What is a BASH script?
+A script is essentially a program that contains a group of commands that will
+be executed upon request.
+
+Writing a BASH script when using Linux command line is very helpful to make
+repetitive tasks a lot quicker. The first company I worked for I often found
+myself doing repetitious tasks through SSH such as installing Wordpress to a
+directory for a customer.
+
+The purpose of this article is to walk a user on how to make a simple, usable
+BASH script. The example I will be using in this script is a series of commands
+that will install Wordpress to the working directory you are in.
+
+
+Step 1: Create the file
+In your favorite text editor create a file named "script.sh". The ".sh" file
+extension indicates that it is a shell script. Within the file copy and paste
+the following content:
+
+
+#!/bin/bash
+
+
+wget wordpress.org/latest.zip; unzip latest.zip; cd wordpress; mv * ..; cd ..;
+rm -rf wordpress; rm latest.zip
+
+
+This string of commands downloads the latest copy of Wordpress from http://
+wordpress.org/latest.zip, extracts the .zip file, moves all the content to the
+directory you are in, then deletes the zipped file and the empty "wordpress"
+directory.
+
+Save the file.
+
+
+Step 2: Make the file executable
+By making the file executable we tell the operating system that it can
+essentially run the commands. This can be simply done by running this command:
+
+chmod u+x script.sh
+
+The "chmod u+x" command modifies the permissions of the file to be executable
+to the user that created the file.
+
+
+Step 3: Create an alias for the script
+Creating an alias essentially allows you to create a shortcut to a script.
+
+Typically in a Linux system, a file named .bashrcis created by the system and
+one of its primary uses is for user aliases. It is typically located in the
+user's home directory. I prefer the text editor vim, so to edit the file I
+would run the command
+
+    vim ~/.bashrc
+
+
+or the full location would be
+ 
+
+    vim /home/user/.bashrc
+
+
+Anyway, edit the .bashrcfile. Let's suppose the alias you wanted to set for the
+script is wpinstall. Also, let's suppose I saved the script.sh file to "/home/
+user/.scripts/script.sh". If I wanted to assign the alias wp-install to the
+script /home/user/.scripts/script.sh this is what I would need to add this text
+to my .bashrcfile.
+
+
+alias wpinstall='/home/user/.scripts/script.sh'
+
+
+
+After saving the file, run this command:
+
+    source ~/.bashrc
+
+
+
+Step 4: Execute the script
+Assuming that all the steps previously were executed correctly to run the
+script the command I would need to type would be wpinstall. This command will
+now execute the script "script.sh" that installs Wordpress to your current
+working directory.

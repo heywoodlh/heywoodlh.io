@@ -1,0 +1,50 @@
+ title: Only Plain Permalinks Working in Wordpress date: '2017-07-20 21:25:
+36' tags: - linux - server - wordpress 
+***** Wordpress Plain Permalinks are the only type of permalinks that work for
+me! *****
+I ran into it today and I'm writing this post to document the solution. I will
+keep this post as short as I can and do some brief explanation as to what could
+cause this error.
+**** Possible Causes: ****
+ 
+*** 1. Mod_rewrite is not enabled on the server. ***
+Mod rewrite is an Apache module that allows URLs to be changed to something
+else that is more user-friendly or customized. The true URL to a lot of
+articles can look pretty bad and so this module can be really useful in making
+a website easier to navigate as well as providing memorable URLs to articles.
+If this module is not enabled, Wordpress will not be able to do anything with
+the permalinks on your website. Solution: If you are using a dedicated web
+host, they most likely have mod_rewrite enabled on the server -- and even if
+they don't, there really isn't much that can be done about it. For web server
+administrators, however, mod_rewrite can be enabled using this command: sudo
+a2enmod rewrite  
+*** 2. The web server does not have permissions to modify .htaccess in the
+Wordpress site's root directory. ***
+The .htaccess file handles a lot of what happens right when a user comes to a
+web page. The web server needs to be able to modify lines of code in this file
+if permalinks are to be changed. Solution: Modify the permissions of .htaccess
+in the Wordpress root directory and make sure they are at least 600. The
+recommended permissions are 644 for most web servers, however. These
+permissions give the owner of that file (the web server) the ability to read
+and write this file. For web server administrators, ensure that the ownership
+of the .htaccess belongs to the webserver user on top of ensuring the correct
+permissions are set. On Debian-based distributions like Ubuntu, the web server
+user is "www-data". On RedHat Enterprise Linux and CentOS, the user is
+"apache".  
+*** 3. Incorrect Apache configuration. ***
+This is a relatively vague cause of permalinks not working because there are so
+many ways that Apache can be configured incorrectly. For me, this was the cause
+of my permalinks not working and I will post the solution for my issue
+specifically, although it most likely will not fix it if Apache is indeed
+configured incorrectly. Solution: *This is only for administrators. If a user
+is hosted on a proper web host, the host should have this configured correctly.
+Ensure that the "AllowOverride" directive in the main Apache configuration file
+as well as any other virtual host configuration file that is relevant is set to
+allow all overrides. The main configuration file for Apache is /etc/apache2/
+apache2.conf. The same file on RedHat and CentOS is located in /etc/httpd/conf/
+httpd.conf. Make sure that any lines like this: AllowOverride None are changed
+to look like this: AllowOverride All This directive determines whether or not
+URL overrides in .htaccess will be accepted or not.     As there could be a
+myriad of other issues causing this problem I have kept this list to only
+things that I have seen that are common. Hopefully this is helpful to anyone
+running into this issue!

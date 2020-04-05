@@ -1,0 +1,25 @@
+ title: How to Uninstall or Disable Wordpress date: '2016-05-30 03:38:00'
+tags: - wordpress 
+Disabling WordPress:
+There are a few parts of a WordPress Site that need to be altered in order to
+disable it.
+   1. The .htaccess file: this configuration file helps a browser know how to
+      access a website. WordPress has specific code in the .htaccess that helps
+      a browser know to initiate the Wordpress installation when it is
+      accessing a website with WordPress installed.
+      The coding in the .htaccess that allows WordPress to run needs to be
+      disabled. This can be done by commenting out the WordPress coding, by
+      renaming the .htaccess file, or by deleting the .htaccess file
+      altogether.
+   2. The index.php file: this file contains coding that determines the
+      appearance of your home page. A WordPress installation uses the WordPress
+      coding in this file to determine how the home page for a website would
+      look. This file needs to be changed by removing the WordPress code,
+      renaming the file, or by deleting the file altogether.
+   3. Core Files: WordPress core files are the files that are needed in every
+      WordPress installation to run. They are generally unchanging from
+      installation to installation (except for wp-content). All of these files
+      need to be disabled through renaming them or deleting them.
+If any of these things are missing, a WordPress site will stop running
+properly. However, a partial removal could result in the WordPress Site still
+running, just incomplete.

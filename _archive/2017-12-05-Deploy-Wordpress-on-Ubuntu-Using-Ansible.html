@@ -1,0 +1,132 @@
+ title: Deploy Wordpress on Ubuntu Using Ansible date: '2017-12-05 00:33:43'
+tags: - development - linux - server  Doing server administration for quite
+a few web servers would be a huge pain without the use of tools such as
+SALTStack, Ansible, or Chef. The purpose of this article is to do a basic intro
+to using and configuring Ansible and demonstrating how to use it by installing
+Wordpress. Disclaimer: I am no expert in Ansible. I don't delve into its deeper
+features and there are loads of ways to make it more useful. I use Ansible on a
+regular basis and would say I am a shallow user. However, Ansible works
+extremely well for me and enables me to get so much more work done than I would
+without it. So it works. Prerequisites: 1. Remote server(s) need to be
+accessible via SSH 2. The machine that will manage the remote servers has to be
+running Unix of some kind. If you have Windows, this can be solved by
+installing Cygwin or the Windows Subsystem for Linux.    
+***** What is Ansible? *****
+Ansible is open source automation software designed to make managing systems
+more efficient. The source code for Ansible is hosted on Github: https://
+github.com/ansible. It is built with Python and manages servers via SSH. One of
+the sweet features about Ansible is that it does not require an agent to be
+installed on the host(s) to be managed -- all it needs is access to the server
+via SSH. Ansible can be operated in various ways but I have found that it is
+most effective to create Ansible "Playbooks". Playbooks are YAML files that
+outline a series of tasks for Ansible to complete while running. Once you get
+used to the YAML format and understand all of the modules that Ansible has to
+offer it quickly becomes trivial to craft new Playbooks. You can use Ansible to
+execute single commands on multiple hosts, or just one host, but I have found
+that playbooks have been the most useful feature that Ansible offers me. I
+would recommend checking out the modules that Ansible offers: http://
+docs.ansible.com/ansible/latest/modules_by_category.html.  
+***** Configuring Ansible: *****
+As stated earlier, Ansible works on remote servers using SSH. In order for
+Ansible to work well, I would recommend that the servers be preinstalled with a
+user for Ansible to use. I would also recommend that the user have the ability
+to execute sudo commands without a password as that can be a little frustrating
+if you want to run commands as an admin. As the user Ansible will use will have
+a lot of power, I would recommend disabling Password Authentication on SSH and
+make sure that user can only be accessed using an SSH key.
+**** Set up the Ansible User on an Ubuntu Server: ****
+Tip: If you are planning on managing your servers on a platform such as
+DigitalOcean, I would recommend creating a template server that is setup to be
+managed by Ansible and then creating a snapshot of the server once you are
+complete so that way future servers can be preconfigured with your desired
+settings and be managed by Ansible as soon as it is deployed.
+*** Create the Ansible User on the Server: ***
+sudo adduser ansible
+*** Give the User Sudo Privileges Without Needing a Password: ***
+You will need to edit the sudoers file: sudo visudo Add this line to the very
+end of your file: ansible ALL=(ALL) NOPASSWD:ALL Save your file and exit.
+*** Generate an SSH key for the Ansible User: ***
+On your machine that will do the management, not the server, generate an SSH
+key pair for the Ansible user: ssh-keygen Copy the contents of the .pub file
+that is created. If you have never generated a key pair and choose to use the
+default location it will be here: ~/.ssh/id_rsa.pub After copying the public
+SSH key that was generated, log in to the server. I would recommend logging in
+as the newly created Ansible user if possible. Once logged in, create a .ssh
+folder for the Ansible user to use and give it the correct permissions using
+these commands: mkdir /home/ansible/.ssh/ chmod 700 /home/ansible/.ssh/ If you
+are not logged in as the user ansible when running these commands, run this
+command to give the user ansible ownership of the newly created .ssh directory:
+chown -R ansible /home/ansible/.ssh/ Then create the /home/ansible/.ssh/
+authorized_keys file on the server for the Ansible user: nano /home/
+ansible/.ssh/authorized_keys Paste the contents of ~/.ssh/id_rsa.pub from the
+management machine into that new file. Change the permissions for
+authorized_keys to be more secure: chmod 600 /home/ansible/.ssh/authorized_keys
+On the management machine, try SSH-ing into the server using the keypair you
+generated. If you placed the key in a location other than the default ~/.ssh/
+location, specify the path to the key by using the -i in the ssh command: ssh -
+i /path/to/id_rsa username@hostname.com Assuming everything was done correctly,
+you should be logged in to the server without a password needed (unless you set
+a passphrase for your SSH key, then you will be prompted for the SSH key
+passphrase).  
+**** Configure the Management Machine: ****
+We will now focus on configuring the management machine. First, install Ansible
+to your machine. A relatively cross-platform installation of Ansible is through
+pip: sudo pip install ansible   Ansible can be configured in multiple ways, but
+I recommend creating a directory for Ansible on your management machine that
+contains all of the files that we need in order to manage Ansible and to do the
+Wordpress install. This is the file structure that I follow:   ansible-dir
+âââ ansible.cfg âââ hosts âââ library âââ .my.cnf
+âââ playbooks âââ install-lamp-and-wordpress.yml There are two
+config files of note: - hosts: The hosts file contains the host information of
+the hosts we will be targeting. This file will hold the hostnames/ip addresses
+of the hosts, SSH keys that Ansible will use, what port SSH is running on, etc.
+Here is an example hosts file: https://github.com/heywoodlh/ansible/blob/
+master/hosts. - ansible.cfg: This file contains important configuration that
+Ansible will use to perform the way we want it to. Here is an example
+ansible.cfg file: https://github.com/heywoodlh/ansible/blob/master/ansible.cfg.
+Edit the hosts file to reflect content similar to this:   [ubuntu-webservers]
+192.168.1.50 ansible_ssh_private_key_file=/Users/username/.ssh/id_rsa
+ansible_user=ansible Change the IP address, path to the SSH private key file
+and the Ansible user to whatever you have set up on the server. If you would
+like to manage multiple servers in one group you can add as many entries under
+the ubuntu-webservers group as you would like. Edit the ansible.cfg file so
+that inventory is equal to the hosts file in our ansible directory: inventory =
+hosts This way, when we run the ansible-playbook command, we can do it within
+the directory set up for our Ansible files. Assuming everything is setup
+correctly, Ansible should be in a place where we can deploy Wordpress! You can
+test to see if Ansible connects properly to the host by running this command:
+ansible all --inventory-file=hosts --module-name ping -u ansible This should
+show some output with this line: "ping": "pong" Which indicates the ping was
+received by the host.  
+***** Deploying Wordpress: *****
+Now that Ansible has been configured and successfully tested, we are ready to
+deploy Wordpress. You can download the Ansible playbook from here. You will
+want to create a 'playbooks' directory within your Ansible directory and place
+the download into that folder on the management machine. You can download it to
+your machine using these commands if you are within the Ansible directory:
+mkdir playbooks curl 'https://raw.githubusercontent.com/heywoodlh/ansible/
+master/playbooks/install-lamp-and-wp.yml' -o playbooks/install-lamp-and-wp.yml
+Edit that file: nano playbooks/install-lamp-and-wp.yml Change the credentials
+found on lines 4-8 which by default will be: wp_db: wp_db wp_user: wp_user
+wp_password: secret_wp_password mysql_root_password: secret_mysql_password Here
+is a breakdown of each variable: wp_db: the name of the Wordpress database.
+wp_user: the name of the Wordpress database user. wp_password: the Wordpress
+database user's password. mysql_root_password: the MySQL root user's password -
+- make it extra secure.   You will also need to download a file called .my.cnf
+and place it in a directory called library within the Ansible folder. An
+example file can be found here: https://raw.githubusercontent.com/heywoodlh/
+ansible/master/library/.my.cnf. From the Ansible directory, you can create the
+library folder and download .my.cnf using these commands: mkdir library curl
+https://raw.githubusercontent.com/heywoodlh/ansible/master/library/.my.cnf -
+o library/.my.cnf Edit the .my.cnf file: nano library/.my.cnf Change the
+password variable to equal the same secure password referenced in playbooks/
+install-lamp-and-wp.yml in the mysql_root_password variable. With the ansible
+command installed, our Ansible directory configured, and the Ansible playbook
+downloaded and configured, we can now install Wordpress. From the Ansible
+directory on the management machine you can run this command to install
+Wordpress: ansible-playbook playbooks/install-lamp-and-wp.yml. Not only will
+this install Wordpress on the remote server, it will install LAMP Stack and the
+necessary PHP modules needed in order for Wordpress to function correctly. Once
+the install is complete, one only needs to navigate in a browser to the
+hostname/ip address of the Web server to find that the Wordpress installer is
+waiting for a user to finish setting up the website.

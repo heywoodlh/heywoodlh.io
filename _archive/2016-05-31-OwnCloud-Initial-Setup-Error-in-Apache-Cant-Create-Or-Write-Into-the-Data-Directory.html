@@ -1,0 +1,67 @@
+ title: 'OwnCloud Initial Setup Error in Apache: "Can''t Create Or Write
+Into the Data Directory"' date: '2016-05-31 00:20:00' tags: - apache - linux -
+owncloud - server  On initial Owncloud server setup on Apache, if file
+permissions of the OwnCloud Directory are incorrect within the web server
+hosting the application, an error will occur saying: "Can't create or write
+into the data directory..." If you don't want to read. These are the solutions:
+Â  1. Verify correct for permissions for your OwnCloud directory are 755 and
+change them to 755 if they are not.Â  2. Verify correct ownership for your
+OwnCloud directory. The user and group for Apache should own this folder in
+order for OwnCloud to properly work. 3. For further support contact your web
+host and/or server admin if neither of these solutions work. The resolution to
+this issue is to correct the permissions and/or ownership of the file. The
+purpose of this post will be to show users how to correct the permissions or
+ownership of the file. The resolutions in this example will be for an Ubuntu
+Linux server running Apache as the web server to administer Owncloud. However,
+the principles are applicable within most Linux distributions. 1. Check
+permissions: First, locate the OwnCloud server directory and make sure that the
+permissions for the directory are at least 755. Within the file manager of your
+server you should be able to see what the permissions are underneath the
+"Perms" section.
+Another way to view whether or not the directory has the correct permissions is
+by running this command via SSH:
+     stat /path/to/owncloud
+Replacing the "/path/to/owncloud" value with whatever the name and location is
+of your owncloud directory within your web server. The output of the command
+will probably look something like: File: âowncloudâ Size: 4096 Â  Â  Â  Â 
+Â  Â Blocks: 8 Â  Â  Â  Â  Â IO Block: 4096 Â  directory Device: fc00h/64512d
+Â  Â Inode: 5901318 Â  Â  Links: 15 Access: (0755/drwxr-xr-x) Â Uid: ( Â  33/
+www-data) Â  Gid: ( Â  33/www-data) Access: 2016-05-30 17:35:18.194122630 -0600
+Modify: 2016-05-30 17:23:11.006106120 -0600 Change: 2016-05-30 17:23:
+11.006106120 -0600 Birth: - (Notice the bolded Access value which includes the
+numbers 755). Resolution:If the permissions are not 755 change them to 755.
+Within File Manager you should be able to accomplish this by right clicking the
+owncloud folder and select Modify Permissions and change them to the
+appropriate values. To modify permissions via SSH run this command:
+     chmod 755 /path/to/owncloud
+2. Check File Ownership If file permissions were all correct, it may be
+possible that file ownership may be incorrect (this is very unlikely if you are
+using a managed hosting solution that is not a VPS such as Bluehost, GoDaddy,
+etc.). Unless you are the server administrator and have root access, you will
+not be able to proceed any further in changing permissions (if you do not know
+what that means you are most likely not the server administrator and should
+contact your host). The owner of the "owncloud" directory should be the Apache
+Web Server. In Ubuntu Linux the Apache user is www-data and the group that user
+belongs to is also www-data. Find out what the respective Apache user's name is
+on your Operating System prior to proceeding. Â To check the ownership of the
+file run the command:
+stat /path/to/owncloud
+On a folder with the correct ownership the output will look something like
+this: File: âowncloudâ Size: 4096 Â  Â  Â  Â  Â  Â Blocks: 8 Â  Â  Â  Â 
+Â IO Block: 4096 Â  directory Device: fc00h/64512d Â  Â Inode: 5901318 Â  Â 
+Links: 15 Access: (0755/drwxr-xr-x)Â Â Uid: ( Â  33/www-data) Â  Gid: ( Â  33/
+www-data) Access: 2016-05-30 17:35:18.194122630 -0600 Modify: 2016-05-30 17:23:
+11.006106120 -0600 Change: 2016-05-30 17:23:11.006106120 -0600 Birth: - Notice
+the UID and GID both are for the www-data user and group (again, in Ubuntu www-
+data is the name of the Apache user and group). The Apache user should have
+ownership of the owncloud directory. If the Apache user does not have complete
+ownership of this folder, Apache will not be able to properly interact with the
+folder so that you can use it for OwnCloud. Resolution:Â In order to resolve
+incorrect ownership run this command:
+chown -R www-data:www-data /path/to/owncloud
+This command makes the Apache user and group the owner of the OwnCloud
+directory. On different Linux distributions substitute www-data:www-data with
+the user and group for Apache. This would be the format:
+chown -R user:group /path/to/owncloud
+If neither of these solutions work please contactÂ us if you would like further
+assistance.

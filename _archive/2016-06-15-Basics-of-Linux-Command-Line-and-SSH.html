@@ -1,0 +1,66 @@
+ title: Basics of Linux Command Line (and SSH) date: '2016-06-15 17:07:00'
+tags: - linux - server - ssh  When I first began learning about Linux,
+command line and SSH were topics that came up pretty regularly. I had a very
+vague understanding of what Linux command line was only because of its visual
+similarities of Windows command prompt, which I had very little experience
+using anyway. SSH was a very abstract and confusing subject to me all around as
+I had never heard of or used anything like it. The purpose of this article is
+to simply explain what Linux command line and SSH are and share some examples
+of how they are used. What is Linux Command Line?
+Linux command line, also referred to as shell or terminal, is a prompt that one
+can use to interact with a Linux machine. Opening the default Linux command
+line, a black screen with white lettering will appear (similar to the picture
+below). A user can type in a command to this prompt which will allow them to
+interact with the computer. For example, if I wanted to create a file named
+"file.txt" I can type in the command touch file.txtÂ and that will create the
+file.Â Using a variety of commands a user can essentially navigate to any
+virtual location in the computer and do anything they want via command line,
+without the need for a GUI (Graphical User Interface).
+The list of things that can be done through command line is very broad but here
+are three examples of some tasks that one can carry out via command line:
+- Install and configure software
+- Edit files (especially useful for developers)
+- Manage a server
+Again, there are a lot more things that can be done through Linux command line
+but those are probably the most useful things I do with command line on a more
+regular basis.
+Why would I want to use command line vs. a normal GUI?
+-Speed: For those who become very familiar with Linux command line, it is much
+easier and quicker to manage files, configure software on the machine, and a
+whole myriad of other things than to do them through a GUI.
+-Use less resources: Using a terminal is much less resource intensive than
+using a GUI. Using a GUI requires a lot more resources as the machine will need
+to generate a screen for the user to use. On newer machines, this shouldn't be
+a problem -- for older machines this can help quite a bit. As well, for those
+who are stingy on using any resources at all, this is a great way to conserve.
+-Simplicity: In quite a few cases -- not all -- it is easier to interact with
+your Linux machine through command line rather than using the GUI. Many of the
+tutorials online on how to install and configure software on a Linux machine
+show how to do it primarily through the command line. As well, once a user gets
+familiar with the terminal, it is much more uniform when compared to using the
+multiple interfaces of the variety of programs available.   What is SSH and how
+does it work? SSH, or Secure Shell, is a process used to remotely access
+another machine's command line. This can allow users to remotely access their
+Linux machine using much less bandwidth and processor resources in comparison
+to a remote desktop client connection. For developers of websites or web
+applications, the ability to use SSH can be very helpful in the fact that there
+is no need to be within physical proximity of the machine in use. The ability
+to edit files is very important for developers, so the ability to edit them
+remotelyÂ makes it that much more convenient. For server administrators, SSH is
+a way to manage a server remotely. You can reboot the computer, edit server
+configuration files, check server logs, restart server software, and so on all
+through SSH. SSH works by connecting a client to the host's command line. If
+you don't understand what that means, here is an example. I have an SSH server
+in my home that I have set up to be accessed remotely by another computer with
+the proper credentials. On my laptop, I have the Secure Shell plugin downloaded
+and ready to use. I connect to my server at home from my laptop by opening up
+my Secure Shell plugin. I then am prompted to enter in the credentials needed
+to locate my server and my username and password needed to connect. Upon
+entering the proper credentials, I am then successfully logged in to a shell -
+- or command prompt -- on my server. From my laptop's Secure Shell prompt I can
+enter in specific commands to interact with the server. For example, I can type
+in the command rebootfrom my laptop's SSH command prompt and my server would
+receive the request and then reboot.Â My laptop is the client, and my server is
+the host. Hopefully this article has been straightforward and helpful in
+explaining the sometimes abstract concepts of Linux command line and SSH. If
+you have any further questions feel free to contactÂ us.
