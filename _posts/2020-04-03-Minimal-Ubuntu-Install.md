@@ -1,5 +1,6 @@
 ---
-title: 'Minimal Ubuntu Install (Install Ubuntu the Arch Way)'
+title: 'Minimal Ubuntu Install'
+layout: post
 permalink: minimal-ubuntu-install
 tags: all, linux
 ---
