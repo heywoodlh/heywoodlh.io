@@ -163,6 +163,11 @@ Edit `/etc/hostname` to equal whatever value you want your computer name to be:
 echo 'myhostname' > /etc/hostname
 ```
 
+I would also recommend editing `/etc/hosts` as described in the Arch wiki:
+
+[Arch Wiki: Network Configuration](https://wiki.archlinux.org/index.php/Installation_guide#Network_configuration)
+
+
 Set root password:
 
 ```bash
