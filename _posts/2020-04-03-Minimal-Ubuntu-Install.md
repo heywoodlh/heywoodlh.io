@@ -14,7 +14,7 @@ Inspired by the following Reddit Post: [Passing the Time in Quarantine (Installe
 ### Boot Into Live Environment:
 
 - [Download the latest desktop or server Iso](https://ubuntu.com/download) (I would recommend the desktop Iso for simplicity).
-- Create bootable media (using something like [Etcher](https://www.balena.io/etcher/), then boot off of your live media. 
+- Create bootable media (using something like [Etcher](https://www.balena.io/etcher/)), then boot off of your live media. 
 - Make sure to select "Try Ubuntu" not "Install Ubuntu" when you get to the Grub menu options.
 
 ### Requirements:
