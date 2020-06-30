@@ -290,6 +290,15 @@ Verify boot entries:
 bootctl list
 ```
 
+I have noticed that Ubuntu has this annoying habit of installing Grub for you, so let's prevent grub packages from installing:
+
+Place the following in `/etc/apt/preferences.d/grub`:
+
+```bash
+Package: grub-common grub-gfxpayload-lists grub-pc grub-pc-bin grub2-common
+Pin: release *
+Pin-Priority: -1
+```
 
 ### Exit:
 
