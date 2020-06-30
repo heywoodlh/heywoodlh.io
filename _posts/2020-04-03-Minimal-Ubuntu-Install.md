@@ -168,6 +168,12 @@ I would also recommend editing `/etc/hosts` as described in the Arch wiki:
 [Arch Wiki: Network Configuration](https://wiki.archlinux.org/index.php/Installation_guide#Network_configuration)
 
 
+```bash
+127.0.0.1	localhost
+::1		localhost
+127.0.1.1	myhostname.localdomain	myhostname
+```
+
 Set root password:
 
 ```bash
