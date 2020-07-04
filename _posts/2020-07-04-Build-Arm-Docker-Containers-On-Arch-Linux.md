@@ -100,8 +100,11 @@ When you build using that Dockerfile you should specify the platform, like so:
 docker build --platform arm heywoodlh/test-container .
 ```
 
-With the qemu-arm-static binary in `/usr/bin/` you should be able to run the container on the host with qemu-arm-static installed:
+With the qemu-arm-static binary in `/usr/bin/` you should be able to run the container on the Linux host with qemu-arm-static installed:
 
 ```bash
 docker run -it --rm heywoodlh/test-container bash
+
+root@b80788989cff:/# arch
+armv7l
 ```
