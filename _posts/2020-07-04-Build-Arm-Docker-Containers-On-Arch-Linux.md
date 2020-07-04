@@ -32,7 +32,8 @@ systemctl restart docker.service
 To test, pull the arm version of the official Debian Docker image:
 
 ```bash
-❯ docker pull debian:stable --platform arm
+docker pull debian:stable --platform arm
+
 stable: Pulling from library/debian
 8889795e1736: Pull complete 
 Digest: sha256:281dabbeb55dd7fe6603c0afafdc1800ea4f4ab057516dfb629fe30eb642daf7
@@ -65,7 +66,10 @@ Use the following AUR packages:
 Once the packages are installed, see if you can run the Debian arm image that we downloaded:
 
 ```bash
-docker run -v /usr/bin/qemu-arm-static:/usr/bin/qemu-arm-static --platform arm --rm -ti debian:stable
+docker run -v /usr/bin/qemu-arm-static:/usr/bin/qemu-arm-static --platform arm --rm -ti debian:stable bash
+
+root@25425d924f4a:/# arch
+armv7l
 ```
 
 
