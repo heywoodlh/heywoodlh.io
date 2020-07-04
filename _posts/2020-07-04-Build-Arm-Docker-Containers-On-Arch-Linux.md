@@ -57,8 +57,8 @@ Arch Linux:
 
 Use the following AUR packages:
 
-https://aur.archlinux.org/packages/qemu-user-static/
-https://aur.archlinux.org/packages/binfmt-qemu-static/
+[qemu-user-static](https://aur.archlinux.org/packages/qemu-user-static/)
+[binfmt-qemu-static](https://aur.archlinux.org/packages/binfmt-qemu-static/)
 
 
 Once the packages are installed, see if you can run the Debian arm image that we downloaded:
