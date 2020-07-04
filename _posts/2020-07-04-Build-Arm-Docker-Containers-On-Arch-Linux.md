@@ -58,6 +58,7 @@ Arch Linux:
 Use the following AUR packages:
 
 [qemu-user-static](https://aur.archlinux.org/packages/qemu-user-static/)
+
 [binfmt-qemu-static](https://aur.archlinux.org/packages/binfmt-qemu-static/)
 
 
