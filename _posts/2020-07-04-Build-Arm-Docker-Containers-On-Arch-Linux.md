@@ -1,7 +1,7 @@
 ---
-title: 'Build ARM Docker Containers on (x86 64 bit) Arch Linux'
+title: 'Build ARM Docker Containers on (x86 64 bit) Linux'
 layout: post
-permalink: arm-containers-arch-linux
+permalink: arm-containers-linux
 tags: all, linux, docker, container, systems, arm
 ---
 
