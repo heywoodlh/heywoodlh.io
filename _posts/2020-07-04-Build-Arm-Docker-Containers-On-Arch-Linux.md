@@ -102,13 +102,15 @@ Adding the qemu-arm-static binary will add about 4 MB of space to your container
 When you build using that Dockerfile you should specify the platform, like so:
 
 ```bash
-docker build --platform arm heywoodlh/test-container -f Dockerfile .
+docker build heywoodlh/test-container:arm -f Dockerfile .
 ```
+
+With the `arm` tag you will have to specify that tag in order to use that image.
 
 With the qemu-arm-static binary in `/usr/bin/` you should be able to run the container on the Linux host with qemu-arm-static installed:
 
 ```bash
-docker run -it --rm heywoodlh/test-container bash
+docker run -it --rm heywoodlh/test-container:arm bash
 
 root@b80788989cff:/# arch
 armv7l
