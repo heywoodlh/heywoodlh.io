@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: #5b79a4;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $darkblue;
   }
 }
 
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #6c87ac;
 
   @include mobile {
     text-align: center;
@@ -202,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $blue;
   font-size: 16px;
 
   @include mobile {

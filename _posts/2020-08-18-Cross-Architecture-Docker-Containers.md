@@ -19,7 +19,7 @@ I'm going to make the following assumptions:
 - You already have Docker installed and running on said Linux machine.
 - You are running Docker version 19.03.
 
-__Note: I tried doing these steps on my Raspberry Pi 4 8GB model and the build process was just so slow (over 20 minutes) for x86 64 bit images that I decided it wasn't worth it. Please [let me know](https://the-empire.systems/contact) if there is some way to speed this up on the Pi 4.__
+_Note: I tried doing these steps on my Raspberry Pi 4 8GB model and the build process was just so slow (over 20 minutes) for x86 64 bit images that I decided it wasn't worth it. Please [let me know](https://the-empire.systems/contact) if there is some way to speed this up on the Pi 4._
 
 ### Installing Buildx:
 
