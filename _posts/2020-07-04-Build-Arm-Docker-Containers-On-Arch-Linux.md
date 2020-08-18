@@ -5,6 +5,8 @@ permalink: arm-containers-linux
 tags: all, linux, docker, container, systems, arm
 ---
 
+EDIT: [I have a much better cross-architecture build pipeline now](https://the-empire.systems/cross-architecture-docker-images)
+
 In preparation for the eventual shift to ARM that I will experience (whether directly or indirectly) with Apple shifting their Macbooks to ARM I needed a way to build my containers for ARM.
 
 
