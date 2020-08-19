@@ -1,7 +1,7 @@
 ---
 title: 'Linux IPTables Rules Persistence'
 layout: post
-permalink: change-gpg-agent-program
+permalink: linux-iptables-persistence
 tags: all, linux, security, firewall, iptables
 ---
 
