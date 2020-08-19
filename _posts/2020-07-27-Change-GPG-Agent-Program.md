@@ -7,7 +7,7 @@ tags: all, linux, security, macos, gpg
 
 I'm documenting this because it is a bit obscure. My original source for these commands can be found [here](https://superuser.com/questions/520980/how-to-force-gpg-to-use-console-mode-pinentry-to-prompt-for-passwords).
 
-I prefer to just use `pinentry-curses` for unlocking GPG keys because it's so simple and I'm really only using my GPG keys from the terminal. And the GPG agent on Mac will always try to save the passwords in the keyring -- which I don't want.
+I prefer to just use `pinentry-curses` for unlocking GPG keys because it's so simple and I'm really only using my GPG keys from the terminal. And the GPG agent on Mac will always ask to save the passwords in the keyring -- which I don't want.
 
 Add the following `~/.gnupg/gpg-agent.conf`:
 
