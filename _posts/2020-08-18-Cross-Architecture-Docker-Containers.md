@@ -166,7 +166,7 @@ buildContainer () {
         fi
 }
 
-if [ -n $1 ]
+if [ $1 != '' ]
 then
         container=$1
         buildContainer ${container} 
