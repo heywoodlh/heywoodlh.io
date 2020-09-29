@@ -97,7 +97,7 @@ session    required       pam_permit.so
 
 ## Additional Reading:
 
-I find this Stack Exchange post really useful on understanding how PAM's logic is implemented between `required`, `sufficient` and `requisite`: [PAM - required and sufficient control flag](https://unix.stackexchange.com/questions/106131/pam-required-and-sufficient-control-flag)
+I found [this Stack Exchange post](https://unix.stackexchange.com/questions/106131/pam-required-and-sufficient-control-flag) really useful on understanding how PAM's logic is implemented between `required`, `sufficient` and `requisite`.
 
 [Lots of articles on how to configure PAM with Touch ID](https://duckduckgo.com/?t=ffab&q=pam+sudo+touch+id+&ia=web)
 
