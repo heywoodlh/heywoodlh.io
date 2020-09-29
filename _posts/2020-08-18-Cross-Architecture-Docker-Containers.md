@@ -39,12 +39,12 @@ Then restart Docker:
 systemctl restart docker.service
 ```
 
-Now we need to install buildx. The official documentation is [here](https://github.com/docker/buildx#installing) but I'll run through an example setup. Replace the references to 0.4.1 with [whatever the latest version number is](https://github.com/docker/buildx/releases/latest).
+Now we need to install buildx. The official documentation is [here](https://github.com/docker/buildx#installing) but I'll run through an example setup. Replace the references to 0.4.2 with [whatever the latest version number is](https://github.com/docker/buildx/releases/latest).
 
 ```bash
 mkdir -p ~/.docker/cli-plugins/
 
-curl -L https://github.com/docker/buildx/releases/download/v0.4.1/buildx-v0.4.1.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+curl -L https://github.com/docker/buildx/releases/download/v0.4.2/buildx-v0.4.2.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
 
 chmod +x ~/.docker/cli-plugins/docker-buildx
 ```
