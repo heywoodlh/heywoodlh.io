@@ -23,15 +23,17 @@ With Linux as my preferred runtime, it's very easy to make my workflows cross-pl
 
 ### Server-side:
 
-As I stated above, I use Unix-like OS-es exclusively for my back-end, server-side stuff to augment the applications I have available to me so there isn't much to get into that's relevant to my MacOS setup.
+I use Unix-like OS-es exclusively for my back-end, server-side stuff to augment the applications I have available to me so there isn't much to get into that's relevant to my MacOS setup.
+
+On a side note: I think MacOS is _the worst_ for servers. I prefer NixOS, Arch Linux and/or FreeBSD for my server-side needs.
 
 ### Client-side:
 
 I use Docker for all of my client-side Linux workflows. Docker is cross-platform and allows me to run a virtual Linux kernel on Windows, Mac or Linux.
 
-One of the downsides of Docker on Mac compared to Docker on Linux or Windows is that the MacOS kernel lacks the virtualization needed to more natively run a Linux container. As a fix, Docker on Mac runs a Linux virtual machine. I actually view this is a good thing, though, because it separates Docker from a lot of the privileged resources in MacOS. Unless you run [rootless Docker](https://docs.docker.com/engine/security/rootless/) or a rootless alternative like [Podman](https://podman.io/) (both of which I think are better than running Docker on Linux and adding yourself to the `docker` group), it's pretty trivial to pwn a system if you have access to the Docker daemon on Linux.
+One of the downsides of Docker on Mac compared to Docker on Linux or Windows is that the MacOS kernel lacks the virtualization needed to more natively run a Linux kernel for containers. To make up for this Docker on Mac runs a Linux virtual machine. I actually view this is a good thing, though, because it separates Docker from a lot of the privileged resources in MacOS. Unless you run [rootless Docker](https://docs.docker.com/engine/security/rootless/) or a rootless alternative like [Podman](https://podman.io/) (both of which I think are better than running Docker on Linux and adding yourself to the `docker` group), it's pretty trivial to pwn a system if you have access to the Docker daemon on Linux.
 
-In theory, Docker running within a kernel in a VM on MacOS will add some latency and performance restrictions compared to Docker running on a Linux host and sharing the same kernel as the host. I haven't seen any noticable performance hits on Mac vs Linux for what I do, however, but it's still good to be aware of.
+In theory, Docker running within a kernel in a VM on MacOS will add some latency and performance restrictions compared to Docker running on a Linux host and sharing the same kernel as the host. I haven't seen any noticable performance hits on Mac vs Linux for what I do, however, but it's still good to be aware of. You can tweak the resource allocation for the VM in Docker's preferences.
 
 ### Keeping things in the command line:
 
@@ -103,10 +105,10 @@ All of the tools he has written are open source and totally free.
 
 Some of my favorites are:
 
-- [Do Not Disturb](https://objective-see.com/products/dnd.html)
-- [Lulu](https://objective-see.com/products/lulu.html)
-- [Oversight](https://objective-see.com/products/oversight.html)
-- [Reikey](https://objective-see.com/products/reikey.html)
+- [Do Not Disturb](https://objective-see.com/products/dnd.html) -- notification agent to help detect tampering
+- [Lulu](https://objective-see.com/products/lulu.html) -- application firewall
+- [Oversight](https://objective-see.com/products/oversight.html) -- camera-usage detection tool
+- [Reikey](https://objective-see.com/products/reikey.html) -- keylogger detection tool
 
 ## Cross-platform open source apps that are significant to my daily workflows (not comprehensive):
 
