@@ -150,7 +150,6 @@ apt-get install -y npm
 
 ```bash
 git clone https://git.sr.ht/~cadence/cloudtube /opt/cloudtube
-chown -R cloudtube /opt/cloudtube
 ```
 
 ### Install Cloudtube Dependencies:
@@ -160,6 +159,25 @@ cd /opt/cloudtube
 npm install
 ```
 
+### Configure Cloudtube:
+
+Create a config file in `/opt/cloudtube/config/config.js` with the following content:
+
+```
+module.exports = {
+        user_settings: {
+                instance: {
+                        default: "http://localhost:3000"
+                }
+        }
+}
+```
+
+Make sure the cloudtube user created earlier owns the files:
+
+```
+chown -R cloudtube /opt/cloudtube
+```
 
 ### Install Cloudtube Systemd Service:
 
@@ -187,8 +205,4 @@ systemctl enable --now cloudtube.service
 ```
 
 
-### Configure Cloudtube:
-
 Login to the web interface for Cloudtube on port 10412 on your server.
-
-Select the settings icon and set the Instance setting to http://localhost:3000 (or to the IP/hostname of the server running Second).
