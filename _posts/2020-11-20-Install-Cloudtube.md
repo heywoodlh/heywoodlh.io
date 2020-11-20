@@ -23,10 +23,13 @@ Pull and run the [Second Docker image](https://hub.docker.com/r/heywoodlh/second
 
 ```bash
 docker pull heywoodlh/second:latest
-docker run -d --restart=unless-stopped --network host \
+docker run -d --name=second \
+	--restart=unless-stopped --network=host \
 	-e WEBSITE_ORIGIN="http://localhost:3000" \
 	heywoodlh/second
 ```
+
+Second should now be running on port 3000 of your host.
 
 ## Cloudtube Installaion
 
@@ -58,7 +61,9 @@ chown -R 1000:1000 /opt/cloudtube/
 Pull and run the [Cloudtube Docker image](https://hub.docker.com/r/heywoodlh/cloudtube):
 ```
 docker pull heywoodlh/cloudtube:latest
-docker run -d --restart=unless-stopped --network host \
+docker run -d --name=cloudtube \
+	--user=1000 \
+	--restart=unless-stopped --network=host \
 	-v /opt/cloudtube/db:/opt/cloudtube/db \
 	-v /opt/cloudtube/config:/opt/cloudtube/config \
 	heywoodlh/cloudtube
