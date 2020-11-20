@@ -74,7 +74,7 @@ Access the web interface for Cloudtube on port 10412 of your host, I.E. `http://
 
 # Manual Installation (Debian-Based Instructions):
 
-This installation should be performed as the root user. And these commands assume you are on Debian, Ubuntu or one of their derivative distributions.
+This installation should be performed as the root user and these commands assume you are on Debian, Ubuntu or one of their derivative distributions.
 
 ## Install Second:
 
