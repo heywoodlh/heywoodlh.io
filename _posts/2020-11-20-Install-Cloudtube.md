@@ -81,8 +81,8 @@ This installation should be performed as the root user. And these commands assum
 ### Install Python:
 
 ```bash
-sudo apt-get update
-sudo apt-get install -y python3 python3-pip
+apt-get update
+apt-get install -y python3 python3-pip
 ```
 
 ### Download Second and Install Dependencies:
@@ -142,8 +142,8 @@ systemctl enable --now second.service
 ### Install npm:
 
 ```bash
-sudo apt-get update
-sudo apt-get install -y npm
+apt-get update
+apt-get install -y npm
 ```
 
 ### Download Cloudtube:
