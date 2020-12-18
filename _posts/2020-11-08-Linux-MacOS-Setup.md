@@ -17,6 +17,7 @@ Before a few years ago, I mistakenly believed that Linux was actually a Unix der
 
 While I dislike Apple's deliberate attempts to make MacOS as closed as possible, I love the strengths of Unix. [MacOS is UNIX certified](https://www.opengroup.org/openbrand/register/brand3653.htm). Many of my favorite command-line Linux tools have a MacOS port since both Linux and MacOS share a similar Unix heritage. CLI applications, in my experience, are typically easy to port between OS-es.
 
+
 ## Using Linux as my portable runtime everywhere (I prefer Docker for this):
 
 With Linux as my preferred runtime, it's very easy to make my workflows cross-platform and still based on Linux due to tools like Docker.
@@ -58,6 +59,7 @@ If you don't want to use Nix-darwin, you can still use the [Nix package manager]
 
 [You can see where I define the packages I want installed as casks in my config.](https://github.com/heywoodlh/nixos-builds/blob/master/darwin/config.nix) The Homebrew module is imported in my `darwin-configuration.nix` file, in case it isn't obvious. 
 
+
 ## Tiling window manager and keyboard shortcut daemon -- Yabai and Skhd:
 
 My first and most extensive introduction to Linux was installing Arch Linux. During that time, I discovered [i3](https://i3wm.org/) and absolutely loved the way that it organized my opened applications. Without a tiling window manager, I can't stand the default non-snapping behavior of graphical applications on MacOS.
@@ -78,6 +80,55 @@ Thankfully, the creator of Yabai also created a hotkey daemon called [skhd](http
 
 [You can see my config for Yabai and Skhd in my Nix-darwin config files](https://github.com/heywoodlh/nixos-builds/blob/master/darwin/wm.nix).
 
+
+## Additional Graphical Tweaks:
+
+### Disable desktop icons:
+
+Run the following commands to remove desktop icons:
+
+```bash
+defaults write com.apple.finder CreateDesktop -bool false
+killall Finder
+```
+
+
+### Remove clutter from top bar:
+I use the open source application called [Hidden](https://github.com/dwarvesf/hidden/) to declutter my top bar of all icons.
+
+Here's what my title bar looks like using Hidden:
+
+![alt text](https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/images/hidden.png "Hidden Bar")
+
+### Hide the dock:
+I use the following commands to toggle my dock to hide:
+
+Hide the dock:
+
+```bash
+defaults write com.apple.dock autohide -bool true && killall Dock
+defaults write com.apple.dock autohide-delay -float 1000 && killall Dock
+defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock
+```
+
+Show the dock:
+
+```bash
+defaults write com.apple.dock autohide -bool false && killall Dock
+defaults delete com.apple.dock autohide-delay && killall Dock
+defaults write com.apple.dock no-bouncing -bool FALSE && killall Dock
+```
+
+### Hide the top bar (MacOS Big Sur):
+
+As of MacOS Big Sur, I have set the top bar to autohide so that most of the time I don't see it.
+
+Go to System Preferences > Dock & Menu Bar > Menu Bar > check Automatically hide and show the menu bar. 
+
+Here's what my desktop looks like without the title bar showing and with a single terminal window open:
+
+![alt text](https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/images/macos-no-title-bar.png "MacOS No Title Bar")
+
 ## Vimac and Vim Vixen -- keeping things keyboard-driven:
 
 [Vimac](https://github.com/dexterleng/vimac) is one of those tools on MacOS that I haven't been able to find a comparable alternative for on Linux. Vimac provides keyboard hints for every significant place in the graphical environment that you would want to click on. So it allows me to (usually) click anywhere in my graphical environment and graphical applications quickly using just my keyboard. Since MacOS has a consistent graphical API across the board most applications work well with Vimac's hint mode -- some don't but that has been rare for me.
@@ -89,6 +140,15 @@ Unfortunately, I don't know if something like this could exist to this same leve
 ## Choose -- Rofi alternative:
 
 I use [Choose-gui](https://github.com/chipsenkbeil/choose) as my MacOS alternative for [Rofi](https://github.com/davatorium/rofi). Choose-gui allows me to quickly integrate shell scripts into a graphical selection tool and thus extend my shell scripts into the GUI (and keep things keyboard-driven). Choose-gui doesn't have the same level of maturity and features as Rofi but it has been a lot better than nothing for me.
+
+## Dmenu-mac -- App launcher:
+
+Dmenu is a simple application launcher/menu chooser on Linux. With [dmenu-mac](https://github.com/oNaiPs/dmenu-mac) I can replace Spotlight's app launching capabilities -- since I have never used all the other crap that Spotlight offers.
+
+Here's a gif from the [dmenu-mac Github repo](https://github.com/oNaiPs/dmenu-mac):
+
+![alt text](https://raw.githubusercontent.com/oNaiPs/dmenu-mac/master/demo.gif "dmenu-mac demo")
+
 
 ## Secretive -- SSH Key Manager:
 
