@@ -133,7 +133,7 @@ DYLD_LIBRARY_PATH="${root_dir}" "${root_dir}"/qemu-system-aarch64 \
         -device usb-kbd \
         -device usb-tablet \
         -device intel-hda -device hda-duplex \
-	-hda "${root_dir}/debian-vm.img" \
+	-drive file="${root_dir}/debian-vm.img",media=disk,cache=unsafe \
         -drive file="${root_dir}"/vars-template-pflash.raw,if=pflash,index=1 \
         -bios ${root_dir}/QEMU_EFI.fd
 ```

@@ -99,6 +99,8 @@ mkdir -p /mnt/boot/efi && mount /dev/sda1 /mnt/boot/efi
 
 Then bootstrap your base Ubuntu install (using Ubuntu 20.04 "Focal Fossa"):
 
+[Refer to this article for the ARM64 commands if you're bootstrapping Ubuntu 20.04 ARM64](https://the-empire.systems/debootstrap-arm64-ubuntu)
+
 ```bash
 debootstrap --arch amd64 focal /mnt http://archive.ubuntu.com/ubuntu
 ```
