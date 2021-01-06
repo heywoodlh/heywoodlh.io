@@ -3,6 +3,7 @@ title: 'Create a Linux Virtual Machine on M1 Macbook'
 layout: post
 permalink: m1-mac-linux-vm
 tags: all, mac, linux
+published: false
 ---
 
 In this post I'll outline my process for setting up a Linux virtual machine using [Apple's new Virtualization framework](https://developer.apple.com/documentation/virtualization).
@@ -10,13 +11,11 @@ In this post I'll outline my process for setting up a Linux virtual machine usin
 
 References:
 
-[https://finestructure.co/blog/2020/11/27/running-docker-on-apple-silicon-m1](Running Docker on Apple Silicon M1)
+[Running Docker on Apple Silicon M1](https://finestructure.co/blog/2020/11/27/running-docker-on-apple-silicon-m1)
 
-[https://iphonesdkdev.blogspot.com/2020/12/20201202.html](How to run docker on the new Mac Mini M1)
+[How to run docker on the new Mac Mini M1](https://iphonesdkdev.blogspot.com/2020/12/20201202.html)
 
-[https://www.adamlabay.net/2020/06/27/creating-an-arm64-debian-image/](Creating an ARM64 Debian Image)
-
-[https://github.com/JacopoMangiavacchi/M1-Linux-SSH](Apple M1 Linux VM with SSH interface)
+[Apple M1 Linux VM with SSH interface](https://github.com/JacopoMangiavacchi/M1-Linux-SSH)
 
 ## Setup vftool:
 
@@ -128,16 +127,13 @@ Partitioning:
 
 ```bash
 parted /dev/vdb -- mklabel gpt
-parted /dev/vdb -- mkpart primary 512MiB -8GiB
+parted /dev/vdb -- mkpart primary 0MiB -8GiB
 parted /dev/vdb -- mkpart primary linux-swap -8GiB 100%
-parted /dev/vdb -- mkpart ESP fat32 1MiB 512MiB
-parted /dev/vdb -- set 3 esp on
 ```
 
 Formatting:
 
 ```bash
-mkfs.vfat /dev/vdb3
 mkswap /dev/vdb2 && swapon /dev/vdb2
 mkfs.btrfs /dev/vdb1
 ```
@@ -149,7 +145,6 @@ Mount drives:
 
 ```bash
 mount /dev/vdb1 /mnt
-mkdir -p /mnt/boot/efi && mount /dev/vdb3 /mnt/boot/efi
 ```
 
 Bootstrap Ubuntu:
@@ -164,10 +159,16 @@ Configure apt repos:
 printf "deb http://ports.ubuntu.com/ubuntu-ports/ focal main restricted\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal multiverse\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal universe\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal-backports main restricted universe multiverse\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal-security main restricted\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal-security multiverse\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal-security universe\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal-updates main restricted\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal-updates multiverse\ndeb http://ports.ubuntu.com/ubuntu-ports/ focal-updates universe" > /mnt/etc/apt/sources.list
 ```
 
+Chroot into the new installation:
+
+```bash
+arch-chroot /mnt
+```
+
 Install some dependencies:
 
 ```bash
-apt-get install -y --no-install-recommends linux-generic linux-image-generic linux-headers-generic initramfs-tools linux-firmware efibootmgr openssh-server
+apt-get install -y --no-install-recommends linux-generic linux-image-generic linux-headers-generic initramfs-tools linux-firmware grub2-common openssh-server
 
 ## Optional/opinionated dependencies
 apt-get install -y vim
@@ -208,110 +209,11 @@ Create an admin user:
 ```bash
 adduser myusername
 usermod -aG sudo myusername
-```
-
+``
 Enable SSH on boot:
 
 ```bash
 systemctl enable ssh.service
-```
-
-Create systemd-boot config:
-
-```bash
-printf "default ubuntu\ntimeout 1\neditor 0\n\n" > /boot/efi/loader/loader.conf
-```
-
-Then create a boot entry file in `/boot/efi/loader/entries/ubuntu.conf`, replacing the `PARTUUID` section with the root partition found with blkid:
-
-```bash
-title   Ubuntu
-linux   /ubuntu/vmlinuz-generic
-initrd  /ubuntu/initrd.img-generic
-options root=PARTUUID=YOUR_UUID rw
-```
-
-
-The only problem with using systemd-boot is that you’d need to manually update the kernels any time a new version of the Linux kernel is installed. To solve this, we will create a post install hook that will update the kernel entries in systemd-boot.
-
-Create /etc/kernel/postinst.d/update-systemd-boot with the following content, replacing the PARTUUID variable value with the value of your root PARTUUID found from blkid:
-
-```bash
-#!/bin/bash
-#
-# This is a simple custom kernel hook to populate the systemd-boot entries
-# whenever kernels are added or removed during an update.
-#
-
-
-# The PARTUUID of your root partition
-PARTUUID="INSERTYOURPARTUUIDHERE"
-
-vmlinuz=$(find /boot -maxdepth 1 -name "vmlinuz-*-generic")
-version=$(echo $vmlinuz | grep -o -P "\d+\.\d+\.\d+\-\d+" | sort -V | head -n -1)
-latest=$(echo $vmlinuz | grep -o -P "\d+\.\d+\.\d+\-\d+" | sort -V | tail -n 1)
-
-echo ">> COPYING ${latest}-generic. LATEST VERSION."
-
-cat << EOF > /boot/efi/loader/entries/ubuntu.conf
-title   Ubuntu
-linux   /ubuntu/vmlinuz-generic
-initrd  /ubuntu/initrd.img-generic
-options root=PARTUUID=${PARTUUID} rw
-EOF
-
-for file in initrd.img vmlinuz; do
-    cp "/boot/${file}-${latest}-generic" "/boot/efi/ubuntu/${file}-generic"
-done
-
-for ver in $version; do
-
-    echo ">> COPYING ${ver}-generic."
-
-cat << EOF > /boot/efi/loader/entries/ubuntu-${ver}.conf
-title   Ubuntu ${ver}
-linux   /ubuntu/vmlinuz-${ver}-generic
-initrd  /ubuntu/initrd.img-${ver}-generic
-options root=PARTUUID=${PARTUUID} rw
-EOF
-
-    for file in initrd.img vmlinuz; do
-        cp "/boot/${file}-${ver}-generic" "/boot/efi/ubuntu/${file}-${ver}-generic"
-    done
-done
-```
-
-Make the script executable and symlink it to another relevant location:
-
-```bash
-chmod +x /etc/kernel/postinst.d/update-systemd-boot
-ln -s /etc/kernel/postinst.d/update-systemd-boot /etc/kernel/postrm.d/update-systemd-boot
-```
-
-Setup Systemd-boot:
-
-```bash
-bootctl --path=/boot/efi install
-```
-
-Now, execute the hook script to move the kernel images to the correct directories for our systemd-boot config to recognize them:
-
-```bash
-/etc/kernel/postinst.d/update-systemd-boot
-```
-
-Verify boot entries:
-
-```bash
-bootctl list
-```
-
-I have noticed that Ubuntu has this annoying habit of installing Grub for you, so let’s prevent grub packages from installing:
-
-```bash
-Package: grub-common grub-gfxpayload-lists grub-pc grub-pc-bin grub2-common
-Pin: release *
-Pin-Priority: -1
 ```
 
 Use exit to get out of the chroot:
