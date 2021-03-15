@@ -23,13 +23,13 @@ What I recommend doing is opening a terminal window, elevating to root with `sud
 I would also recommend backing up your `/etc/pam.d/sudo` file before modifying it like so:
 
 ```bash
-sudo cp /etc/pam.d/sudo{,.bak}
+sudo cp /etc/pam.d/sudo{,.orig}
 ```
 
 
-### Password + Touch ID PAM Configuration:
+### Password + Touch ID or Apple Watch PAM Configuration:
 
-If you don't have an Apple Watch but have Touch ID, you don't need to set anything additional up as the [PAM module is included in MacOS for your Mac to use Touch ID](https://opensource.apple.com/source/pam_modules/pam_modules-173.1.1/modules/pam_tid/pam_tid.c.auto.html). 
+The [PAM module is included in MacOS for your Mac to use Touch ID](https://opensource.apple.com/source/pam_modules/pam_modules-173.1.1/modules/pam_tid/pam_tid.c.auto.html) or your Apple Watch if Touch ID is unavailable. 
 
 Configure `/etc/pam.d/sudo` like so:
 
@@ -44,51 +44,7 @@ session    required       pam_permit.so
 ```
 
 
-This configuration will require both a password _and_ Touch ID to run any `sudo` command.
-
-
-### Password + Apple Watch _or_ Touch ID PAM Configuration:
-
-There is no Apple Watch PAM module available for use on MacOS out of the box (that I know of anyway). Thankfully, [someone wrote one](https://github.com/biscuitehh/pam-watchid). Install it with the following commands:
-
-
-```
-git clone https://github.com/biscuitehh/pam-watchid /tmp/pam-watchid
-cd /tmp/pam-watchid
-sudo make install
-```
-
-
-Once the install completes, configure `/etc/pam.d/sudo` like so:
-
-```
-# sudo: auth account password session
-auth       sufficient     pam_smartcard.so
-auth       required       pam_opendirectory.so
-auth	   sufficient	  pam_watchid.so
-auth	   required	  pam_tid.so
-account    required       pam_permit.so
-password   required       pam_deny.so
-session    required       pam_permit.so
-```
-
-This configuration will require you to enter in your password and authenticate with either your Apple Watch or Touch ID. From the configuration you can see that you will be prompted to use your Apple Watch first and then Touch ID if you fail to authenticate with Apple Watch.
-
-
-### Password + Touch ID _or_ Apple Watch PAM Configuration:
-
-If you want Touch ID to be the first method attempted before authenticating with Apple Watch then follow the instructions above except you'll flip the `pam_watchid.so` reference with `pam_tid.so` in the PAM configuration:
-
-```
-# sudo: auth account password session
-auth       sufficient     pam_smartcard.so
-auth       required       pam_opendirectory.so
-auth       sufficient     pam_tid.so
-auth       required       pam_watchid.so
-account    required       pam_permit.so
-password   required       pam_deny.so
-session    required       pam_permit.so
-```
+This configuration will require both a password _and_ Touch ID/Apple Watch confirmation to run any `sudo` command.
 
 
 ## One Thing to Look Out For:
