@@ -79,7 +79,7 @@ nat on $ext_if from $jail_if:network to any -> ($ext_if)
 If you need to port forward an external port to a service running in the jail add the following to `/etc/pf.conf`:
 
 ```bash
-rdr pass log on proto tcp from any to $ext_if port $tcp_port -> $jail_security_ipv4
+rdr on $ext_if proto tcp from any to $ext_if port $tcp_port -> $jail_security_ipv4
 ```
 
 Apply your changes to pf:
