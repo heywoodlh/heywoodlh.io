@@ -88,18 +88,7 @@ In order for Docker to build across architectures, it can use QEMU images to emu
 You can use the following Docker command to set up the QEMU images:
 
 ```bash
-docker run --rm --privileged linuxkit/binfmt:v0.8
-```
-
-Make sure the QEMU images exist on your system for your target architectures:
-
-```bash
-# ls -1 /proc/sys/fs/binfmt_misc/qemu-*
-/proc/sys/fs/binfmt_misc/qemu-aarch64
-/proc/sys/fs/binfmt_misc/qemu-arm
-/proc/sys/fs/binfmt_misc/qemu-ppc64le
-/proc/sys/fs/binfmt_misc/qemu-riscv64
-/proc/sys/fs/binfmt_misc/qemu-s390x
+docker run --privileged --rm tonistiigi/binfmt --install all
 ```
 
 ### Setup the Builder:
