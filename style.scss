@@ -48,6 +48,9 @@ h1 {
   font-size: 30px;
   a {
     color: inherit;
+    .kofi-button {
+      margin-top: -30px;
+    }
   }
 }
 
@@ -268,9 +271,6 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
-  }
-  a.kofi-button {
-    margin-top: -30px;
   }
 }
 
