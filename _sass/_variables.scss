@@ -4,6 +4,8 @@
 //
 
 // Colors
+$body: #2c2f33;
+
 $blue: #adbdd2;
 $darkblue: #364a63;
 
@@ -13,12 +15,16 @@ $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
+$light: #cad1d8;
 $white: #fff;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+
+$iosevka: Iosevka Term, Iosevka, "Roboto Mono";
+
 
 // Mobile breakpoints
 @mixin mobile {
