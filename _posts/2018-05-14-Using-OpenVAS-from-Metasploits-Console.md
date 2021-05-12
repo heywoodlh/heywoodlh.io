@@ -1,5 +1,5 @@
 ---
-title: "Using OpenVAS from Metasploit's Console"
+title: 'Managing OpenVAS via Metasploit'
 date: 2018-05-14
 layout: post
 collection: cybersecurity, linux, all 
