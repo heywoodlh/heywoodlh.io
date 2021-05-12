@@ -19,7 +19,7 @@ html {
 
 body {
   background: $body;
-  font: 14px/1.4 $iosevka;
+  font: 14px/1.4 monospace;
   color: $light;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $iosevka;
+  font-family: monospace;
   color: $white;
   font-weight: bold;
 
