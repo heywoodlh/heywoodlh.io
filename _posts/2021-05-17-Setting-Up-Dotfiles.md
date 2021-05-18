@@ -13,7 +13,7 @@ If you're just interested in my dotfiles and not my process for writing them:
 
 "Dotfiles" usually refers to a collection of configuration files on Unix/Unix-like systems. They are normally prepended with a "." which makes them hidden -- therefore they are called "dotfiles". People have tons of how-to articles on how they setup their dotfiles so here's my humble attempt to capture my train of thought with writing my dotfiles from scratch. 
 
-[I've had dotfiles for years](https://github.com/heywoodlh/.dotfiles). I replicated a friend's setup and haven't really cleaned things up drastically since I've set them up, I've only added more to them. I felt my dotfiles were getting a bit cluttered and I wanted to go back to the drawing board.
+[I've had dotfiles for years](https://github.com/heywoodlh/.dotfiles). I replicated a friend's setup and haven't cleaned things up drastically since I've set them up, I've only added more and more to them. I felt my dotfiles were getting a bit cluttered and I wanted to go back to the drawing board.
 
 I also wanted to switch back to BASH as my shell. I have been using Fish as my shell on my client devices and after some deep introspection I realized that pretty much the only reason I use Fish was for the autocompletion. Autocompletion -- while nice -- is a pretty lame reason to install an entirely new shell on a system. Most of my systems (Linux, Mac) have BASH preinstalled, I'm using BASH on basically every other system that is not my laptop _and_ BASH is the shell I am most comfortable with, it just made sense to just switch back to BASH as my shell.
 
@@ -23,18 +23,21 @@ I also wanted to switch back to BASH as my shell. I have been using Fish as my s
 
 I want my new dotfiles setup to be super simple for me.
 
-I think that's really the only philosophical requirement. None of what I do in my dotfiles setup is groundbreaking but it was extremely easy for me to map out my entire setup in a few minutes. 
+I think that's the only philosophical requirement. None of what I do in my dotfiles setup is groundbreaking but it was extremely easy for me to map out my entire setup in a few minutes. 
 
 From a dependency standpoint these are the packages I rely on to setup my environment:
 
 [GNU BASH](https://www.gnu.org/software/bash/)
+
 [GNU coreutils (for the setup script)](https://www.gnu.org/software/coreutils/coreutils.html)
+
 [Python 3 + Peru (for the setup script)](https://github.com/buildinspace/peru)
+
 [curl (for the setup script)](https://curl.se/)
 
-Coreutils, Peru and `curl` are really just for the setup script itself. I rely on these tools pretty heavily so it's not an added inconvenience for me. You really could setup my dotfiles manually and get away with BASH as the only dependency. Peru is a nice little tool for pulling down third party files using git or downloading them directly so I kept that from my previous dotfiles setup. I could stick to just
+Coreutils, Peru and `curl` are just for the setup script itself. I rely on these tools pretty heavily so it's not an added inconvenience for me. You could setup my dotfiles manually and get away with BASH as the only dependency. Peru is a nice little tool for pulling down third party files using git or downloading them directly so I kept that from my previous dotfiles setup. I could stick to just
 
-Note: at some point I want to write a Nix script instead of my garbage scripts (and could easily replace Peru) but I haven't gotten around to it because I'm a noob with Nix despite being a daily NixOS[https://nixos.org/] and [nix-darwin](https://github.com/LnL7/nix-darwin) user on my Mac. So for now a crappy shell script will do.
+Note: at some point I want to write a Nix script instead of my garbage scripts (and could easily replace Peru) but I haven't gotten around to it because I'm a noob with Nix despite being a daily [NixOS](https://nixos.org/) and [nix-darwin](https://github.com/LnL7/nix-darwin) user on my Mac. So for now a crappy shell script will do.
 
 ### Layout:
 
@@ -107,11 +110,9 @@ For example, this is the symlink path for `~/.bash_profile` after I've set the s
 /home/heywoodlh/.bash_profile -> /home/heywoodlh/opt/conf/dotfiles/bash_profile
 ```
 
-The `dotfiles/config` folder is important. The majority of command line-centric applications store their configs in the `~/.config` directory, so the symlink will point to this `config` folder.
+The `dotfiles/config` folder is important. The majority of command line-centric applications store their configs in the `~/.config` directory so the `~/.config` symlink will point to this `dotfiles/config` folder. The `dotfiles/config` folder in this git repository stores all my configs that I don't mind being public, which are most of them. For example, `dotfiles/config/terminator` contains my desired Terminator config (Terminator is a Linux terminal emulator for anyone not familiar). Once the `dotfiles/config` directory is symlinked to `~/.config` then Terminator will pick up the config stored in this git repository and I won't need to tweak Terminator's settings manually. Neat! 
 
-The `dotfiles/config` folder in this git repository stores all my configs that I don't mind being public, which are most of them. For example, `dotfiles/config/terminator` contains my desired Terminator config (Terminator is a Linux terminal emulator for anyone not familiar). Once the `dotfiles/config` directory is symlinked to `~/.config` then Terminator will pick up the config stored in this git repository. 
-
-The `dotfiles/vim` folder and `dotfiles/vimrc` file will be symlinked to `~/.vim` and `~/.vimrc`. My `vim` setup relies on a bunch of nice `vim` plugins which will be downloaded to the `dotfiles/vim/bundle` folder (using Peru) when you run the `setup.sh` script.
+The `dotfiles/vim` folder and `dotfiles/vimrc` file will be symlinked to `~/.vim` and `~/.vimrc`. My `vim` setup relies on a bunch of plugins which will be downloaded to the `dotfiles/vim/bundle` folder (using Peru) when you run the `setup.sh` script.
 
 ### BASH setup:
 
@@ -135,7 +136,7 @@ then
 fi
 ```
 
-This snippet basically uses the logic of "if the system is not FreeBSD and `docker` is an available command then use the `~/.bash.d/docker` config file". I have similar if-then statements for BASH configs when the system is MacOS, FreeBSD or WSL as I don't need the exact same configuration on every system. It's really nice for me to differentiate between operating systems since I use the same shell in so many different environments!
+This snippet basically uses the logic of "if the system is not FreeBSD and `docker` is an available command then use the `~/.bash.d/docker` config file". I have similar if-then statements for BASH configs when the system is MacOS, FreeBSD or WSL as I don't need the exact same configuration on every system. It's nice for me to differentiate between operating systems since I use the same shell in different environments.
 
 
 ## Wrap Up:
