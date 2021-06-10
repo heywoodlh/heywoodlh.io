@@ -96,3 +96,21 @@ Export the following variable in your shell to work around the issue:
 ```bash
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 ```
+
+## Testing:
+
+Run the following command to test your changes (assuming that your Ansible inventory is in a file named `inventory`):
+
+```bash
+ansible -i inventory windows -m win_ping --ask-pass
+```
+
+Which should return something like this:
+
+```bash
+SSH password:
+mywindows-host.local | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+```
