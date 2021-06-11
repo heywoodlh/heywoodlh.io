@@ -53,5 +53,7 @@ docker logs hydroxide
 Now all you have to do is connect your app to your Hydroxide instance using the following settings:
 
 IMAP: hydroxide-host:1143
+
 SMTP: hydroxide-host:1025
+
 CardDAV: hydroxide-host:8080
