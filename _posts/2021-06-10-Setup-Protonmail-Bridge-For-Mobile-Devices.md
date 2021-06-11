@@ -36,10 +36,10 @@ mkdir -p ~/.config/hydroxide
 docker run -it --rm -v ~/.config/hydroxide:/root/.config/hydroxide heywoodlh/hydroxide auth <user>
 ```
 
-Now run the following command to run Hydroxide's IMAP, SMTP and CalDav instance:
+Now run the following command to run Hydroxide's IMAP, SMTP and CalDav instance (modify `0.0.0.0` to match whatever IP address your devices will be connecting to):
 
 ```bash
-docker run --restart unless-stopped -p 1025:1025 -p 1143:1143 -p 8080:8080 -d -v ~/.config/hydroxide:/root/.config/hydroxide --name hydroxide heywoodlh/hydroxide serve
+docker run --restart unless-stopped -p 1025:1025 -p 1143:1143 -p 8080:8080 -d -v ~/.config/hydroxide:/root/.config/hydroxide --name hydroxide heywoodlh/hydroxide -imap-host 0.0.0.0 -smtp-host 0.0.0.0 -carddav-host 0.0.0.0 serve
 ```
 
 Check if your container is running:
