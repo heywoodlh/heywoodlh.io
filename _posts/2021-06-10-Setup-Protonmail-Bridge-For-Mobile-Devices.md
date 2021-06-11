@@ -57,3 +57,9 @@ IMAP: hydroxide-host:1143
 SMTP: hydroxide-host:1025
 
 CardDAV: hydroxide-host:8080
+
+### Note on iOS:
+
+Using an alternate port for SMTP and IMAP isn't well documented so I wanted to throw in that I followed this post to set up Apple Mail on my iPhone and iPad with a custom port for SMTP/IMAP:
+
+[Change Mail Server ports Apple iPhone X, XS, XR, 11, 11 Pro, 11 Max and iOS 12 and 13 up](https://atlantaitservice.com/techtips/change-mail-server-ports-iphone-11)
