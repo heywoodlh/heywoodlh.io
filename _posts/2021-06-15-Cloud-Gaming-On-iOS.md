@@ -1,9 +1,9 @@
 ---
 title: 'My Cloud Gaming Setup for iOS on Paperspace'
 layout: post
-published: false
-permalink: cloud-gaming-ios
-tags: all, cloud, paperspace, gaming, apple, ios, ipados, ipad, iphone, apple, shortcuts
+published: true
+permalink: paperspace-cloud-gaming-ios
+tags: all, cloud, paperspace, gaming, apple, ios, ipados, ipad, iphone, apple, shortcuts, fallout, 76, bethesda
 ---
 
 This post will outline my setup for cloud gaming on Paperspace for my i[Pad]OS devices.
@@ -41,6 +41,8 @@ I followed this guide for deploying the VM using the Paperspace Parsec template:
 
 [Setting up your cloud gaming rig with Paperspace + Parsec](https://blog.paperspace.com/setting-up-your-cloud-gaming-rig-with-paperspace-parsec/)
 
+I set my instance to go with hourly billing and to turn off after one hour. The GPU+ plan was enough for my needs with Fallout 76.
+
 It's really straightforward so I'm not gonna get much deeper into deploying the VM in Paperspace.
 
 ### Install Chocolatey:
@@ -68,10 +70,42 @@ After GeForce Experience is installed, open it, login with your Nvidia account, 
 
 ### Install Steam:
 
-Use the following command to install Steam with Chocolatey:
+Use the following command to install Steam on my Windows host with Chocolatey:
 
 ```
 choco install -y steam
 ```
 
+Once logged into Steam, turn on Remote Play and link Steam Link on your mobile device.
 
+
+## Apple Shortcuts for Paperspace VM:
+
+Since I set my gaming VM to hourly, it will shut off pretty quick. I wanted a way to turn the VM on and off really quickly from my mobile devices so that I don't have all the added steps of logging into the web console and managing the VM there.
+
+Paperspace has an API that makes it really simple to accomplish this using external tools. Since my Paperspace VM is going to be exclusively accessed from my iOS devices I used Apple Shortcuts to give me a nice little applet to run on my iPhone or iPad to power my VM off or on by running a single shortcut.
+
+Look to Paperspace's documentation on how to obtain an API token:
+
+[Obtaining an API Key](https://docs.paperspace.com/paperspace-core-api/get-started/obtaining-an-api-key)
+
+### Setting up the shortcut:
+
+So, the way my shortcut works, it expects that a json file will store your API key and VM ID. Shortcuts only allow for file access in iCloud Drive, so turn on iCloud Drive on your mobile device. I went this route because it's the most secure way to store secrets for Shortcuts to use that I could find as somebody would need to compromise your Apple account to access the file. But it'd be nice if Shortcuts supported local, encrypted secrets on your device.
+
+Anyway, place the file in `iCloud Drive/Shortcuts/paperspace.json` with the following content:
+
+```
+{
+  "paperspace_api": "xxxxxxxxxx",
+  "paperspace_gaming_vm_id": "xxxxxxx"
+}
+```
+
+If it's not obvious, `paperspace_api` should equal the value of your token and `paperspace_gaming_vm_id` should equal the value of your Paperspace VM's ID.
+
+Once that is setup, you are ready to import the shortcut:
+
+[Paperspace Manage VM Power](https://www.icloud.com/shortcuts/7f6601b153b34bdfab4aa65d7d6f5fcf)
+
+Once you import the shortcut, I would suggest adding it to your homescreen so you can easily launch it using an applet on your iOS device.
