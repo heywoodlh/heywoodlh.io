@@ -68,6 +68,10 @@ choco install -y geforce-experience
 
 After GeForce Experience is installed, open it, login with your Nvidia account, then go to Settings > Driver > Check for Updates > Express Installation. Once the installation finishes you should be good to go on your driver.
 
+### Remote Access:
+
+I installed RealVNC Server on my machine and set up my free RealVNC account on it so that way I can access the VM without it needing a public IP address (RealVNC can proxy your connection assuming the remote machine has an internet connection).
+
 ### Install Steam:
 
 Use the following command to install Steam on my Windows host with Chocolatey:
@@ -109,3 +113,11 @@ Once that is setup, you are ready to import the shortcut:
 [Paperspace Manage VM Power](https://www.icloud.com/shortcuts/7f6601b153b34bdfab4aa65d7d6f5fcf)
 
 Once you import the shortcut, I would suggest adding it to your homescreen so you can easily launch it using an applet on your iOS device.
+
+### Making sure the VM stays off:
+
+I set up an automation in Shortcuts to ensure that every morning at 3:00 a.m. my VM will be powered off using the following shortcut:
+
+[Paperspace Power Off VM](https://www.icloud.com/shortcuts/c0fb3eaa178e47d7802008fdc03766d5)
+
+This makes sure that my VM doesn't accidentally stay on and I get a massive bill by the end of the month.
