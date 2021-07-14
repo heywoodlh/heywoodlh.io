@@ -128,3 +128,15 @@ adb shell
 ## Conclusion:
 
 I documented this because I wanted to access ADB over my Wireguard setup, which would encrypt the ADB connection between my Mac and my Android -- both connected to the same Wireguard instance.
+
+## Bonus:
+
+Here are some BASH aliases I use for ADB:
+
+```bash
+alias kali-phone-adb-start="screen -dmS kali-phone-adb ssh -L 5555:127.0.0.1:5555 -qCN kali-phone && adb connect localhost:5555"
+
+alias kali-phone-adb-stop="screen -X -S kali-phone-adb quit && adb disconnect"
+
+alias kali-phone-screen-capture="adb shell "while true; do screenrecord --output-format=h264 -; done" | ffplay -framerate 60 -probesize 32 -sync video -"
+```
