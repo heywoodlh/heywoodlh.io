@@ -138,5 +138,5 @@ alias kali-phone-adb-start="screen -dmS kali-phone-adb ssh -L 5555:127.0.0.1:555
 
 alias kali-phone-adb-stop="screen -X -S kali-phone-adb quit && adb disconnect"
 
-alias kali-phone-screen-capture="adb shell "while true; do screenrecord --output-format=h264 -; done" | ffplay -framerate 60 -probesize 32 -sync video -"
+alias kali-phone-screen-capture='adb shell "while true; do screenrecord --output-format=h264 -; done" | ffplay -framerate 60 -probesize 32 -sync video -'
 ```
