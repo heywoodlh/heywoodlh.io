@@ -113,4 +113,6 @@ Back on desktop, you can also point your desktop browser to use automatic config
 
 ## Conclusion:
 
+Test out your setup by checking if your public IP address has changed when you visit [https://ifconfig.io](https://ifconfig.io/).
+
 Assuming this all works, you should have a pretty similar setup to Apple's Private Relay that is free, works across platforms and is not limited to Apple software. If you use Tor like this, I would recommend that you [donate to the Tor Project](https://donate.torproject.org/).
