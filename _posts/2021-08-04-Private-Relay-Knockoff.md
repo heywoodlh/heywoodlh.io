@@ -102,7 +102,7 @@ In iOS you can only configure the proxy per wireless network you connect to (whi
 
 ![alt text](https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/images/ios-pac-settings.jpeg "iOS PAC configuration")
 
-In iOS this will make sure that when you are on the specified wireless network you will use the PAC file for your configuration. 
+In iOS this will make sure that when you are on the specified wireless network you will use the PAC file for your configuration. You will have to setup the proxy per wireless network if you made it always-available to your iOS device.
 
 I won't go into setting up a PAC file on Android as I don't use an Android as my daily-driver anymore but it looks like the steps are pretty similar according to [this howtogeek.com article](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/).
 
