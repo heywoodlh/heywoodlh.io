@@ -52,6 +52,26 @@ The steps are relatively similar on other browsers, this article seems to cover 
 
 [https://anonymous-proxies.net/knowledgebase/setup-socks-browsers/](https://anonymous-proxies.net/knowledgebase/setup-socks-browsers/)
 
+You can also use the SOCKS 5 proxy in the command line if you install `proxychains`. After installing `proxychains` you can configure `/etc/proxychains.conf` like so:
+
+```
+strict_chain
+quiet_mode
+proxy_dns
+remote_dns_subnet 224
+tcp_read_time_out 15000
+tcp_connect_time_out 8000
+
+[ProxyList]
+socks5 	192.168.1.1 9150
+```
+
+You can test like so:
+
+```
+proxychains curl ifconfig.io
+```
+
 ### PAC File for all Devices:
 
 For iOS to use a SOCKS proxy, I found the easiest solution was to setup a small HTTP server that only servers a custom PAC file that I wrote and to point at that file for automatic proxy configuration. This approach is actually beneficial as you can just point all your devices at the PAC file and make your config changes there for your clients connecting to SOCKS.
