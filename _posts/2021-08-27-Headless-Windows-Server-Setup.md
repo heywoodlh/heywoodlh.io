@@ -126,3 +126,21 @@ Here are some relevant cmdlets I know of for installing packages via Powershell:
 `Find-Module`, `Install-Module`, `Uninstall-Module`
 
 I won't go into each of them, but check out Microsoft's documentation on each cmdlet for more information.
+
+## Wireguard:
+
+I use the following post for instructions to install Wireguard: [Wireguard Windows Setup](https://r-pufky.github.io/docs/services/wireguard/windows-setup.html)
+
+I added `C:\Program Files\Wireguard\` to my `$PATH`:
+
+```
+$env:PATH = "C:\Program Files\WireGuard\;C:\ProgramData\chocolatey\bin;$env:PATH"
+```
+
+If you want this to be permanent, add the above snippet to `$Home\[My ]Documents\WindowsPowerShell\Profile.ps1`.
+
+To bring my interface up I use the following command after placing my config in `C:\Wireguard\wireguard.conf`:
+
+```
+wireguard.exe /installtunnelservice C:\Wireguard\wireguard.conf
+```
