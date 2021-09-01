@@ -131,10 +131,10 @@ I won't go into each of them, but check out Microsoft's documentation on each cm
 
 I use the following post for instructions to install Wireguard: [Wireguard Windows Setup](https://r-pufky.github.io/docs/services/wireguard/windows-setup.html)
 
-I added `C:\Program Files\Wireguard\` to my `$PATH`:
+I added `C:\Program Files\Wireguard` to my `$PATH`:
 
 ```
-$env:PATH = "C:\Program Files\WireGuard\;C:\ProgramData\chocolatey\bin;$env:PATH"
+$env:PATH = "C:\Program Files\WireGuard;C:\ProgramData\chocolatey\bin;$env:PATH"
 ```
 
 If you want this to be permanent, add the above snippet to `$Home\[My ]Documents\WindowsPowerShell\Profile.ps1`.
@@ -143,4 +143,18 @@ To bring my interface up I use the following command after placing my config in 
 
 ```
 wireguard.exe /installtunnelservice C:\Wireguard\wireguard.conf
+```
+
+## Python:
+
+Install Python3 with Chocolatey:
+
+```
+choco install -y python3
+```
+
+If you want to add the directory where Python stores scripts to your $PATH, add the following to `$Home\[My ]Documents\WindowsPowerShell\Profile.ps1`:
+
+```
+$env:PATH = "C:\Python39\Scripts;C:\Program Files\WireGuard;C:\ProgramData\chocolatey\bin;$env:PATH"
 ```
