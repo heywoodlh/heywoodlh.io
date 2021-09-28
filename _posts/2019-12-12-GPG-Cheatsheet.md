@@ -16,7 +16,7 @@ gpg --full-generate-key
 gpg --output public_key.gpg --armor --export email@domain.com
 
 ## Export private key for email@domain.com to private_key.gpg file:
-gpg --output private_key.pgp --armor --export-secret-key email@domain.com
+gpg --output private_key.gpg --armor --export-secret-key email@domain.com
 
 ## List current keys in GPG keychain:
 gpg --list-keys
