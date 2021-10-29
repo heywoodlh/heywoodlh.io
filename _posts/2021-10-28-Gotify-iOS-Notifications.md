@@ -72,7 +72,7 @@ chmod 700 /opt/gotify-sync.sh
 Place the following in `crontab -e`:
 
 ```
-@reboot sleep 60 && /opt/gotify-sync.sh
+@reboot screen -dmS gotify-sync /opt/gotify-sync.sh
 ```
 
 Then reboot:
