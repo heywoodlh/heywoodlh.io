@@ -48,7 +48,7 @@ uri='ws://192.168.1.10:8000/stream'
 
 while read line
 do
-        ntfy send $(echo ${line} | jq -r '.message')
+        ntfy send "$(echo ${line} | jq -r '.message')"
 done < <(websocat -H "X-Gotify-Key: ${token}" -t "${uri}")
 ```
 
