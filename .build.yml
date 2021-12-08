@@ -1,0 +1,20 @@
+image: archlinux
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  site: the-empire.systems
+packages:
+  - jekyll
+sources:
+  - https://git.sr.ht/~heywoodlh/$site
+tasks:
+  - package: |
+      cd $site
+      jekyll build
+      tar -czvf site.tar.gz _site
+  - upload: |
+      cd $site
+      acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
+triggers:
+  - action: email
+    condition: failure
+    to: heywoodlh@tyrannyofthesun.com
