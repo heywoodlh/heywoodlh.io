@@ -5,7 +5,7 @@ environment:
 packages:
   - jekyll
 sources:
-  - https://git.sr.ht/~heywoodlh/$site
+  - https://git.sr.ht/~heywoodlh/the-empire.systems
 tasks:
   - package: |
       cd $site
