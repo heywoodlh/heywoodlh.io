@@ -9,7 +9,7 @@ sources:
 tasks:
   - package: |
       cd $site
-      jekyll build
+      ./build.sh
       tar -C _site -czvf site.tar.gz .
   - upload: |
       cd $site
