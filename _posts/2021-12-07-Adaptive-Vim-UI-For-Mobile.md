@@ -14,13 +14,13 @@ I like making `vim` look more like other IDE's with the [NERDTree](https://githu
 
 Here's what it looks like in fullscreen:
 
-![alt text](https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/images/vim-fullscreen.png "vim in fullscreen")
+![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/vim-fullscreen.png "vim in fullscreen")
 
 The problem arises when I opened it in a much smaller window. The terminal mode and NERDTree look terrible when I open `vim` when I am on a mobile display or just a smaller terminal window. The display gets a little crowded with NERDTree and terminal mode both opened.
 
 Here's what it looks like when I would launch it in a smaller terminal window:
 
-![alt text](https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/images/vim-crowded.png "crowded vim")
+![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/vim-crowded.png "crowded vim")
 
 As you can see, NERDTree and the Terminal pane take up the majority of the space in `vim`.
 
@@ -53,7 +53,7 @@ So now when I open `vim` it will not automatically open NERDTree or terminal mod
 
 Here's a gif of the result: 
 
-![alt text](https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/images/vim-demo.gif "adaptive vim")
+![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/vim-demo.gif "adaptive vim")
 
 In this gif I open `vim` in multiple terminal panes that are various sizes and based on my `vimrc` parameters it doesn't activate certain parts of my UI based on the `vim` window size. In the largest terminal pane it opens NERDTree and terminal mode. In the second largest pane it does not open NERDTree and only opens terminal mode. And in the smallest pane in my terminal it doesn't open NERDTree or terminal mode.
 
