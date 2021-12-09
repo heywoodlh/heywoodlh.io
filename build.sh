@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#jekyll build
+jekyll build
 
 # Remove the .html extension from all blog posts for sexy URLs
 for filename in _site/*.html; do
@@ -14,7 +14,6 @@ for filename in _site/*.html; do
         filename="${filename%.*}"
 
         # Move it
-	echo "mv: $original => _site/$filename"
-        #mv $original _site/$filename
+        mv -v $original _site/$filename
     fi
 done
