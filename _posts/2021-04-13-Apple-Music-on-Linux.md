@@ -62,4 +62,4 @@ apple-music
 
 Here's what Apple Music via Nativefier looks like on GNOME 40:
 
-![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/apple-music.png "Nativefier Apple Music")
+![alt text](../images/apple-music.png "Nativefier Apple Music")

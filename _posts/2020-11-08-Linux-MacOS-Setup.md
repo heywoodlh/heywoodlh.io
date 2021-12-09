@@ -98,7 +98,7 @@ I use the open source application called [Hidden](https://github.com/dwarvesf/hi
 
 Here's what my title bar looks like using Hidden:
 
-![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/hidden.png "Hidden Bar")
+![alt text](../images/hidden.png "Hidden Bar")
 
 ### Hide the dock:
 I use the following commands to toggle my dock to hide:
@@ -127,7 +127,7 @@ Go to System Preferences > Dock & Menu Bar > Menu Bar > check Automatically hide
 
 Here's what my desktop looks like without the title bar showing and with a single terminal window open:
 
-![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/macos-no-title-bar.png "MacOS No Title Bar")
+![alt text](../images/macos-no-title-bar.png "MacOS No Title Bar")
 
 ## Vimac and Vim Vixen -- keeping things keyboard-driven:
 

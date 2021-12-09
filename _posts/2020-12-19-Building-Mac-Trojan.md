@@ -125,5 +125,5 @@ This method will use the `screen` command to run hershell in the background with
 
 When the Firefox-trojan.app is opened, it should attempt to create a reverse shell with the attacking server that is listening for a connection.
 
-![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/trojan-firefox.png "Trojanized Firefox")
+![alt text](../images/trojan-firefox.png "Trojanized Firefox")
 

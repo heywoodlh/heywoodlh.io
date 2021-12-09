@@ -46,7 +46,7 @@ I won't go into detail on how to do this but I'd recommend restricting that port
 
 My server's IP address where I will connect to the proxy is 10.50.50.1. You can configure Firefox to use the proxy in Settings > General > Network Settings > Settings > Manual Proxy Configuration. Refer to the screenshot below for specifics -- I would recommend you put the same IP ranges in the No proxy for section as that will allow you access private IP space.
 
-![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/socks-proxy-firefox.jpeg "Firefox SOCKS configuration")
+![alt text](../images/socks-proxy-firefox.jpeg "Firefox SOCKS configuration")
 
 The steps are relatively similar on other browsers, this article seems to cover the steps on the other browsers:
 
@@ -120,7 +120,7 @@ If your server's IP address was 192.168.1.1, there should be a file at http://19
 
 In iOS you can only configure the proxy per wireless network you connect to (which is dumb, but whatever) by going to Settings > Wi-Fi > the "I" icon > HTTP PROXY > Automatic. Set the URL to the URL of the PAC file.
 
-![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/ios-pac-settings.jpeg "iOS PAC configuration")
+![alt text](../images/ios-pac-settings.jpeg "iOS PAC configuration")
 
 In iOS this will make sure that when you are on the specified wireless network you will use the PAC file for your configuration. You will have to setup the proxy per wireless network if you made it always-available to your iOS device.
 
@@ -128,7 +128,7 @@ I won't go into setting up a PAC file on Android as I don't use an Android as my
 
 Back on desktop, you can also point your desktop browser to use automatic configuration instead of manually pointing at the SOCKS proxy. Here's a screenshot:
 
-![alt text](https://git.sr.ht/\~heywoodlh/the-empire.systems/blob/master/images/firefox-pac-settings.jpeg "Firefox PAC configuration")
+![alt text](../images/firefox-pac-settings.jpeg "Firefox PAC configuration")
 
 
 ## Conclusion:
