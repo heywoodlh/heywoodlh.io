@@ -3,10 +3,14 @@ oauth: pages.sr.ht/PAGES:RW
 environment:
   site: the-empire.systems
 packages:
-  - jekyll
+  - rubygems
 sources:
   - https://git.sr.ht/~heywoodlh/the-empire.systems
 tasks:
+  - setup: |
+      sudo gem install --bindir=/usr/local/bin/ jekyll -v 3.8.6
+      sudo gem install --bindir=/usr/local/bin/ bundler
+      gem install github-pages
   - package: |
       cd $site
       ./build.sh
