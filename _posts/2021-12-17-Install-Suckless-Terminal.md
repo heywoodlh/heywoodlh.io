@@ -84,6 +84,14 @@ curl -LO 'https://st.suckless.org/patches/defaultfontsize/st-defaultfontsize-202
 patch -Np1 -i st-defaultfontsize-20210225-4ef0cbd.diff
 ```
 
+Desktop Entry:
+
+```
+curl -LO 'https://st.suckless.org/patches/desktopentry/st-desktopentry-0.8.4.diff'
+
+patch -Np1 -i st-desktopentry-0.8.4.diff
+```
+
 ## Compile and Install:
 
 ```
