@@ -76,6 +76,14 @@ curl -LO 'https://st.suckless.org/patches/universcroll/st-universcroll-0.8.4.dif
 patch -Np1 -i st-universcroll-0.8.4.diff
 ```
 
+Default Font Size:
+
+```
+curl -LO 'https://st.suckless.org/patches/defaultfontsize/st-defaultfontsize-20210225-4ef0cbd.diff'
+
+patch -Np1 -i st-defaultfontsize-20210225-4ef0cbd.diff
+```
+
 ## Compile and Install:
 
 ```
