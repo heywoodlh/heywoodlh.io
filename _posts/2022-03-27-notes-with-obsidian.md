@@ -30,7 +30,7 @@ Obsidian Livesync is just a CouchDB instance with some [required settings](https
 
 I won't go into super deep detail as the following repository has a nice `docker-compose.yml` that makes deployment of the Self-Hosted relatively painless if you are going to set it up on a publicly accessible VPS (for me, I don't feel comfortable exposing CouchDB to the world):
 
-[Self-Hosted Livesync Server repo](https://github.com/vrtmrz/self-hosted-livesync-server).
+[Self-Hosted Livesync Server repo](https://github.com/vrtmrz/self-hosted-livesync-server)
 
 I will, however, cover the differences in my deployment vs the expected setup for the above repository:
 - I'm not running my configuration on a public-facing VPS -- I'm using plain HTTP over Wireguard to connect
