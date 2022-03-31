@@ -17,8 +17,7 @@ tasks:
       tar -C _site -czvf site.tar.gz .
   - upload: |
       cd $site
-      acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
-      acurl -f https://pages.sr.ht/publish/www.$site -Fcontent=@site.tar.gz
+      acurl -f https://pages.sr.ht/publish/$site -f https://pages.sr.ht/publish/www.$site -Fcontent=@site.tar.gz
 triggers:
   - action: email
     condition: failure
