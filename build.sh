@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+cur_date=$(date "+%Y-%m-%d")
+curl -L 'https://git.sr.ht/~heywoodlh/docs/blob/master/reading-list.md' -o _posts/${cur_date}-reading-list.md
+
 jekyll build
 
 # Remove the .html extension from all blog posts for sexy URLs
