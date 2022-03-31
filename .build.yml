@@ -10,6 +10,7 @@ tasks:
   - setup: |
       sudo gem install --bindir=/usr/local/bin/ jekyll -v 3.8.6
       sudo gem install --bindir=/usr/local/bin/ bundler
+      sudo gem install --bindir=/usr/local/bin/ jekyll-font-awesome-sass
       gem install github-pages
   - package: |
       cd $site
