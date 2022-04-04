@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cur_date=$(date "+%Y-%m-%d")
-curl -L 'https://git.sr.ht/~heywoodlh/docs/blob/master/reading-list.md' -o _posts/${cur_date}-reading-list.md
+curl -L 'https://git.sr.ht/~heywoodlh/docs/blob/master/reading-list.md' -o _posts/2022-04-01-reading-list.md
 
 jekyll build
 
