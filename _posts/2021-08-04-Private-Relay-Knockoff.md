@@ -6,6 +6,8 @@ permalink: private-relay-knockoff
 tags: all, linux, privacy, tor, proxy, socks, apple, ios, mac, linux, docker
 ---
 
+_Edit: I added a section to show how to use the `torrc` file in the container and how to specify which country code your entry/exit nodes would be based in (for speed)._
+
 Apple's [Private Relay](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) is a pretty awesome concept. As I understand it, it's pretty much a faster version of the Tor network (as it only jumps through two nodes) that is managed by Apple and easily toggle-able in the Settings app. I don't know if they are actually using the Tor protocol but I can assume they are as their description of Private Relay matches up pretty closely to my understanding of Tor.
 
 The upsides of using the Private Relay:
@@ -71,6 +73,39 @@ You can test like so:
 ```
 proxychains curl ifconfig.io
 ```
+
+#### Using a torrc file with the tor-socks-proxy container:
+
+If you create create a config file at `/opt/tor-socks-proxy/torrc` you could then run the following command to make the container use the config file:
+
+```
+docker run -d --restart=always --name tor-socks-proxy -v /opt/tor-socks-proxy/torrc:/etc/tor/torrc -p 9150 peterdavehello/tor-socks-proxy
+```
+
+An example config file could look like this:
+
+```
+HardwareAccel 1
+Log notice stdout
+DNSPort 0.0.0.0:8853
+SocksPort 0.0.0.0:9150
+DataDirectory /var/lib/tor
+```
+
+#### Keeping things in your country (for speed):
+
+Private relay keeps things relatively close to you and has far fewer hops than Tor does -- which makes it much faster. 
+
+You can use the `torrc` config to specify which country your Entry and Exit nodes will be based out of. For me, this has made using Tor much faster -- admittedly, it makes your traffic a bit less anonymous but I found that the speed increase was worth it.
+
+Since I'm based out of the US, I could append the following to my `torrc` file:
+
+```
+EntryNodes {US}
+ExitNodes {US}
+```
+
+Replace `US` with the country code of your choosing.
 
 ### PAC File for all Devices:
 
