@@ -101,8 +101,8 @@ You can use the `torrc` config to specify which country your Entry and Exit node
 Since I'm based out of the US, I could append the following to my `torrc` file:
 
 ```
-EntryNodes {US}
-ExitNodes {US}
+EntryNodes {US} StrictNodes 1
+ExitNodes {US} StrictNodes 1
 ```
 
 Replace `US` with the country code of your choosing.
