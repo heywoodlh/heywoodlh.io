@@ -76,7 +76,6 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-analytics # Plausible
 
 # Exclude these files from your production _site
 exclude:
@@ -85,9 +84,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-jekyll_analytics:
-  Plausible:
-    domain: 'the-empire.systems'   # The domain configured in plausible
-    source: 'https://plausible.io/js/plausible.js' # The source of the javascript
 
