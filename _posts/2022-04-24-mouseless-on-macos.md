@@ -41,7 +41,7 @@ When Googling around for similar workflows on MacOS most of the posts I found pr
 
 As covered in [My "Linux-like" MacOS Setup](https://the-empire.systems/linux-macos-setup) I use [Yabai](https://github.com/koekeishiya/yabai) and [skhd](https://github.com/koekeishiya/skhd) for tiling window functionality and custom keyboard shortcuts.
 
-I use [Nix-Darwin](https://github.com/LnL7/nix-darwin) to manage my Macs. The MacOS specific Nix configuration that I currently use is here and will have more information for those who wish to dig more into my setup: https://git.sr.ht/~heywoodlh/nixpkgs/tree/master/item/darwin
+I use [Nix-Darwin](https://github.com/LnL7/nix-darwin) to manage my Macs. The MacOS specific Nix configuration that I currently use is here and will have more information for those who wish to dig more into my setup: https://github.com/heywoodlh/nixpkgs/tree/master/darwin 
 
 ### Emulating the mouse:
 
@@ -81,4 +81,4 @@ With the exception of Safari and Zoom, I keep everything I possibly can in the c
 
 For messaging I use Matrix and bridges to connect to my favorite messaging platforms (Signal, iMessage, etc.). This allows me to use [gomuks](https://github.com/tulir/gomuks) for messaging. For Slack, specifically, I use [wee-slack](https://github.com/wee-slack/wee-slack) a plugin for Weechat.
 
-For development, text editing, general writing, I use `vim`. At the time of writing [here is my Vimrc](https://git.sr.ht/~heywoodlh/conf/tree/b75a248fb550d7920ba7ed5bc08c5cb94287d5dc/item/dotfiles/vimrc) and [here are the plugins I use](https://git.sr.ht/~heywoodlh/conf/tree/b75a248fb550d7920ba7ed5bc08c5cb94287d5dc/item/peru.yaml#L20-39).
+For development, text editing, general writing, I use `vim`. At the time of writing [here is my Vimrc](https://github.com/heywoodlh/conf/blob/b75a248fb550d7920ba7ed5bc08c5cb94287d5dc/dotfiles/vimrc) and [here are the plugins I use](https://github.com/heywoodlh/conf/blob/b75a248fb550d7920ba7ed5bc08c5cb94287d5dc/peru.yaml#L20-L39).

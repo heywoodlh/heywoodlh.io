@@ -60,8 +60,8 @@ In this gif I open `vim` in multiple terminal panes that are various sizes and b
 
 ## Additional Resources:
 
-[My vimrc](https://git.sr.ht/~heywoodlh/conf/blob/master/dotfiles/vimrc)
+[My vimrc](https://github.com/heywoodlh/conf/blob/abc34912f76e586691b340e68c06a928ef333d10/dotfiles/vimrc)
 
-[The vim plugins I use](https://git.sr.ht/~heywoodlh/conf/tree/master/item/peru.yaml#L43-86)
+[The vim plugins I use](https://github.com/heywoodlh/conf/blob/abc34912f76e586691b340e68c06a928ef333d10/peru.yaml#L8-L21)
 
 [stackoverflow -- VIM: how to get current window size, so that I can set NEEDTree to 1/3 window size?](https://stackoverflow.com/questions/42644591/vim-how-to-get-current-window-size-so-that-i-can-set-needtree-to-1-3-window-si)

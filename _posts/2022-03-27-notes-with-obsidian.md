@@ -34,9 +34,9 @@ I won't go into super deep detail as the following repository has a nice `docker
 
 I will, however, cover the differences in my deployment vs the expected setup for the above repository:
 - I'm not running my configuration on a public-facing VPS -- I'm using plain HTTP over Wireguard to connect
-- I'm running Obsidian Livesync within my Kubernetes cluster -- [here's the Helm chart](https://git.sr.ht/~heywoodlh/gitops/tree/a26371c54f177883b7723950d3cad8db9fcc6281/item/charts/obsidian-livesync)
+- I'm running Obsidian Livesync within my Kubernetes cluster -- [here's the Helm chart](https://github.com/heywoodlh/gitops/tree/a26371c54f177883b7723950d3cad8db9fcc6281/charts/obsidian-livesync)
 
-Note: I set the [required CouchDB configuration in my Helm chart](https://git.sr.ht/~heywoodlh/gitops/tree/master/item/charts/obsidian-livesync/values.yaml#L18-36)
+Note: I set the [required CouchDB configuration in my Helm chart](https://github.com/heywoodlh/gitops/blob/a26371c54f177883b7723950d3cad8db9fcc6281/charts/obsidian-livesync/values.yaml#L18-L36)
 
 Using Wireguard allows me to access my Obsidian Livesync server remotely without exposing the service to the world and allows me to not have to deploy an HTTPS endpoint for the service as the Wireguard tunnel will be encrypting traffic between my Livesync server and my clients. 
 
