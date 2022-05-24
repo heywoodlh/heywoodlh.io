@@ -81,4 +81,4 @@ With the exception of Safari and Zoom, I keep everything I possibly can in the c
 
 For messaging I use Matrix and bridges to connect to my favorite messaging platforms (Signal, iMessage, etc.). This allows me to use [gomuks](https://github.com/tulir/gomuks) for messaging. For Slack, specifically, I use [wee-slack](https://github.com/wee-slack/wee-slack) a plugin for Weechat.
 
-For development, text editing, general writing, I use `vim`. At the time of writing [here is my Vimrc](https://github.com/heywoodlh/conf/blob/b75a248fb550d7920ba7ed5bc08c5cb94287d5dc/dotfiles/vimrc) and [here are the plugins I use](https://github.com/heywoodlh/conf/blob/b75a248fb550d7920ba7ed5bc08c5cb94287d5dc/peru.yaml#L20-L39).
+For development, text editing, general writing, I use `vim`. At the time of writing [here is my Vimrc](https://gist.github.com/heywoodlh/abd45a72d34eabcdd5f63afff748d5e1#file-mouseless-on-macos-vimrc) and [here are the plugins I use](https://github.com/heywoodlh/conf/blob/b75a248fb550d7920ba7ed5bc08c5cb94287d5dc/peru.yaml#L20-L39).

@@ -164,7 +164,7 @@ pass otp insert -e example.org/totp
 Enter otpauth:// URI for example.org/totp: otp_uri="otpauth://totp/example.org?secret=XXXXXXXXXXXX&issuer=totp-secret"
 ```
 
-[I use a BASH function to make this easy for me](https://github.com/heywoodlh/conf/blob/5b86342fec462e2ece5de61c1cea0d21e11c868e/dotfiles/bash.d/functions#L80-L99).
+[I use a BASH function to make this easy for me](https://gist.github.com/heywoodlh/819d97b9010f7c744c9aa8f19df51445).
 
 You can use the following command to get more usage instructions on how to use `pass otp`:
 
