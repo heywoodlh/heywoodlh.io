@@ -31,6 +31,6 @@ docker run -d --restart=unless-stopped --name=microsocks -p 1080:1080 heywoodlh/
 
 ### Further Reading:
 
-[MicroSocks Repo](https://github.com/rofl0r/microsocks)
+[MicroSocks' Repo](https://github.com/rofl0r/microsocks)
 
-[MicroSocks Repo README](https://github.com/rofl0r/microsocks/blob/master/README.md)
+[MicroSocks' Repo README](https://github.com/rofl0r/microsocks/blob/master/README.md)
