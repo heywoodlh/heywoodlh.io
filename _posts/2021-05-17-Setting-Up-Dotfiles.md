@@ -35,7 +35,7 @@ From a dependency standpoint these are the packages I rely on to setup my enviro
 
 [curl (for the setup script)](https://curl.se/)
 
-Coreutils, Peru and `curl` are just for the setup script itself. I rely on these tools pretty heavily so it's not an added inconvenience for me. You could setup my dotfiles manually and get away with BASH as the only dependency. Peru is a nice little tool for pulling down third party files using git or downloading them directly so I kept that from my previous dotfiles setup. I could stick to just
+Coreutils, Peru and `curl` are just for the setup script itself. I rely on these tools pretty heavily so it's not an added inconvenience for me. You could setup my dotfiles manually and get away with BASH as the only dependency. Peru is a nice little tool for pulling down third party files using git or downloading them directly so I kept that from my previous dotfiles setup.
 
 Note: at some point I want to write a Nix script instead of my garbage scripts (and could easily replace Peru) but I haven't gotten around to it because I'm a noob with Nix despite being a daily [NixOS](https://nixos.org/) and [nix-darwin](https://github.com/LnL7/nix-darwin) user on my Mac. So for now a crappy shell script will do.
 
