@@ -6,7 +6,7 @@ permalink: /contact/
 
 ### Contact me
 
-[heywoodlh [at] tyrannyofthesun [dot] com](mailto:heywoodlh@tyrannyofthesun.com)
+[l.spencer.heywood [at] protonmail [dot] com](mailto:l.spencer.heywood@protonmail.com)
 
 
 GPG:
