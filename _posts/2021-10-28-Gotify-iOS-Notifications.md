@@ -6,6 +6,8 @@ permalink: gotify-ios-notifications
 tags: all, linux, golang, go, gotify, push, notifications, pushover, ntfy
 ---
 
+Edit: Updated the script to push to `ntfy` with the `autoreconnect:` overlay so `websocat` will reconnect when Gotify goes down.
+
 This will be a super brief post on how I am getting notifications from Gotify pushed over to my iOS device. I was on Android for a few months, switched back to iOS and was very disappointed to find there is no iOS Gotify app. So here is my solution to that problem.
 
 This article is not going to cover setting up Gotify, I will assume that is done.
@@ -49,7 +51,7 @@ uri='ws://192.168.1.10:8000/stream'
 while read line
 do
         ntfy send "$(echo ${line} | jq -r '.message')"
-done < <(websocat -H "X-Gotify-Key: ${token}" -t "${uri}")
+done < <(websocat -H "X-Gotify-Key: ${token}" -t - autoreconnect:"${uri}")
 ```
 
 Make sure to modify the `token` and `uri` variables in the script to match your Gotify application token and the URI of your Gotify websocket.
