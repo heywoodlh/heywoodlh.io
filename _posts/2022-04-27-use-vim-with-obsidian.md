@@ -48,7 +48,7 @@ Create `~/Documents/obsidian/Notes/config.json` with the following content:
 Now run the following command to run a Docker container on your machine to monitor file changes:
 
 ```
-docker run --name=obsidian-notes -d --restart=always -e CHOKIDAR_USEPOLLING=1 -v ~/Documents/obsidian/Notes:/data heywoodlh/filesystem-livesync
+docker run --name=obsidian-notes -d --restart=always -e CHOKIDAR_USEPOLLING=1 -v ~/Documents/obsidian/Notes:/data heywoodlh/filesystem-livesync:2022_04
 ```
 
 _Note: the `CHOKIDAR_USEPOLLING` variable allows filesystem-livesync to poll the filesystem. If you don't set this variable, the container will not see any changes to files unless you edit the files from within the container._
