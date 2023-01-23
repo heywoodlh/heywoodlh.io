@@ -8,6 +8,8 @@ tags: all, linux, nix, nixos, steam, deck, steamdeck
 
 ![alt text](../images/steam-deck.gif "Steam Deck booting NixOS")
 
+January 14, 2023 update: added changes to make GNOME touch friendly (using Home Manager to manage GNOME settings) with this commit: [https://github.com/heywoodlh/nixos-configs/commit/e20277093d53390e5a5cb0bb516f80022ff0be37](https://github.com/heywoodlh/nixos-configs/commit/e20277093d53390e5a5cb0bb516f80022ff0be37)
+
 ## Why not keep SteamOS? 
 
 I have a Steam Deck and I really enjoy it. SteamOS on the Steam Deck is based on Arch Linux and I'm very comfortable with Arch as a long-time user. However, there are two issues that I have with the Steam Deck's base OS:
