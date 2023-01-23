@@ -1,7 +1,7 @@
 ---
 title: "Sync Skyrim Mods Between Devices (with Syncthing)"
 layout: post
-published: false
+published: true
 permalink: sync-skyrim-mods-syncthing
 tags: all, linux, steam, deck, steamdeck, skyrim, special, edition, syncthing, mods, vortex, mod, manager, gaming
 ---
@@ -76,7 +76,13 @@ Once your Skyrim Special Edition folder is added to Syncthing, select it, select
 
 ### Share Skyrim's Syncthing Folders With Your Target Device
 
-On the other device, I would recommend deleting your freshly installed (don't uninstall it from Steam), unmodded Skyrim Special Edition folder and then go into Syncthing's web interface and accept the shared folder from the machine with your desired build. I would set the path to the exact location where Skyrim was installed, so that way Steam thinks it is still present on your filesystem.
+There are three folder paths I would recommend sharing between your devices. I'm going to presume that the sources are all coming from a Windows machine, so I will use the default Windows paths:
+
+- `C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition`: Skyrim game files
+- `C:\Users\$USER\Documents\My Games\Skyrim Special Edition`: Save data and local preferences
+- `C:\Users\$USER\AppData\Local\Skyrim Special Edition`: contains loadorder.txt
+
+On the other device, I would recommend deleting your freshly installed, unmodded Skyrim Special Edition folder (don't uninstall Skyrim via Steam) and then go into Syncthing's web interface and accept the shared folder from the machine with your desired build. I would set the path to the exact location where Skyrim was installed, so that way Steam thinks it is still present on your filesystem.
 
 Really, it doesn't matter how you do it, mostly just place the Syncthing Skyrim SE folder at a location Steam will be able to view it as present.
 
