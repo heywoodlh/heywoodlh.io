@@ -5,6 +5,8 @@ permalink: rewriting-dotfiles
 tags: all, linux, macos, bash, fish, automation, devops
 ---
 
+Update February 27, 2023: updated the link to my current nixos-configs. Additionally, my current dotfiles in 2023 is now heavily focused on PowerShell.
+
 If you're just interested in my dotfiles and not my process for writing them:
 
 [https://github.com/heywoodlh/conf](https://github.com/heywoodlh/conf)
@@ -66,7 +68,7 @@ I'll just go alphabetically with each folder/file:
 - `setup.sh`: the shell script that sets everything up initially -- runs other scripts in the `dependencies` folder based on the OS that's detected
 
 
-Note: [this is my repo for streamlining my NixOS and nix-darwin deployments](https://github.com/heywoodlh/nixos-builds).
+Note: [this is my repo for streamlining my NixOS and nix-darwin deployments](https://github.com/heywoodlh/nixos-configs).
 
 If I ever get around to writing a Nix script for setting up my dotfiles I think it would greatly reduce the amount of files I have in the root of my repository.
 
