@@ -56,23 +56,23 @@ gdisk /dev/sda
 
 Create the EFI partition:
 
-Press n, 1 [Enter], [Enter], +512M [Enter], ef00 [Enter]
+Press n [Enter], 1 [Enter], [Enter], +512M [Enter], ef00 [Enter]
 
 
 Create the swap partition (I'm just going to use 4GB of swap space):
 
-Press n, 2 [Enter], [Enter], +4G [Enter], 8200 [Enter]
+Press n [Enter], 2 [Enter], [Enter], +4G [Enter], 8200 [Enter]
 
 
 
 Create the root partition:
 
-Press n, 3 [Enter], [Enter], [Enter], [Enter]
+Press n [Enter], 3 [Enter], [Enter], [Enter], [Enter]
 
 
 Write the changes:
 
-Press w, Y [Enter]
+Press w [Enter], Y [Enter]
 
 
 ### Partition Formatting:
@@ -97,18 +97,18 @@ mount /dev/sda3 /mnt
 mkdir -p /mnt/boot/efi && mount /dev/sda1 /mnt/boot/efi
 ```
 
-Then bootstrap your base Ubuntu install (using Ubuntu 20.04 "Focal Fossa"):
+Then bootstrap your base Ubuntu install (using Ubuntu 22.04 "Jammy Jellyfish"):
 
 [Refer to this article for the ARM64 commands if you're bootstrapping Ubuntu 20.04 ARM64](https://the-empire.systems/debootstrap-arm64-ubuntu)
 
 ```bash
-debootstrap --arch amd64 focal /mnt http://archive.ubuntu.com/ubuntu
+debootstrap --arch amd64 jammy /mnt http://archive.ubuntu.com/ubuntu
 ```
 
 Edit `/mnt/etc/apt/sources.list` to not only have the `main` repository but also `universe` (community packages) and `restricted` (proprietary drivers) and the security repo:
 
 ```bash
-release="focal"
+release="jammy"
 
 printf "deb http://archive.ubuntu.com/ubuntu/ ${release} main restricted universe\ndeb http://security.ubuntu.com/ubuntu/ ${release}-security main restricted universe\ndeb http://archive.ubuntu.com/ubuntu/ ${release}-updates main restricted universe\n" > /mnt/etc/apt/sources.list 
 ```
