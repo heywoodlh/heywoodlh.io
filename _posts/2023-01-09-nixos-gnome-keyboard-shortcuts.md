@@ -6,6 +6,11 @@ permalink: nixos-gnome-settings-and-keyboard-shortcuts
 tags: all, linux, nix, nixos, keyboard, settings, home, manager
 ---
 
+EDIT: June 21, 2023: thanks to [u/jtojnar](https://reddit.com/u/jtojnar) for pointing out the issue on this post with using `"@as []"` for disabled dconf settings. Shortly after posting this in January, I figured out that `"disabled"` was one of the ways to disable a setting with GNOME -- but I forgot to update this post! I have updated the config shown on this post. Here's the Reddit post referring to this article: https://reddit.com/r/NixOS/comments/14fenpb/issue_with_declarative_gnome_keyboard_shortcuts/
+
+EDIT: As of June 21, 2023, for reference, here is my GNOME desktop Home-Manager configuration: [gnome-desktop.nix](https://github.com/heywoodlh/nixos-configs/blob/88bb615d6da3605e22633798ca604465f816ae63/roles/home-manager/linux/gnome-desktop.nix)
+
+
 This will be a quick snippet on how I'm using Home Manager in my NixOS configuration to manage GNOME keyboard shortcuts and other various settings.
 
 ## Use Home Manager as a NixOS config module:
@@ -32,7 +37,7 @@ With Home Manager imported, I can now use it's `home-manager.users.<username>.dc
     dconf.settings = {
       "org/gnome/shell" = {
         disable-user-extensions = false;
-        disabled-extensions = "@as []";
+        disabled-extensions = "disabled";
         enabled-extensions = [
           "native-window-placement@gnome-shell-extensions.gcampax.github.com"
           "pop-shell@system76.com"
@@ -60,28 +65,28 @@ With Home Manager imported, I can now use it's `home-manager.users.<username>.dc
         toolkit-accessibility = true;
       };
       "org/gnome/desktop/wm/keybindings" = {
-        activate-window-menu = "@as []";
-        toggle-message-tray = "@as []";
+        activate-window-menu = "disabled";
+        toggle-message-tray = "disabled";
         close = "['<Super>q', '<Alt>F4']";
-        maximize = "@as []";
+        maximize = "disabled";
         minimize = "['<Super>comma']";
-        move-to-monitor-down = "@as []";
-        move-to-monitor-left = "@as []";
-        move-to-monitor-right = "@as []";
-        move-to-monitor-up = "@as []";
-        move-to-workspace-down = "@as []";
-        move-to-workspace-up = "@as []";
+        move-to-monitor-down = "disabled";
+        move-to-monitor-left = "disabled";
+        move-to-monitor-right = "disabled";
+        move-to-monitor-up = "disabled";
+        move-to-workspace-down = "disabled";
+        move-to-workspace-up = "disabled";
         toggle-maximized = "['<Super>m']";
-        unmaximize = "@as []";
+        unmaximize = "disabled";
       };
       "org/gnome/desktop/wm/preferences" = {
         button-layout = "close,minimize,maximize:appmenu";
         num-workspaces = 10;
       };
       "org/gnome/shell/extensions/pop-shell" = {
-        focus-right = "@as []";
+        focus-right = "disabled";
         tile-by-default = true;
-        tile-enter = "@as []";
+        tile-enter = "disabled";
       };
       "org/gnome/desktop/peripherals/touchpad" = {
         tap-to-click = true;
