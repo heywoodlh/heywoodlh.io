@@ -8,8 +8,7 @@ tags: all, linux, nix, nixos, keyboard, settings, home, manager
 
 EDIT: June 21, 2023: thanks to [u/jtojnar](https://reddit.com/u/jtojnar) for pointing out the issue on this post with using `"@as []"` for disabled dconf settings. Shortly after posting this in January, I figured out that `"disabled"` was one of the ways to disable a setting with GNOME -- but I forgot to update this post! I have updated the config shown on this post. Here's the Reddit post referring to this article: https://reddit.com/r/NixOS/comments/14fenpb/issue_with_declarative_gnome_keyboard_shortcuts/
 
-EDIT: As of June 21, 2023, for reference, here is my GNOME desktop Home-Manager configuration: [gnome-desktop.nix](https://github.com/heywoodlh/nixos-configs/blob/88bb615d6da3605e22633798ca604465f816ae63/roles/home-manager/linux/gnome-desktop.nix)
-
+EDIT: As of June 21, 2023, for reference, here is my GNOME desktop Home-Manager configuration: [gnome-desktop.nix](https://github.com/heywoodlh/nixos-configs/blob/d8f1571931d23bbbce598e73f133d3be7247c806/roles/home-manager/linux/gnome-desktop.nix)
 
 This will be a quick snippet on how I'm using Home Manager in my NixOS configuration to manage GNOME keyboard shortcuts and other various settings.
 
