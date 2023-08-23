@@ -26,7 +26,7 @@ On Linux, I have used [bitwarden-rofi](https://github.com/mattydebie/bitwarden-r
 
 [Pass](https://www.passwordstore.org) is by far the simplest password manager I've ever used. It's a command line application with an incredibly easy to use syntax. The author of `pass` is Jason A. Donenfeld, the author of [Wireguard](https://www.wireguard.com/) -- the simplest and fastest VPN solution I've used. I like Jason's tools a lot.
 
-As an added bonus, `pass` uses `gpg` to manage the encryption and decryption of each entry and [I'm a big fan of GPG](https://the-empire.systems/gpg-cheatsheet/).
+As an added bonus, `pass` uses `gpg` to manage the encryption and decryption of each entry and [I'm a big fan of GPG](https://heywoodlh.io/gpg-cheatsheet/).
 
 Before switching to Bitwarden I used `pass` as my daily-driver password manager for about a year and never really had any complaints. I stopped using `pass` in favor of Bitwarden simply because at the time there was no iOS app and I switched to an iPhone away from Android. A few months ago I noticed that there is now a [very polished community-made iOS app for `pass`](https://github.com/mssun/passforios) and have been itching to switch back.
 
@@ -69,7 +69,7 @@ gpg --import private_key.gpg
 
 You will want to be careful with the private key as a malicious actor could decrypt your password store if they had the passphrase (you had better set a strong passphrase on your private key, idiot). 
 
-[Check out my GPG cheatsheet for more commands to manage your GPG key](https://the-empire.systems/gpg-cheatsheet/).
+[Check out my GPG cheatsheet for more commands to manage your GPG key](https://heywoodlh.io/gpg-cheatsheet/).
 
 ### Basic password management:
 

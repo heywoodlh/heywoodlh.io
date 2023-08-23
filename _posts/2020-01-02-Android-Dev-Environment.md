@@ -175,7 +175,7 @@ For example, if the port was 5556 like it was for me I could submit that as my p
 
 ![alt text][console-number]
 
-[console-number]: https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/resources/pictures/android-phone-number-console-port.png "Use the console port number as phone number"
+[console-number]: https://raw.githubusercontent.com/heywoodlh/heywoodlh.io/master/resources/pictures/android-phone-number-console-port.png "Use the console port number as phone number"
 
 
 
@@ -184,9 +184,9 @@ Once you do that, a text will come from the full 9 digit phone number the device
 
 ![alt text][android-text]
 
-[android-text]: https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/resources/pictures/android-texts.jpg "Text between emulated Android devices"
+[android-text]: https://raw.githubusercontent.com/heywoodlh/heywoodlh.io/master/resources/pictures/android-texts.jpg "Text between emulated Android devices"
 
 
 ![alt text][android-calls]
 
-[android-calls]: https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/resources/pictures/android-calls.jpg "Make phone calls between emulated Android devices"
+[android-calls]: https://raw.githubusercontent.com/heywoodlh/heywoodlh.io/master/resources/pictures/android-calls.jpg "Make phone calls between emulated Android devices"

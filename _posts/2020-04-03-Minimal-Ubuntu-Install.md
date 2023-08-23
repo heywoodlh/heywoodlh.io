@@ -99,7 +99,7 @@ mkdir -p /mnt/boot/efi && mount /dev/sda1 /mnt/boot/efi
 
 Then bootstrap your base Ubuntu install (using Ubuntu 22.04 "Jammy Jellyfish"):
 
-[Refer to this article for the ARM64 commands if you're bootstrapping Ubuntu 20.04 ARM64](https://the-empire.systems/debootstrap-arm64-ubuntu)
+[Refer to this article for the ARM64 commands if you're bootstrapping Ubuntu 20.04 ARM64](https://heywoodlh.io/debootstrap-arm64-ubuntu)
 
 ```bash
 debootstrap --arch amd64 jammy /mnt http://archive.ubuntu.com/ubuntu

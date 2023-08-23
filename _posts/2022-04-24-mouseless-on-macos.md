@@ -39,7 +39,7 @@ Here are the mouse emulation commands I have mapped to keyboard shortcuts in GNO
 
 When Googling around for similar workflows on MacOS most of the posts I found pretty much said that they use Amethyst, Yabai or Magnets (yuck) and that they use Vimari in Chrome (or something similar) and maybe some keyboard shortcuts in VSCode or their terminal with Tmux. This is cool but doesn't really help outside of the browser, IDE or terminal. So not only will I cover some app-specific stuff that I do but also how I am able to go mouseless everywhere.
 
-As covered in [My "Linux-like" MacOS Setup](https://the-empire.systems/linux-macos-setup) I use [Yabai](https://github.com/koekeishiya/yabai) and [skhd](https://github.com/koekeishiya/skhd) for tiling window functionality and custom keyboard shortcuts.
+As covered in [My "Linux-like" MacOS Setup](https://heywoodlh.io/linux-macos-setup) I use [Yabai](https://github.com/koekeishiya/yabai) and [skhd](https://github.com/koekeishiya/skhd) for tiling window functionality and custom keyboard shortcuts.
 
 I use [Nix-Darwin](https://github.com/LnL7/nix-darwin) to manage my Macs. The MacOS specific Nix configuration that I currently use is here and will have more information for those who wish to dig more into my setup: https://github.com/heywoodlh/nixpkgs/tree/master/darwin 
 

@@ -6,7 +6,7 @@ permalink: use-vim-with-obsidian
 tags: all, obsidian, notes, vim, linux
 ---
 
-I recently posted [My Notes Setup using Obsidian](https://the-empire.systems/notes-with-obsidian) -- but I have made some changes to my note-taking workflow that I'm excited about and thought I would briefly document.
+I recently posted [My Notes Setup using Obsidian](https://heywoodlh.io/notes-with-obsidian) -- but I have made some changes to my note-taking workflow that I'm excited about and thought I would briefly document.
 
 I like Vim but you could really replace Vim in this article with any preferred text editor that can interact with the filesystem.
 

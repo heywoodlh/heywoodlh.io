@@ -5,7 +5,7 @@ permalink: cross-architecture-docker-images
 tags: all, linux, docker, containers, arm, x86
 ---
 
-Recently I wrote about [building ARM Docker images on an x86 machine](https://the-empire.systems/arm-containers-linux). However, my chosen method was a bit hackey where you didn't end up with a single Docker image tag that could be used on any architecture. So I did some more research and found the Docker [Buildx](https://github.com/docker/buildx) plugin which helped me get much more desirable results.
+Recently I wrote about [building ARM Docker images on an x86 machine](https://heywoodlh.io/arm-containers-linux). However, my chosen method was a bit hackey where you didn't end up with a single Docker image tag that could be used on any architecture. So I did some more research and found the Docker [Buildx](https://github.com/docker/buildx) plugin which helped me get much more desirable results.
 
 The following articles got me moving in the right direction:
 - [Preparation toward running Docker on ARM Mac: Building multi-arch images with Docker BuildX](https://medium.com/nttlabs/buildx-multiarch-2c6c2df00ca2)
@@ -19,7 +19,7 @@ I'm going to make the following assumptions:
 - You already have Docker installed and running on said Linux machine.
 - You are running Docker version 19.03.
 
-_Note: I tried doing these steps on my Raspberry Pi 4 8GB model and the build process was just so slow (over 20 minutes) for x86 64 bit images that I decided it wasn't worth it. Please [let me know](https://the-empire.systems/contact) if there is some way to speed this up on the Pi 4._
+_Note: I tried doing these steps on my Raspberry Pi 4 8GB model and the build process was just so slow (over 20 minutes) for x86 64 bit images that I decided it wasn't worth it. Please [let me know](https://heywoodlh.io/contact) if there is some way to speed this up on the Pi 4._
 
 ### Installing Buildx:
 

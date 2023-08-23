@@ -25,7 +25,7 @@ docker run -d --name lokis-portal -p 80:80 -v "$HOME"/Documents/lokis-portal:/va
 Notice the change of ownership to user ID and group to 33. This is the user/group of the `www-data` user for the `php:7-apache-buster` Docker container and that user will need permission to write to `creds.html`.
 
 
-![alt text](https://raw.githubusercontent.com/heywoodlh/the-empire.systems/master/resources/pictures/google-phishing.png "Google Phishing Page")
+![alt text](https://raw.githubusercontent.com/heywoodlh/heywoodlh.io/master/resources/pictures/google-phishing.png "Google Phishing Page")
 
 
 The Google phishing page will be available at [http://localhost/google/](http://localhost/google). The [root directory](http://localhost) has a list of the templates that are available for phishing with. At the time of writing only the Google phishing page is working, but maybe future me will be proactive and build out/fix the rest of the templates.

@@ -79,7 +79,7 @@ These tweaks make Safari a much more pleasant experience for me with being keybo
 
 Apple Shortcuts supports a surprising amount of functionality. I would highly recommend using Apple Shortcuts to extend the programmability of your iPad.
 
-As an example, check out this post where I use Apple Shortcuts on iOS to turn on/off a Paperspace VM for gaming: https://the-empire.systems/paperspace-cloud-gaming-ios
+As an example, check out this post where I use Apple Shortcuts on iOS to turn on/off a Paperspace VM for gaming: https://heywoodlh.io/paperspace-cloud-gaming-ios
 
 ### iSH
 
