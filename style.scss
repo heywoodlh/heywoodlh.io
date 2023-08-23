@@ -76,7 +76,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #d8dee9;
   }
 }
 
@@ -111,6 +111,7 @@ strong, b {
 
 img {
   max-width: 100%;
+  border: 1px solid #ddd;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -195,7 +196,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #4c566a;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -228,7 +229,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #4c566a;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -277,7 +278,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $darkblue;
+  background-color: #4c566a;
 }
 
 footer {
