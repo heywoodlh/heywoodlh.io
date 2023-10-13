@@ -6,110 +6,111 @@ permalink: /reading-list/
 
 My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
+Using the following GitHub Action to generate this list: https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml
 
 Generated on 10/13/23
 
 ---
 Title: Hacker News
 
-URL: https://news.ycombinator.com/
+URL: <https://news.ycombinator.com/>
 
-RSS: https://hnrss.org/frontpage
+RSS: <https://hnrss.org/frontpage>
 
 ---
 Title: /r/battlestations
 
-URL: https://www.reddit.com/r/battlestations
+URL: <https://www.reddit.com/r/battlestations>
 
-RSS: https://www.reddit.com/r/battlestations.rss
-
----
-Title: /r/apple
-
-URL: https://www.reddit.com/r/apple
-
-RSS: https://www.reddit.com/r/apple.rss
+RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
 Title: /r/unixporn
 
-URL: https://www.reddit.com/r/UnixPorn
+URL: <https://www.reddit.com/r/UnixPorn>
 
-RSS: https://www.reddit.com/r/UnixPorn.rss
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
+Title: /r/apple
+
+URL: <https://www.reddit.com/r/apple>
+
+RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
 Title: /r/privacyguides
 
-URL: https://www.reddit.com/r/PrivacyGuides
+URL: <https://www.reddit.com/r/PrivacyGuides>
 
-RSS: https://www.reddit.com/r/PrivacyGuides.rss
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
 Title: /r/unixart
 
-URL: https://www.reddit.com/r/unixart
+URL: <https://www.reddit.com/r/unixart>
 
-RSS: https://www.reddit.com/r/unixart.rss
+RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
 Title: /r/usabilityporn
 
-URL: https://www.reddit.com/r/UsabilityPorn
+URL: <https://www.reddit.com/r/UsabilityPorn>
 
-RSS: https://www.reddit.com/r/UsabilityPorn.rss
+RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
 Title: Blog on Asahi Linux
 
-URL: https://asahilinux.org/blog/
+URL: <https://asahilinux.org/blog/>
 
-RSS: https://asahilinux.org/blog/index.xml
+RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Daniel Miessler
 
-URL: https://danielmiessler.com/
+URL: <https://danielmiessler.com/>
 
-RSS: https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml
+RSS: <https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml>
 
 ---
 Title: Dave Eargle
 
-URL: https://daveeargle.com/
+URL: <https://daveeargle.com/>
 
-RSS: https://daveeargle.com/feed.xml
+RSS: <https://daveeargle.com/feed.xml>
 
 ---
 Title: Drew DeVault's blog
 
-URL: https://drewdevault.com
+URL: <https://drewdevault.com>
 
-RSS: https://drewdevault.com/blog/index.xml
+RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: Julia Evans
 
-URL: http://jvns.ca
+URL: <http://jvns.ca>
 
-RSS: https://jvns.ca/atom.xml
+RSS: <https://jvns.ca/atom.xml>
 
 ---
 Title: Ramblings from Jessie
 
-URL: https://blog.jessfraz.com/
+URL: <https://blog.jessfraz.com/>
 
-RSS: https://blog.jessfraz.com/index.xml
+RSS: <https://blog.jessfraz.com/index.xml>
 
 ---
 Title: Tania Rascia
 
-URL: https://www.taniarascia.com
+URL: <https://www.taniarascia.com>
 
-RSS: https://www.taniarascia.com/rss.xml
+RSS: <https://www.taniarascia.com/rss.xml>
 
 ---
 Title: marquesbrownlee - YouTube
 
-URL: https://www.youtube.com/user/marquesbrownlee
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
