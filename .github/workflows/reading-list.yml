@@ -24,7 +24,6 @@ jobs:
       env:
         MINIFLUX_API_TOKEN: ${{ secrets.MINIFLUX_API_TOKEN }}
       run: |
-        export MINIFLUX_API_TOKEN=$MINIFLUX_API_TOKEN
         ./reading-list.sh
 
     - name: Commit and push reading list
