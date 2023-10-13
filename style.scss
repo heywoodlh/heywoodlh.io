@@ -19,7 +19,7 @@ html {
 
 body {
   background: $body;
-  font: 14px/1.4 monospace;
+  font: 16px/1.4 monospace;
   color: $light;
 }
 
@@ -76,7 +76,10 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #d8dee9;
+    color: #4c566a;
+  }
+  &:link {
+    text-decoration: underline;
   }
 }
 
