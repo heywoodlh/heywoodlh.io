@@ -1,0 +1,32 @@
+name: generate-reading-list
+
+on:
+  push:
+    branches:
+    - 'master'
+    paths:
+    - reading-list.md
+  schedule:
+  - cron: '0 0 * * Thu'
+  workflow_dispatch:
+
+jobs:
+  gen-reading-list:
+    name: Generate reading list
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Generate reading list
+      run: |
+        cd heywoodlh.io
+        ./reading-list.sh
+
+    - name: Commit and push reading list
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: 'reading-list.md'
+        author_name: 'github-actions'
+        author_email: 'github-actions@github.com'
