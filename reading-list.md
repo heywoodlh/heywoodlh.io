@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 11/02/23
+Generated on 11/09/23
 
 ---
 Title: Hacker News
@@ -46,13 +46,6 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: /r/privacyguides
-
-URL: <https://www.reddit.com/r/PrivacyGuides>
-
-RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
-
----
 Title: /r/unixart
 
 URL: <https://www.reddit.com/r/unixart>
@@ -60,11 +53,18 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
-Title: Daniel Miessler
+Title: github blog: security
 
-URL: <https://danielmiessler.com/>
+URL: <https://github.blog/category/security/>
 
-RSS: <https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml>
+RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: /r/privacyguides
+
+URL: <https://www.reddit.com/r/PrivacyGuides>
+
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
 Title: /r/usabilityporn
@@ -74,18 +74,18 @@ URL: <https://www.reddit.com/r/UsabilityPorn>
 RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
-Title: github blog: open source
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
-
----
 Title: Blog on Asahi Linux
 
 URL: <https://asahilinux.org/blog/>
 
 RSS: <https://asahilinux.org/blog/index.xml>
+
+---
+Title: Daniel Miessler
+
+URL: <https://danielmiessler.com/>
+
+RSS: <https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml>
 
 ---
 Title: Dave Eargle
@@ -129,18 +129,18 @@ URL: <https://www.taniarascia.com>
 RSS: <https://www.taniarascia.com/rss.xml>
 
 ---
+Title: github blog: open source
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
 Title: github blog: product news
 
 URL: <https://github.blog/category/product/>
 
 RSS: <https://github.blog/category/product/feed/>
-
----
-Title: github blog: security
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: marquesbrownlee - YouTube
