@@ -11,17 +11,17 @@ Using the following GitHub Action to generate this list: [generate-reading-list]
 Generated on 11/11/23
 
 ---
+Title: CUSTERPLAYS - YouTube
+
+URL: <https://www.youtube.com/channel/UCO53XT4jBwffRNhdFbSKF0A>
+
+
+---
 Title: /r/gaming
 
 URL: <https://www.reddit.com/r/gaming>
 
 RSS: <https://www.reddit.com/r/gaming.rss>
-
----
-Title: CUSTERPLAYS - YouTube
-
-URL: <https://www.youtube.com/channel/UCO53XT4jBwffRNhdFbSKF0A>
-
 
 ---
 Title: DEEF - YouTube
