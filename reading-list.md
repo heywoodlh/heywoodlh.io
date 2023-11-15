@@ -8,40 +8,14 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 11/11/23
+Generated on 11/15/23
 
 ---
-Title: Ramblings from Jessie
+Title: Hacker News
 
-URL: <https://blog.jessfraz.com/>
+URL: <https://news.ycombinator.com/>
 
-RSS: <https://blog.jessfraz.com/index.xml>
-
----
-Title: Sun Knudsen - YouTube
-
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
-
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
-
----
-Title: Tania Rascia
-
-URL: <https://www.taniarascia.com>
-
-RSS: <https://www.taniarascia.com/rss.xml>
-
----
-Title: /r/apple
-
-URL: <https://www.reddit.com/r/apple>
-
-RSS: <https://www.reddit.com/r/apple.rss>
+RSS: <https://hnrss.org/frontpage>
 
 ---
 Title: /r/battlestations
@@ -49,6 +23,20 @@ Title: /r/battlestations
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
+Title: /r/unixporn
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
+Title: /r/apple
+
+URL: <https://www.reddit.com/r/apple>
+
+RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
 Title: /r/privacyguides
@@ -72,11 +60,11 @@ URL: <https://www.reddit.com/r/UsabilityPorn>
 RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
-Title: /r/unixporn
+Title: Blog on Asahi Linux
 
-URL: <https://www.reddit.com/r/UnixPorn>
+URL: <https://asahilinux.org/blog/>
 
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
+RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Daniel Miessler
@@ -84,27 +72,6 @@ Title: Daniel Miessler
 URL: <https://danielmiessler.com/>
 
 RSS: <https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml>
-
----
-Title: Hacker News
-
-URL: <https://news.ycombinator.com/>
-
-RSS: <https://hnrss.org/frontpage>
-
----
-Title: Julia Evans
-
-URL: <http://jvns.ca>
-
-RSS: <https://jvns.ca/atom.xml>
-
----
-Title: Blog on Asahi Linux
-
-URL: <https://asahilinux.org/blog/>
-
-RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Dave Eargle
@@ -119,6 +86,54 @@ Title: Drew DeVault's blog
 URL: <https://drewdevault.com>
 
 RSS: <https://drewdevault.com/blog/index.xml>
+
+---
+Title: Ian Henry
+
+URL: <https://ianthehenry.com/>
+
+RSS: <https://ianthehenry.com/feed.xml>
+
+---
+Title: Julia Evans
+
+URL: <http://jvns.ca>
+
+RSS: <https://jvns.ca/atom.xml>
+
+---
+Title: Ramblings from Jessie
+
+URL: <https://blog.jessfraz.com/>
+
+RSS: <https://blog.jessfraz.com/index.xml>
+
+---
+Title: Sun Knudsen - YouTube
+
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
+
+
+---
+Title: Tania Rascia
+
+URL: <https://www.taniarascia.com>
+
+RSS: <https://www.taniarascia.com/rss.xml>
+
+---
+Title: Xe Iaso's
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
+
+---
+Title: github blog: changelog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
 
 ---
 Title: github blog: open source
@@ -142,9 +157,8 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: github blog: changelog
+Title: marquesbrownlee - YouTube
 
-URL: <https://github.blog/changelog/>
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
-RSS: <https://github.blog/changelog/feed/>
 
