@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 11/15/23
+Generated on 11/16/23
 
 ---
 Title: Hacker News
@@ -39,6 +39,20 @@ URL: <https://www.reddit.com/r/apple>
 RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
+Title: /r/usabilityporn
+
+URL: <https://www.reddit.com/r/UsabilityPorn>
+
+RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
+
+---
+Title: Xe Iaso's
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
+
+---
 Title: /r/privacyguides
 
 URL: <https://www.reddit.com/r/PrivacyGuides>
@@ -51,13 +65,6 @@ Title: /r/unixart
 URL: <https://www.reddit.com/r/unixart>
 
 RSS: <https://www.reddit.com/r/unixart.rss>
-
----
-Title: /r/usabilityporn
-
-URL: <https://www.reddit.com/r/UsabilityPorn>
-
-RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -120,13 +127,6 @@ Title: Tania Rascia
 URL: <https://www.taniarascia.com>
 
 RSS: <https://www.taniarascia.com/rss.xml>
-
----
-Title: Xe Iaso's
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: github blog: changelog
