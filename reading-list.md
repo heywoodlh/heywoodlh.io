@@ -8,49 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 11/16/23
-
----
-Title: Hacker News
-
-URL: <https://news.ycombinator.com/>
-
-RSS: <https://hnrss.org/frontpage>
-
----
-Title: /r/battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: /r/unixporn
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
-Title: /r/apple
-
-URL: <https://www.reddit.com/r/apple>
-
-RSS: <https://www.reddit.com/r/apple.rss>
-
----
-Title: /r/usabilityporn
-
-URL: <https://www.reddit.com/r/UsabilityPorn>
-
-RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
-
----
-Title: Xe Iaso's
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
+Generated on 11/23/23
 
 ---
 Title: /r/privacyguides
@@ -65,6 +23,54 @@ Title: /r/unixart
 URL: <https://www.reddit.com/r/unixart>
 
 RSS: <https://www.reddit.com/r/unixart.rss>
+
+---
+Title: /r/usabilityporn
+
+URL: <https://www.reddit.com/r/UsabilityPorn>
+
+RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
+
+---
+Title: /r/battlestations
+
+URL: <https://www.reddit.com/r/battlestations>
+
+RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
+Title: /r/apple
+
+URL: <https://www.reddit.com/r/apple>
+
+RSS: <https://www.reddit.com/r/apple.rss>
+
+---
+Title: Hacker News
+
+URL: <https://news.ycombinator.com/>
+
+RSS: <https://hnrss.org/frontpage>
+
+---
+Title: /r/unixporn
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
+Title: github blog: changelog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
 ---
 Title: Blog on Asahi Linux
@@ -129,11 +135,11 @@ URL: <https://www.taniarascia.com>
 RSS: <https://www.taniarascia.com/rss.xml>
 
 ---
-Title: github blog: changelog
+Title: Xe Iaso's
 
-URL: <https://github.blog/changelog/>
+URL: <https://xeiaso.net/>
 
-RSS: <https://github.blog/changelog/feed/>
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: github blog: open source
@@ -155,10 +161,4 @@ Title: github blog: security
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
