@@ -8,7 +8,21 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 11/23/23
+Generated on 11/30/23
+
+---
+Title: /r/apple
+
+URL: <https://www.reddit.com/r/apple>
+
+RSS: <https://www.reddit.com/r/apple.rss>
+
+---
+Title: /r/battlestations
+
+URL: <https://www.reddit.com/r/battlestations>
+
+RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
 Title: /r/privacyguides
@@ -25,25 +39,18 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
+Title: /r/unixporn
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
 Title: /r/usabilityporn
 
 URL: <https://www.reddit.com/r/UsabilityPorn>
 
 RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
-
----
-Title: /r/battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: /r/apple
-
-URL: <https://www.reddit.com/r/apple>
-
-RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
 Title: Hacker News
@@ -53,24 +60,11 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
-Title: /r/unixporn
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
 Title: github blog: changelog
 
 URL: <https://github.blog/changelog/>
 
 RSS: <https://github.blog/changelog/feed/>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
 ---
 Title: Blog on Asahi Linux
@@ -161,4 +155,10 @@ Title: github blog: security
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
