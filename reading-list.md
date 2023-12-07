@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 11/30/23
+Generated on 12/07/23
 
 ---
 Title: /r/apple
@@ -65,6 +65,13 @@ Title: github blog: changelog
 URL: <https://github.blog/changelog/>
 
 RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: github blog: security
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: Blog on Asahi Linux
@@ -148,13 +155,6 @@ Title: github blog: product news
 URL: <https://github.blog/category/product/>
 
 RSS: <https://github.blog/category/product/feed/>
-
----
-Title: github blog: security
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: marquesbrownlee - YouTube
