@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 12/14/23
+Generated on 12/21/23
 
 ---
 Title: /r/apple
@@ -60,11 +60,11 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
-Title: github blog: changelog
+Title: Blog on Asahi Linux
 
-URL: <https://github.blog/changelog/>
+URL: <https://asahilinux.org/blog/>
 
-RSS: <https://github.blog/changelog/feed/>
+RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Daniel Miessler
@@ -72,27 +72,6 @@ Title: Daniel Miessler
 URL: <https://danielmiessler.com/>
 
 RSS: <https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml>
-
----
-Title: github blog: product news
-
-URL: <https://github.blog/category/product/>
-
-RSS: <https://github.blog/category/product/feed/>
-
----
-Title: github blog: security
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
-
----
-Title: Blog on Asahi Linux
-
-URL: <https://asahilinux.org/blog/>
-
-RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Dave Eargle
@@ -123,6 +102,13 @@ URL: <http://jvns.ca>
 RSS: <https://jvns.ca/atom.xml>
 
 ---
+Title: Kyle Sferrazza
+
+URL: <https://kylesferrazza.com/feed>
+
+RSS: <https://kylesferrazza.com/feed>
+
+---
 Title: Ramblings from Jessie
 
 URL: <https://blog.jessfraz.com/>
@@ -150,11 +136,32 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
+Title: github blog: changelog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
+
+---
 Title: github blog: open source
 
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: github blog: product news
+
+URL: <https://github.blog/category/product/>
+
+RSS: <https://github.blog/category/product/feed/>
+
+---
+Title: github blog: security
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: marquesbrownlee - YouTube
