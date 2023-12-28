@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 12/21/23
+Generated on 12/28/23
 
 ---
 Title: /r/apple
@@ -51,6 +51,13 @@ Title: /r/usabilityporn
 URL: <https://www.reddit.com/r/UsabilityPorn>
 
 RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
+
+---
+Title: Kyle Sferrazza
+
+URL: <https://kylesferrazza.com/feed>
+
+RSS: <https://kylesferrazza.com/feed>
 
 ---
 Title: Hacker News
@@ -100,13 +107,6 @@ Title: Julia Evans
 URL: <http://jvns.ca>
 
 RSS: <https://jvns.ca/atom.xml>
-
----
-Title: Kyle Sferrazza
-
-URL: <https://kylesferrazza.com/feed>
-
-RSS: <https://kylesferrazza.com/feed>
 
 ---
 Title: Ramblings from Jessie
