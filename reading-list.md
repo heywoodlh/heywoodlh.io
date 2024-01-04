@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 12/28/23
+Generated on 01/04/24
 
 ---
 Title: /r/apple
@@ -67,6 +67,19 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
+Title: github blog: open source
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
 Title: Blog on Asahi Linux
 
 URL: <https://asahilinux.org/blog/>
@@ -93,6 +106,13 @@ Title: Drew DeVault's blog
 URL: <https://drewdevault.com>
 
 RSS: <https://drewdevault.com/blog/index.xml>
+
+---
+Title: ENOSUCHBLOG
+
+URL: <https://blog.yossarian.net/>
+
+RSS: <https://blog.yossarian.net/feed.xml>
 
 ---
 Title: Ian Henry
@@ -143,13 +163,6 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: github blog: open source
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
-
----
 Title: github blog: product news
 
 URL: <https://github.blog/category/product/>
@@ -162,10 +175,4 @@ Title: github blog: security
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
