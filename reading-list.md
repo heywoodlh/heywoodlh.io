@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 01/04/24
+Generated on 01/11/24
 
 ---
 Title: /r/apple
@@ -53,6 +53,13 @@ URL: <https://www.reddit.com/r/UsabilityPorn>
 RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
+
+---
 Title: Kyle Sferrazza
 
 URL: <https://kylesferrazza.com/feed>
@@ -67,17 +74,11 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
-Title: github blog: open source
+Title: linkhut
 
-URL: <https://github.blog/category/open-source/>
+URL: <http://ln.ht/>
 
-RSS: <https://github.blog/category/open-source/feed/>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
+RSS: <https://ln.ht/_/feed/>
 
 ---
 Title: Blog on Asahi Linux
@@ -101,13 +102,6 @@ URL: <https://daveeargle.com/>
 RSS: <https://daveeargle.com/feed.xml>
 
 ---
-Title: Drew DeVault's blog
-
-URL: <https://drewdevault.com>
-
-RSS: <https://drewdevault.com/blog/index.xml>
-
----
 Title: ENOSUCHBLOG
 
 URL: <https://blog.yossarian.net/>
@@ -122,6 +116,13 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
+Title: Jeff Geerling
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
 Title: Julia Evans
 
 URL: <http://jvns.ca>
@@ -134,6 +135,13 @@ Title: Ramblings from Jessie
 URL: <https://blog.jessfraz.com/>
 
 RSS: <https://blog.jessfraz.com/index.xml>
+
+---
+Title: Stephane Travostino
+
+URL: <https://combo.cc>
+
+RSS: <https://combo.cc/rss.xml>
 
 ---
 Title: Sun Knudsen - YouTube
@@ -163,6 +171,13 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
+Title: github blog: open source
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
 Title: github blog: product news
 
 URL: <https://github.blog/category/product/>
@@ -175,4 +190,10 @@ Title: github blog: security
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
