@@ -8,14 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 01/11/24
-
----
-Title: /r/apple
-
-URL: <https://www.reddit.com/r/apple>
-
-RSS: <https://www.reddit.com/r/apple.rss>
+Generated on 01/18/24
 
 ---
 Title: /r/battlestations
@@ -23,6 +16,13 @@ Title: /r/battlestations
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
+Title: /r/apple
+
+URL: <https://www.reddit.com/r/apple>
+
+RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
 Title: /r/privacyguides
@@ -74,6 +74,13 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
+Title: Solène Rapenne
+
+URL: <https://dataswamp.org/~solene/>
+
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
 Title: linkhut
 
 URL: <http://ln.ht/>
@@ -81,18 +88,38 @@ URL: <http://ln.ht/>
 RSS: <https://ln.ht/_/feed/>
 
 ---
-Title: Blog on Asahi Linux
-
-URL: <https://asahilinux.org/blog/>
-
-RSS: <https://asahilinux.org/blog/index.xml>
-
----
 Title: Daniel Miessler
 
 URL: <https://danielmiessler.com/>
 
 RSS: <https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml>
+
+---
+Title: github blog: product news
+
+URL: <https://github.blog/category/product/>
+
+RSS: <https://github.blog/category/product/feed/>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
+Title: Admiral Cloudberg
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
+
+---
+Title: Blog on Asahi Linux
+
+URL: <https://asahilinux.org/blog/>
+
+RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Dave Eargle
@@ -137,6 +164,13 @@ URL: <https://blog.jessfraz.com/>
 RSS: <https://blog.jessfraz.com/index.xml>
 
 ---
+Title: Samy Younsi
+
+URL: <https://samy.link>
+
+RSS: <https://samy.link/blog/feed>
+
+---
 Title: Stephane Travostino
 
 URL: <https://combo.cc>
@@ -155,6 +189,13 @@ Title: Tania Rascia
 URL: <https://www.taniarascia.com>
 
 RSS: <https://www.taniarascia.com/rss.xml>
+
+---
+Title: The Eclectic Light Company
+
+URL: <https://eclecticlight.co>
+
+RSS: <https://eclecticlight.co/feed/>
 
 ---
 Title: Xe Iaso's
@@ -178,22 +219,9 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: github blog: product news
-
-URL: <https://github.blog/category/product/>
-
-RSS: <https://github.blog/category/product/feed/>
-
----
 Title: github blog: security
 
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
