@@ -76,7 +76,7 @@ RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 ---
 Title: Admiral Cloudberg
 
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+URL: <https://medium.com/@admiralcloudberg>
 
 RSS: <https://admiralcloudberg.medium.com/feed>
 
