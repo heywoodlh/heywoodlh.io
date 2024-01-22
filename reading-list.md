@@ -11,11 +11,25 @@ Using the following GitHub Action to generate this list: [generate-reading-list]
 Generated on 01/22/24
 
 ---
-Title: Kyle Sferrazza
+Title: /r/unixporn
 
-URL: <https://kylesferrazza.com/feed>
+URL: <https://www.reddit.com/r/UnixPorn>
 
-RSS: <https://kylesferrazza.com/feed>
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
+Title: /r/usabilityporn
+
+URL: <https://www.reddit.com/r/UsabilityPorn>
+
+RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
+
+---
+Title: /r/unixart
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
 Title: /r/apple
@@ -32,46 +46,11 @@ URL: <https://www.reddit.com/r/battlestations>
 RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
-Title: Hacker News
-
-URL: <https://news.ycombinator.com/>
-
-RSS: <https://hnrss.org/frontpage>
-
----
-Title: linkhut
-
-URL: <http://ln.ht/>
-
-RSS: <https://ln.ht/_/feed/>
-
----
 Title: /r/privacyguides
 
 URL: <https://www.reddit.com/r/PrivacyGuides>
 
 RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
-
----
-Title: /r/unixart
-
-URL: <https://www.reddit.com/r/unixart>
-
-RSS: <https://www.reddit.com/r/unixart.rss>
-
----
-Title: /r/unixporn
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
-Title: /r/usabilityporn
-
-URL: <https://www.reddit.com/r/UsabilityPorn>
-
-RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
 Title: Admiral Cloudberg
@@ -114,6 +93,13 @@ Title: ENOSUCHBLOG
 URL: <https://blog.yossarian.net/>
 
 RSS: <https://blog.yossarian.net/feed.xml>
+
+---
+Title: Hacker News
+
+URL: <https://news.ycombinator.com/>
+
+RSS: <https://hnrss.org/frontpage>
 
 ---
 Title: Ian Henry
@@ -218,6 +204,13 @@ Title: github blog: security
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: linkhut
+
+URL: <http://ln.ht/>
+
+RSS: <https://ln.ht/_/feed/>
 
 ---
 Title: marquesbrownlee - YouTube
