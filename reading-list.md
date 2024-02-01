@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 01/25/24
+Generated on 02/01/24
 
 ---
 Title: Hacker News
@@ -25,18 +25,18 @@ URL: <https://www.reddit.com/r/battlestations>
 RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
-Title: /r/unixporn
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
 Title: /r/apple
 
 URL: <https://www.reddit.com/r/apple>
 
 RSS: <https://www.reddit.com/r/apple.rss>
+
+---
+Title: /r/unixporn
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: linkhut
@@ -53,39 +53,11 @@ URL: <https://eclecticlight.co>
 RSS: <https://eclecticlight.co/feed/>
 
 ---
-Title: github blog: changelog
+Title: /r/usabilityporn
 
-URL: <https://github.blog/changelog/>
+URL: <https://www.reddit.com/r/UsabilityPorn>
 
-RSS: <https://github.blog/changelog/feed/>
-
----
-Title: Daniel Miessler
-
-URL: <https://danielmiessler.com/>
-
-RSS: <https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml>
-
----
-Title: Jeff Geerling
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
-Title: Solène Rapenne
-
-URL: <https://dataswamp.org/~solene/>
-
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
-
----
-Title: Stephane Travostino
-
-URL: <https://combo.cc>
-
-RSS: <https://combo.cc/rss.xml>
+RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
 Title: Xe Iaso's
@@ -95,11 +67,10 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: github blog: open source
+Title: marquesbrownlee - YouTube
 
-URL: <https://github.blog/category/open-source/>
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
-RSS: <https://github.blog/category/open-source/feed/>
 
 ---
 Title: /r/privacyguides
@@ -114,13 +85,6 @@ Title: /r/unixart
 URL: <https://www.reddit.com/r/unixart>
 
 RSS: <https://www.reddit.com/r/unixart.rss>
-
----
-Title: /r/usabilityporn
-
-URL: <https://www.reddit.com/r/UsabilityPorn>
-
-RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
 Title: Admiral Cloudberg
@@ -165,6 +129,13 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
+Title: Jeff Geerling
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
 Title: Julia Evans
 
 URL: <http://jvns.ca>
@@ -186,6 +157,20 @@ URL: <https://samy.link>
 RSS: <https://samy.link/blog/feed>
 
 ---
+Title: Solène Rapenne
+
+URL: <https://dataswamp.org/~solene/>
+
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
+Title: Stephane Travostino
+
+URL: <https://combo.cc>
+
+RSS: <https://combo.cc/rss.xml>
+
+---
 Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
@@ -197,6 +182,20 @@ Title: Tania Rascia
 URL: <https://www.taniarascia.com>
 
 RSS: <https://www.taniarascia.com/rss.xml>
+
+---
+Title: github blog: changelog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: github blog: open source
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
 Title: github blog: product news
@@ -213,8 +212,9 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: marquesbrownlee - YouTube
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://vermaden.wordpress.com>
 
+RSS: <https://vermaden.wordpress.com/feed/>
 
