@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 02/01/24
+Generated on 02/07/24
 
 ---
 Title: Hacker News
@@ -60,6 +60,26 @@ URL: <https://www.reddit.com/r/UsabilityPorn>
 RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
 
 ---
+Title: github blog: changelog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: Jeff Geerling
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
 Title: Xe Iaso's
 
 URL: <https://xeiaso.net/>
@@ -67,10 +87,18 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: marquesbrownlee - YouTube
+Title: github blog: security
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://github.blog/category/security/>
 
+RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: /r/privacyguides
@@ -129,13 +157,6 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
-Title: Jeff Geerling
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
 Title: Julia Evans
 
 URL: <http://jvns.ca>
@@ -184,13 +205,6 @@ URL: <https://www.taniarascia.com>
 RSS: <https://www.taniarascia.com/rss.xml>
 
 ---
-Title: github blog: changelog
-
-URL: <https://github.blog/changelog/>
-
-RSS: <https://github.blog/changelog/feed/>
-
----
 Title: github blog: open source
 
 URL: <https://github.blog/category/open-source/>
@@ -203,18 +217,4 @@ Title: github blog: product news
 URL: <https://github.blog/category/product/>
 
 RSS: <https://github.blog/category/product/feed/>
-
----
-Title: github blog: security
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
 

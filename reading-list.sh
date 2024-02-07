@@ -14,4 +14,4 @@ printf 'I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combina
 printf 'Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)\n' >> ${file}
 printf "\nGenerated on $(date +%D)\n\n" >> ${file}
 
-curl --silent -H "X-Auth-Token: ${MINIFLUX_API_TOKEN}" "${MINIFLUX_FEED_URL}" | jq -r '.[] | "---\nTitle: " + .title,"\nURL: <" + .site_url + ">","\nRSS: <" + .feed_url + ">\n"' | grep -v '.tailscale' >> ${file}
+curl --silent -H "X-Auth-Token: ${MINIFLUX_API_TOKEN}" "${MINIFLUX_FEED_URL}" | jq -r '.[] | "---\nTitle: " + .title,"\nURL: <" + .site_url + ">","\nRSS: <" + .feed_url + ">\n"' | grep -vE '.tailscale|ts\.net' >> ${file}
