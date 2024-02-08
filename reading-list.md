@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 02/07/24
+Generated on 02/08/24
 
 ---
 Title: Hacker News
@@ -39,13 +39,6 @@ URL: <https://www.reddit.com/r/UnixPorn>
 RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
-Title: linkhut
-
-URL: <http://ln.ht/>
-
-RSS: <https://ln.ht/_/feed/>
-
----
 Title: The Eclectic Light Company
 
 URL: <https://eclecticlight.co>
@@ -67,19 +60,6 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: Jeff Geerling
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
-
----
 Title: Xe Iaso's
 
 URL: <https://xeiaso.net/>
@@ -92,6 +72,13 @@ Title: github blog: security
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: linkhut
+
+URL: <http://ln.ht/>
+
+RSS: <https://ln.ht/_/feed/>
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
@@ -157,6 +144,13 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
+Title: Jeff Geerling
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
 Title: Julia Evans
 
 URL: <http://jvns.ca>
@@ -217,4 +211,10 @@ Title: github blog: product news
 URL: <https://github.blog/category/product/>
 
 RSS: <https://github.blog/category/product/feed/>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
