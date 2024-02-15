@@ -8,7 +8,14 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 02/08/24
+Generated on 02/15/24
+
+---
+Title: Tania Rascia
+
+URL: <https://www.taniarascia.com>
+
+RSS: <https://www.taniarascia.com/rss.xml>
 
 ---
 Title: Hacker News
@@ -25,53 +32,11 @@ URL: <https://www.reddit.com/r/battlestations>
 RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
-Title: /r/apple
-
-URL: <https://www.reddit.com/r/apple>
-
-RSS: <https://www.reddit.com/r/apple.rss>
-
----
 Title: /r/unixporn
 
 URL: <https://www.reddit.com/r/UnixPorn>
 
 RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
-
----
-Title: /r/usabilityporn
-
-URL: <https://www.reddit.com/r/UsabilityPorn>
-
-RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
-
----
-Title: github blog: changelog
-
-URL: <https://github.blog/changelog/>
-
-RSS: <https://github.blog/changelog/feed/>
-
----
-Title: Xe Iaso's
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
-
----
-Title: github blog: security
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: linkhut
@@ -81,11 +46,46 @@ URL: <http://ln.ht/>
 RSS: <https://ln.ht/_/feed/>
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+Title: /r/apple
 
-URL: <https://vermaden.wordpress.com>
+URL: <https://www.reddit.com/r/apple>
 
-RSS: <https://vermaden.wordpress.com/feed/>
+RSS: <https://www.reddit.com/r/apple.rss>
+
+---
+Title: The Eclectic Light Company
+
+URL: <https://eclecticlight.co>
+
+RSS: <https://eclecticlight.co/feed/>
+
+---
+Title: github blog: changelog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: /r/usabilityporn
+
+URL: <https://www.reddit.com/r/UsabilityPorn>
+
+RSS: <https://www.reddit.com/r/UsabilityPorn.rss>
+
+---
+Title: github blog: product news
+
+URL: <https://github.blog/category/product/>
+
+RSS: <https://github.blog/category/product/feed/>
+
+---
+Title: github blog: security
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: /r/privacyguides
@@ -192,11 +192,11 @@ URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
 
 ---
-Title: Tania Rascia
+Title: Xe Iaso's
 
-URL: <https://www.taniarascia.com>
+URL: <https://xeiaso.net/>
 
-RSS: <https://www.taniarascia.com/rss.xml>
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: github blog: open source
@@ -206,15 +206,15 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: github blog: product news
-
-URL: <https://github.blog/category/product/>
-
-RSS: <https://github.blog/category/product/feed/>
-
----
 Title: marquesbrownlee - YouTube
 
 URL: <https://www.youtube.com/user/marquesbrownlee>
 
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
