@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CATEGORY="5"
+CATEGORY="2"
 MINIFLUX_FEED_URL="https://feeds.heywoodlh.io/v1/categories/${CATEGORY}/feeds"
 
 directory=$(dirname -- "$( readlink -f -- "$0"; )";)
