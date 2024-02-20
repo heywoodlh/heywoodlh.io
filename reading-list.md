@@ -93,7 +93,7 @@ URL: <http://jvns.ca>
 RSS: <https://jvns.ca/atom.xml>
 
 ---
-Title: Recent bookmarks
+Title: linkhut
 
 URL: <http://ln.ht/>
 
