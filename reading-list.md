@@ -8,14 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 02/29/24
-
----
-Title: Drew DeVault's blog
-
-URL: <https://drewdevault.com>
-
-RSS: <https://drewdevault.com/blog/index.xml>
+Generated on 03/07/24
 
 ---
 Title: Hacker News: Front Page
@@ -23,20 +16,6 @@ Title: Hacker News: Front Page
 URL: <https://news.ycombinator.com/>
 
 RSS: <https://hnrss.org/frontpage>
-
----
-Title: battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
 
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -51,20 +30,6 @@ Title: r/Apple: Unofficial Apple Community
 URL: <https://www.reddit.com/r/apple>
 
 RSS: <https://www.reddit.com/r/apple.rss>
-
----
-Title: Stories by Admiral Cloudberg on Medium
-
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
-
-RSS: <https://admiralcloudberg.medium.com/feed>
-
----
-Title: The GitHub Blog: Product News and Updates
-
-URL: <https://github.blog/category/product/>
-
-RSS: <https://github.blog/category/product/feed/>
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -93,6 +58,13 @@ Title: Dave Eargle
 URL: <https://daveeargle.com/>
 
 RSS: <https://daveeargle.com/feed.xml>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: ENOSUCHBLOG
@@ -158,6 +130,13 @@ URL: <https://combo.cc>
 RSS: <https://combo.cc/rss.xml>
 
 ---
+Title: Stories by Admiral Cloudberg on Medium
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
+
+---
 Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
@@ -171,11 +150,25 @@ URL: <https://tvl.fyi/feed.atom>
 RSS: <https://tvl.fyi/feed.atom>
 
 ---
+Title: The Eclectic Light Company
+
+URL: <https://eclecticlight.co>
+
+RSS: <https://eclecticlight.co/feed/>
+
+---
 Title: The GitHub Blog: Open Source News and Updates
 
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: The GitHub Blog: Product News and Updates
+
+URL: <https://github.blog/category/product/>
+
+RSS: <https://github.blog/category/product/feed/>
 
 ---
 Title: The GitHub Blog: Security News and Updates
@@ -192,11 +185,11 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: linkhut
+Title: battlestations
 
-URL: <http://ln.ht/>
+URL: <https://www.reddit.com/r/battlestations>
 
-RSS: <https://ln.ht/_/feed/>
+RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
 Title: marquesbrownlee - YouTube
