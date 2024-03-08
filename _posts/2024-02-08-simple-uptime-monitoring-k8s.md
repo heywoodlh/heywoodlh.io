@@ -6,6 +6,8 @@ permalink: simple-k8s-uptime-monitoring
 tags: all, linux, kubernetes, monitoring, alert, uptime
 ---
 
+> EDIT March 08, 2024: updated with the latest version of the container, netcat example, and keeping track of state in the `uptime-status` PVC
+
 I will keep this brief: I have implemented uptime monitoring in Kubernetes and I don't know of any solution that's simpler.
 
 There are two ingredients for this system:
@@ -94,6 +96,18 @@ spec:
 ```
 ---
 apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: uptime-status
+  namespace: monitoring
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 512Mi
+---
+apiVersion: v1
 kind: ConfigMap
 metadata:
   name: uptime-config
@@ -102,12 +116,12 @@ data:
   uptime.yaml: |
     global:
       track_status: true
-      status_dir: "test"
+      status_dir: "/status"
     ping:
       hosts:
         - nix-backups
         - nix-drive
-        - nix-m1-mac-mini
+        - mac-mini
         - nix-precision
         - nixos-matrix
       options: "-c 1 -W 1"
@@ -119,7 +133,18 @@ data:
         - "http://cloudtube.default"
         - "http://second.default"
         - "http://home-assistant.default"
+        - "http://some-bad-service-fake-not-real.net"
       options: "-LI --silent"
+      silent: "true"
+    netcat:
+      services:
+        - rustdesk.default:22000
+        - protonmail-bridge.default:25
+        - protonmail-bridge.default:143
+        - protonmail-bridge.default:143
+        - syncthing.syncthing:80
+        - syncthing.syncthing:22000
+      options: "-vz"
       silent: "true"
 ---
 apiVersion: batch/v1
@@ -131,20 +156,23 @@ spec:
   schedule: "*/5 * * * *"
   jobTemplate:
     spec:
+      activeDeadlineSeconds: 30
       template:
         spec:
           containers:
-          - image: docker.io/heywoodlh/bash-uptime:0.0.3
+          - image: docker.io/heywoodlh/bash-uptime:0.0.4
             name: uptime
             command:
             - "/bin/bash"
             - "-c"
             args:
-            - "/app/uptime.sh | tee /tmp/uptime.log; grep DOWN /tmp/uptime.log | xargs -I {} curl -d \"{}\" http://ntfy.default/uptime-notifications"
+            - "/app/uptime.sh | xargs -r -I {} curl -d \"{}\" http://ntfy.default/uptime-notifications"
             volumeMounts:
             - name: uptime-config
               mountPath: /app/uptime.yaml
               subPath: uptime.yaml
+            - name: uptime-status
+              mountPath: /status
           restartPolicy: OnFailure
           volumes:
           - name: uptime-config
@@ -153,6 +181,9 @@ spec:
               items:
               - key: uptime.yaml
                 path: uptime.yaml
+          - name: uptime-status
+            persistentVolumeClaim:
+              claimName: uptime-status
 ```
 
 ## Conclusion/more info
