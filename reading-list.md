@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 03/07/24
+Generated on 03/14/24
 
 ---
 Title: Hacker News: Front Page
@@ -16,6 +16,13 @@ Title: Hacker News: Front Page
 URL: <https://news.ycombinator.com/>
 
 RSS: <https://hnrss.org/frontpage>
+
+---
+Title: battlestations
+
+URL: <https://www.reddit.com/r/battlestations>
+
+RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -32,6 +39,40 @@ URL: <https://www.reddit.com/r/apple>
 RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
+Title: The Eclectic Light Company
+
+URL: <https://eclecticlight.co>
+
+RSS: <https://eclecticlight.co/feed/>
+
+---
+Title: Changelogs Archive - The GitHub Blog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: Sabine Hossenfelder - YouTube
+
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
+
+---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
+
+---
 Title: /r/unixart: high quality screenshots
 
 URL: <https://www.reddit.com/r/unixart>
@@ -46,11 +87,11 @@ URL: <https://asahilinux.org/blog/>
 RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
-Title: Changelogs Archive - The GitHub Blog
+Title: Brendan Gregg's Blog
 
-URL: <https://github.blog/changelog/>
+URL: <http://www.brendangregg.com/blog>
 
-RSS: <https://github.blog/changelog/feed/>
+RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
 Title: Dave Eargle
@@ -79,13 +120,6 @@ Title: Ian Henry
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
-
----
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Julia Evans
@@ -150,13 +184,6 @@ URL: <https://tvl.fyi/feed.atom>
 RSS: <https://tvl.fyi/feed.atom>
 
 ---
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
-
----
 Title: The GitHub Blog: Open Source News and Updates
 
 URL: <https://github.blog/category/open-source/>
@@ -185,22 +212,8 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
 Title: marquesbrownlee - YouTube
 
 URL: <https://www.youtube.com/user/marquesbrownlee>
 
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
 
