@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 03/21/24
+Generated on 03/28/24
 
 ---
 Title: Hacker News: Front Page
@@ -53,30 +53,24 @@ URL: <https://eclecticlight.co>
 RSS: <https://eclecticlight.co/feed/>
 
 ---
-Title: ENOSUCHBLOG
-
-URL: <https://blog.yossarian.net/>
-
-RSS: <https://blog.yossarian.net/feed.xml>
-
----
 Title: Sabine Hossenfelder - YouTube
 
 URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
-Title: The GitHub Blog: Product News and Updates
+Title: The GitHub Blog: Open Source News and Updates
 
-URL: <https://github.blog/category/product/>
+URL: <https://github.blog/category/open-source/>
 
-RSS: <https://github.blog/category/product/feed/>
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: marquesbrownlee - YouTube
+Title: Xe Iaso's blog
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://xeiaso.net/>
 
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -112,6 +106,13 @@ Title: Drew DeVault's blog
 URL: <https://drewdevault.com>
 
 RSS: <https://drewdevault.com/blog/index.xml>
+
+---
+Title: ENOSUCHBLOG
+
+URL: <https://blog.yossarian.net/>
+
+RSS: <https://blog.yossarian.net/feed.xml>
 
 ---
 Title: Ian Henry
@@ -190,11 +191,11 @@ URL: <https://tvl.fyi/feed.atom>
 RSS: <https://tvl.fyi/feed.atom>
 
 ---
-Title: The GitHub Blog: Open Source News and Updates
+Title: The GitHub Blog: Product News and Updates
 
-URL: <https://github.blog/category/open-source/>
+URL: <https://github.blog/category/product/>
 
-RSS: <https://github.blog/category/open-source/feed/>
+RSS: <https://github.blog/category/product/feed/>
 
 ---
 Title: The GitHub Blog: Security News and Updates
@@ -204,11 +205,10 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: Xe Iaso's blog
+Title: marquesbrownlee - YouTube
 
-URL: <https://xeiaso.net/>
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
-RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
