@@ -108,7 +108,15 @@ For reference, here's the X13s-specific configuration in my flake at the time of
 
 ## Drawbacks
 
-The Ubuntu image worked out of the box with fingerprint scanner -- it doesn't with my current configuration. I haven't tried to fix that yet.
+~~The Ubuntu image worked out of the box with fingerprint scanner -- it doesn't with my current configuration. I haven't tried to fix that yet.~~
+
+This NixOS configuration gets the fingerprint scanner working (with GNOME at least):
+
+```
+services.fprintd.enable = true;
+services.fprintd.tod.enable = true;
+services.fprintd.tod.driver = pkgs.libfprint-2-tod1-goodix;
+```
 
 Battery life is the best I've ever experienced on a Linux machine (that isn't a super underpowered Chromebook) -- but it's noticeably not as good as Windows 11. But, at least I'm not being force-fed ads about Bing, Microsoft Edge and Teams. :)
 
@@ -117,6 +125,9 @@ Battery life is the best I've ever experienced on a Linux machine (that isn't a 
 Here are some other resources I found that were helpful in piecing together how to install NixOS on the X13s:
 
 [github.com/cenunix/x13s-nixos](https://github.com/cenunix/x13s-nixos)
+
 [github.com/LunNova/nixos-configs: amayadori](https://github.com/LunNova/nixos-configs/tree/94c71df589ba2adf1b96bee7c7f87d5a4bf85a9a/hosts/amayadori)
+
 [Linux on ThinkPad X13s Gen 1](https://openwebcraft.com/linux-on-thinkpad-x13s-gen-1/)
+
 [NixOS on ThinkPad X13s: minimal configuration](https://dumpstack.io/1675806876_thinkpad_x13s_nixos.html)
