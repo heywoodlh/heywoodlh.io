@@ -20,7 +20,7 @@ I initially tried out Ubuntu on the X13s without updating the firmware. There we
 
 ## Get a hardware-compatible ISO for the installation
 
-At the time of writing, you can download the official Canonical Ubuntu 23.10 ISO for the X13s here: https://cdimage.ubuntu.com/releases/mantic/release/
+At the time of writing, you can download the official Canonical Ubuntu 23.10 ISO for the X13s here: [Ubuntu 23.10.1 (Manic Minotaur)](https://cdimage.ubuntu.com/releases/mantic/release/)
 
 
 ## Install NixOS
@@ -40,7 +40,7 @@ I won't go through the NixOS installation process itself, but you're going to ha
 
 [Installing NixOS with Full Disk Encryption](https://gist.github.com/mara-schulke/43e2632ce73d94028f50f438037c1578)
 
-This is the most user-friendly resource I found to easily configure NixOS for the x13s: https://codeberg.org/adamcstephens/nixos-x13s
+This is the most user-friendly resource I found to easily configure NixOS for the x13s: [codeberg:adamcstephens/nixos-x13s](https://codeberg.org/adamcstephens/nixos-x13s)
 
 Before running `nixos-install`, you will need to add hardware compatibility for the X13s. I wasn't able to figure out how to do a fully flaked _initial_ install, so this is what I did for the initial `nixos-install`:
 
