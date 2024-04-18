@@ -8,7 +8,7 @@ My tech reading list generated weekly.
 I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
 Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
 
-Generated on 04/11/24
+Generated on 04/18/24
 
 ---
 Title: Hacker News: Front Page
@@ -46,11 +46,11 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: Julia Evans
+Title: Jeff Geerling's Blog
 
-URL: <http://jvns.ca>
+URL: <https://www.jeffgeerling.com/>
 
-RSS: <https://jvns.ca/atom.xml>
+RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Realworld cyberdecks.
@@ -63,6 +63,18 @@ RSS: <https://www.reddit.com/r/cyberdeck.rss>
 Title: Sabine Hossenfelder - YouTube
 
 URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
@@ -115,11 +127,11 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
-Title: Jeff Geerling's Blog
+Title: Julia Evans
 
-URL: <https://www.jeffgeerling.com/>
+URL: <http://jvns.ca>
 
-RSS: <https://www.jeffgeerling.com/blog.xml>
+RSS: <https://jvns.ca/atom.xml>
 
 ---
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
@@ -205,23 +217,11 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
-
----
 Title: Xe Iaso's blog
 
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
