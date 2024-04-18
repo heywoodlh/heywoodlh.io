@@ -131,3 +131,5 @@ Here are some other resources I found that were helpful in piecing together how 
 [Linux on ThinkPad X13s Gen 1](https://openwebcraft.com/linux-on-thinkpad-x13s-gen-1/)
 
 [NixOS on ThinkPad X13s: minimal configuration](https://dumpstack.io/1675806876_thinkpad_x13s_nixos.html)
+
+[X13s Wiki](https://github.com/jhovold/linux/wiki/X13s)
