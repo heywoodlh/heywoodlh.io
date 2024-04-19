@@ -6,6 +6,8 @@ permalink: starting-mastodon
 tags: all, social, media, mastodon
 ---
 
+_Edit: I decided to switch to Microblog.pub over Mastodon -- it made more sense for me as the sole user of the instance. However, everything still applies in this post._
+
 _Note: skip this post if you're not interested in my personal life, stranger :)_
 
 This blog has mostly been me writing tech-focused how-to articles on obscure -- often not-well-documented -- things that I'm interested in. I'm not changing the focus of my blog, but I am going to deviate from my tech writing for this post and talk about my personal life.
