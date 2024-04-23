@@ -4,12 +4,11 @@ title: Reading List
 permalink: /reading-list/
 ---
 
-My tech reading list generated weekly.
-I use [Miniflux](https://miniflux.app/) to aggregate my feeds in combination with [Reeder5](https://www.reederapp.com/) on mobile.
-Using the following GitHub Action to generate this list: [generate-reading-list](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml)
+My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
-Generated on 04/18/24
-
+<div class=date>
+Generated on 04/23/24
+</div>
 ---
 Title: Hacker News: Front Page
 
@@ -39,18 +38,18 @@ URL: <https://www.reddit.com/r/apple>
 RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
+Title: The Eclectic Light Company
+
+URL: <https://eclecticlight.co>
+
+RSS: <https://eclecticlight.co/feed/>
+
+---
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
 
 RSS: <https://github.blog/changelog/feed/>
-
----
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Realworld cyberdecks.
@@ -66,16 +65,32 @@ URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
-Title: Vimjoyer - YouTube
+Title: Xe Iaso's blog
 
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+URL: <https://xeiaso.net/>
 
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: marquesbrownlee - YouTube
+Title: Solene'%
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://dataswamp.org/~solene/>
 
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -127,6 +142,13 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
 Title: Julia Evans
 
 URL: <http://jvns.ca>
@@ -153,13 +175,6 @@ Title: Samy Security Blog
 URL: <https://samy.link>
 
 RSS: <https://samy.link/blog/feed>
-
----
-Title: Solene'%
-
-URL: <https://dataswamp.org/~solene/>
-
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
 
 ---
 Title: Stephane Travostino
@@ -189,20 +204,6 @@ URL: <https://tvl.fyi/feed.atom>
 RSS: <https://tvl.fyi/feed.atom>
 
 ---
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
-
----
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
-
----
 Title: The GitHub Blog: Product News and Updates
 
 URL: <https://github.blog/category/product/>
@@ -217,16 +218,14 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: Xe Iaso's blog
+Title: Vimjoyer - YouTube
 
-URL: <https://xeiaso.net/>
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
-RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+Title: marquesbrownlee - YouTube
 
-URL: <https://vermaden.wordpress.com>
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
-RSS: <https://vermaden.wordpress.com/feed/>
 
