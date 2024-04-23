@@ -3,7 +3,7 @@ title: "Sync Skyrim Mods Between Devices (with Syncthing)"
 layout: post
 published: true
 permalink: sync-skyrim-mods-syncthing
-tags: all, linux, steam, deck, steamdeck, skyrim, special, edition, syncthing, mods, vortex, mod, manager, gaming
+tags: [ linux, steam, deck, steamdeck, skyrim, special, edition, syncthing, mods, vortex, mod, manager, gaming ]
 ---
 
 This will be a quick run-down on how I'm syncing mods with Syncthing between two of my devices that have Skyrim Special Edition installed. The two devices are my gaming PC running Windows 10 and my Steam Deck running NixOS. However, this should work with any two devices that can run Syncthing.

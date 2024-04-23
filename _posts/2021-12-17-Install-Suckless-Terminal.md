@@ -3,7 +3,7 @@ title: 'Install Suckless Terminal (Nord Theme)'
 layout: post
 published: true
 permalink: install-suckless-terminal-nord
-tags: all, st, linux, suckless, terminal, minimal, nord
+tags: [ st, linux, suckless, terminal, minimal, nord ]
 ---
 
 This post will be a super simple entry for self-documenting how I installed [Suckless Terminal](http://git.suckless.org/st) with Nord .

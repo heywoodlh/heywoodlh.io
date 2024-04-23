@@ -3,7 +3,7 @@ title: "Mouseless Workflows on MacOS"
 layout: post
 published: true
 permalink: mouseless-workflows-on-macos
-tags: all, macos, mouseless, keyboard, trackpad, skhd, cliclick
+tags: [ macos, mouseless, keyboard, trackpad, skhd, cliclick ]
 ---
 
 I've recently-ish been obsessed with getting my keyboard driven workflows honed in after getting an ErgoDox EZ ergonomic keyboard and have pretty much abandoned my mouse. While on my ergonomic keyboard I don't have to use a mouse at all because it has a mouse emulation mode built into the firmware.

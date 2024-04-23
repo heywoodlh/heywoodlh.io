@@ -3,7 +3,7 @@ title: "Making the iPad Suck Less (for sysadmin, development, etc.)"
 layout: post
 published: true
 permalink: suckless-ipad
-tags: all, ipados, ipad, macos, linux, sysadmin, coding
+tags: [ ipados, ipad, macos, linux, sysadmin, coding ]
 ---
 
 At Apple's 2023 WWDC event I found myself having a metaphorical, angry seizure because for yet another year my iPad Pro was still going to be a giant iPhone -- per the lack of features announced for iPadOS at the event.

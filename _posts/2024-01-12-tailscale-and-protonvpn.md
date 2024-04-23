@@ -3,7 +3,7 @@ title: "Using Tailscale with ProtonVPN"
 layout: post
 published: false
 permalink: tailscale-protonvpn
-tags: all, linux, vpn, tailscale, protonvpn, mullvad
+tags: [ linux, vpn, tailscale, protonvpn, mullvad ]
 draft: true
 ---
 

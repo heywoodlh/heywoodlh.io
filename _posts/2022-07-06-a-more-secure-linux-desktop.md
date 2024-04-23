@@ -3,7 +3,7 @@ title: "A More Secure Linux Desktop"
 layout: post
 published: true
 permalink: a-more-secure-linux-desktop
-tags: all, linux, security, desktop, gnome, firejail, containers
+tags: [ linux, security, desktop, gnome, firejail, containers ]
 ---
 
 This is going to be a guide on some tooling and workflows I use to secure my Linux desktop. As with all security tooling, nothing except for being completely disconnected from the internet can keep you perfectly secure -- this guide will serve to add some layers of protection. A lot of this tooling could be made more elegant but rather than focus on making something without flaws, I'm publishing this guide to serve as a starting point.

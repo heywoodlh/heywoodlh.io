@@ -3,7 +3,7 @@ title: "Installing NixOS on the Steam Deck"
 layout: post
 published: true
 permalink: nixos-steamdeck 
-tags: all, linux, nix, nixos, steam, deck, steamdeck
+tags: [ linux, nix, nixos, steam, deck, steamdeck ]
 ---
 
 ![alt text](../images/steam-deck.gif "Steam Deck booting NixOS")

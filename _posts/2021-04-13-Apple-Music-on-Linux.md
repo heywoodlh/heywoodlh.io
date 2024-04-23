@@ -2,7 +2,7 @@
 title: 'Getting Native-ish Apple Music on Linux'
 layout: post
 permalink: apple-music-linux
-tags: all, linux, music, apple, nativefier, node
+tags: [ linux, music, apple, nativefier, node ]
 ---
 
 This setup isn't entirely necessary because you can just use [Apple Music's web player](https://music.apple.com) in any browser that supports playing DRM protected content. However, I like having a more native experience with Apple Music on Linux (and Windows) so I will provide a short snippet on how to create an Electron app for Apple Music using [Nativefier](https://github.com/nativefier/nativefier). On top of that, I use Nativefier all the time and I don't think it's as popular or widely-used as it could be.

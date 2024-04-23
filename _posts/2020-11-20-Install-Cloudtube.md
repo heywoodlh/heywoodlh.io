@@ -2,7 +2,7 @@
 title: 'Install Cloudtube (Open Source Youtube Front-End)'
 layout: post
 permalink: install-cloudtube
-tags: all, linux, youtube, x86, arm
+tags: [ linux, youtube, x86, arm ]
 ---
 
 This article will outline the installation of the open-source Youtube front-end [Cloudtube](https://sr.ht/~cadence/tube/) by [Cadence](https://cadence.moe/) -- who also is the author of the open-source Instagram front-end called [Bibliogram](https://bibliogram.art/).

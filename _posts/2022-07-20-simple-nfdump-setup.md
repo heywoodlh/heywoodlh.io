@@ -3,7 +3,7 @@ title: "Simple nfdump Setup (in Containers) for Netflow Collection and Analysis"
 layout: post
 published: true
 permalink: a-simple-nfdump-setup
-tags: all, linux, netflow, network, nfdump
+tags: [ linux, netflow, network, nfdump ]
 ---
 
 This post will outline my simple Netflow collection setup running with some containers with nfdump tooling I setup for this purpose.

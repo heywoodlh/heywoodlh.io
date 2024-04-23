@@ -3,7 +3,7 @@ title: "My Notes Setup using Obsidian"
 layout: post
 published: true
 permalink: notes-with-obsidian 
-tags: all, linux, obsidian, notes
+tags: [ linux, obsidian, notes ]
 ---
 
 ## Why Obsidian:

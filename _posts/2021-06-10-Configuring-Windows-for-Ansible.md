@@ -2,7 +2,7 @@
 title: 'Configuring Windows to Be Managed via Ansible'
 layout: post
 permalink: windows-ansible-setup
-tags: all, ansible, windows, linux, macos, bash, automation, devops
+tags: [ ansible, windows, linux, macos, bash, automation, devops ]
 ---
 
 This post will just quickly run through setting up a Windows host to be managed via Ansible.

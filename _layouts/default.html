@@ -4,7 +4,6 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
-
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -28,16 +27,16 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/contact">Contact</a>
-            <a href="{{ site.baseurl }}/reading-list">My Reading List</a>
+            <a href="{{ site.baseurl }}/">home</a>
+            <a href="{{ site.baseurl }}/reading-list">reading</a>
+            <a href="{{ site.baseurl }}/contact">contact</a>
           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      {% include anchors.html html=content anchorBody="#" %}
     </div>
 
     <div class="wrapper-footer">

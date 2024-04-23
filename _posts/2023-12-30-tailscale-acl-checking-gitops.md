@@ -3,7 +3,7 @@ title: "Tailscale ACL Gitops Policy Validation"
 layout: post
 published: true
 permalink: tailscale-acl-gitops-validation
-tags: all, tailscale, gitops, validation
+tags: [ tailscale, gitops, validation ]
 ---
 
 As a happy Tailscale user, I've implemented a fairly robust ACL with role-based policies to secure my Tailnet. I've created a GitHub repository with a GitHub Action to automatically deploy my Tailscale config, as Tailscale's documentation describes: [GitOps for Tailscale ACLs](https://tailscale.com/blog/gitops-acls)

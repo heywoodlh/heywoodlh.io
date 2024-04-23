@@ -3,7 +3,7 @@ title: 'Simple Log Alerting with Systemd/Journald'
 layout: post
 published: true
 permalink: systemd-alerting
-tags: all, linux, security, logging, logs, log
+tags: [ linux, security, logging, logs, log ]
 ---
 
 This post provides a super simple example script for alerting using Systemd/Journald.

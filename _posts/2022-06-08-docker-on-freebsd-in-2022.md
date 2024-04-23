@@ -3,7 +3,7 @@ title: "Running Docker on FreeBSD in 2022"
 layout: post
 published: true
 permalink: freebsd-docker-2022
-tags: all, freebsd, unix, docker 
+tags: [ freebsd, unix, docker  ]
 ---
 
 ## Why?

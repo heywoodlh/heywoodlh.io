@@ -3,7 +3,7 @@ title: "Running a Tiny SOCKS5 Proxy (in a container)"
 layout: post
 published: true
 permalink: tiny-socks-proxy 
-tags: all, linux, docker, socks, http
+tags: [ linux, docker, socks, http ]
 ---
 
 This is a super quick snippet on how to run a SOCKS 5 proxy in a container. 

@@ -3,7 +3,7 @@ title: 'Gotify iOS Notifications'
 layout: post
 published: true
 permalink: gotify-ios-notifications
-tags: all, linux, golang, go, gotify, push, notifications, pushover, ntfy
+tags: [ linux, golang, go, gotify, push, notifications, pushover, ntfy ]
 ---
 
 Edit: Updated the script to push to `ntfy` with the `autoreconnect:` overlay so `websocat` will reconnect when Gotify goes down.

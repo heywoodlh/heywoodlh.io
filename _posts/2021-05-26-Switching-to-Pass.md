@@ -2,7 +2,7 @@
 title: 'Switching (Back) to Pass as My Password Manager'
 layout: post
 permalink: switching-to-pass
-tags: all, linux, macos, bash, automation, password-manager, pass, bitwarden, 1password
+tags: [ linux, macos, bash, automation, password-manager, pass, bitwarden, 1password ]
 ---
 
 This is a post that is a bit more opinionated that my general how-to stuff. Feel free to disagree with my ideas or opinions, I don't care.

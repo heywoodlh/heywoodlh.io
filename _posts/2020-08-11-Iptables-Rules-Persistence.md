@@ -2,7 +2,7 @@
 title: 'Linux IPTables Rules Persistence'
 layout: post
 permalink: linux-iptables-persistence
-tags: all, linux, security, firewall, iptables
+tags: [ linux, security, firewall, iptables ]
 ---
 
 Use this systemd service to have `/etc/iptables.rules` reloaded on each reboot:

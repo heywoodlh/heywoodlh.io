@@ -13,5 +13,14 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  {% include disqus.html %}
+  <br>
+
+  <small>
+    {% if page.tags.size > 0 %}
+      {% for tag in page.tags %}
+        <a href="/tags#{{ tag }}">{{ tag }} </a>
+      {% endfor %}
+    {% endif %}
+   </small>
+
 </article>

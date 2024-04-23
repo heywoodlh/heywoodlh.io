@@ -3,7 +3,7 @@ title: 'How to Run a Honeypot'
 layout: post
 published: true
 permalink: how-to-run-honeypot 
-tags: all, linux, security, honeypot, heralding 
+tags: [ linux, security, honeypot, heralding  ]
 ---
 
 I decided to run a honeypot for fun, to see what interesting things I would see. Maybe at some point I'll share the details in a list and perhaps build some automation fun around the data gathered.

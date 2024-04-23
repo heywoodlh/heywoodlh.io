@@ -2,7 +2,7 @@
 title: 'Protonmail Bridge for Mobile Devices'
 layout: post
 permalink: protonmail-bridge-mobile
-tags: all, docker, linux, protonmail, ios, ipados, ipad, iphone, apple, android
+tags: [ docker, linux, protonmail, ios, ipados, ipad, iphone, apple, android ]
 ---
 
 This post will go over setting up a bridge to use Protonmail with other devices that don't have the [official Protonmail Bridge available for them](https://protonmail.com/bridge/). The Protonmail Bridge allows you to get all the benefits of Protonmail with other mail clients. 

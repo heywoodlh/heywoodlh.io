@@ -2,7 +2,7 @@
 title: 'Re-writing My Dotfiles'
 layout: post
 permalink: rewriting-dotfiles
-tags: all, linux, macos, bash, fish, automation, devops
+tags: [ linux, macos, bash, fish, automation, devops ]
 ---
 
 Update February 27, 2023: updated the link to my current nixos-configs. Additionally, my current dotfiles in 2023 is now heavily focused on PowerShell.

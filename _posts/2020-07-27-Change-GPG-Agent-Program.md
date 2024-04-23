@@ -2,7 +2,7 @@
 title: 'Change GPG Agent Program to Console Based Pinentry-Curses'
 layout: post
 permalink: change-gpg-agent-program
-tags: all, linux, security, macos, gpg
+tags: [ linux, security, macos, gpg ]
 ---
 
 I'm documenting this because it is a bit obscure. My original source for these commands can be found [here](https://superuser.com/questions/520980/how-to-force-gpg-to-use-console-mode-pinentry-to-prompt-for-passwords).

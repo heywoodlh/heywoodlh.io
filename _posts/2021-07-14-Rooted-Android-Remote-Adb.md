@@ -3,7 +3,7 @@ title: 'Remotely connecting to Rooted Android via ADB'
 layout: post
 published: true
 permalink: rooted-android-remote-adb
-tags: all, android, linux, ssh, adb
+tags: [ android, linux, ssh, adb ]
 ---
 
 This post will just contain some quick snippets on how I connect to my rooted Android phone with ADB. This post assumes that your Android phone is already rooted.

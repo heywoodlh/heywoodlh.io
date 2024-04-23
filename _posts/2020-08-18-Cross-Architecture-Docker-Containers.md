@@ -2,7 +2,7 @@
 title: 'Building Cross-Architecture Docker Images'
 layout: post
 permalink: cross-architecture-docker-images
-tags: all, linux, docker, containers, arm, x86
+tags: [ linux, docker, containers, arm, x86 ]
 ---
 
 Recently I wrote about [building ARM Docker images on an x86 machine](https://heywoodlh.io/arm-containers-linux). However, my chosen method was a bit hackey where you didn't end up with a single Docker image tag that could be used on any architecture. So I did some more research and found the Docker [Buildx](https://github.com/docker/buildx) plugin which helped me get much more desirable results.

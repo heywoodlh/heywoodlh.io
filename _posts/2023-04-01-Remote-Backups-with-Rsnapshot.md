@@ -3,7 +3,7 @@ title: "Remote Backups Over SSH With Rsnapshot"
 layout: post
 published: true
 permalink: rsnapshot-backups
-tags: all, linux, nixos, arch, ssh, rsync, rsnapshot, backup 
+tags: [ linux, nixos, arch, ssh, rsync, rsnapshot, backup  ]
 ---
 
 During a discussion I had with a former coworker at my previous job, he introduced me to [Rsnapshot](https://rsnapshot.org/). Rsnapshot is a backup program based on [rsync](https://github.com/WayneD/rsync), which allows for simple but effective remote backups over SSH.

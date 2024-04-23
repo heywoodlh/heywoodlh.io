@@ -2,7 +2,7 @@
 title: 'Building a MacOS Trojan'
 layout: post
 permalink: building-mac-trojan
-tags: all, mac, cybersecurity
+tags: [ mac, cybersecurity ]
 ---
 
 This article will outline a simple method I used for building and deploying malware on MacOS. I wanted to do this to prepare for reading Patrick Wardle's book [The Art of Mac Malware](https://taomm.org/).

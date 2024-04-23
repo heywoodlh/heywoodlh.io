@@ -3,7 +3,7 @@ title: "Deploying everywhere with Nix Flakes"
 layout: post
 published: true
 permalink: nix-deployments-everywhere
-tags: all, nix, nixos, macos, linux, flakes
+tags: [ nix, nixos, macos, linux, flakes ]
 ---
 
 I've been using Nix for a long time (I think it was 2018, back when I was a security engineer at the [Utah Education Network](https://www.uen.org/)). I think I first discovered it -- accidentally -- while looking for alternatives to Homebrew on my Mac. Little did I know, it would become an ecosystem that would change my entire computing experience.

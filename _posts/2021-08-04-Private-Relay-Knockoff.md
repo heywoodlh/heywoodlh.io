@@ -3,7 +3,7 @@ title: 'Setting up my own "Private Relay" Knockoff with Tor'
 layout: post
 published: true
 permalink: private-relay-knockoff
-tags: all, linux, privacy, tor, proxy, socks, apple, ios, mac, linux, docker
+tags: [ linux, privacy, tor, proxy, socks, apple, ios, mac, linux, docker ]
 ---
 
 _Edit: I added a section to show how to use the `torrc` file in the container and how to specify which country code your entry/exit nodes would be based in (for speed)._

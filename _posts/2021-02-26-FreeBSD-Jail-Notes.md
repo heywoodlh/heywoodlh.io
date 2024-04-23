@@ -2,7 +2,7 @@
 title: 'FreeBSD Jail Deployment Notes'
 layout: post
 permalink: freebsd-jail-notes
-tags: all, freebsd
+tags: [ freebsd ]
 ---
 
 

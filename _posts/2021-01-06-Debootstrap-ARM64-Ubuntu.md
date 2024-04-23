@@ -2,7 +2,7 @@
 title: 'Debootstrap ARM64 Ubuntu'
 layout: post
 permalink: debootstrap-arm64-ubuntu
-tags: all, linux
+tags: [ linux ]
 ---
 
 Putting these commands down as a reference for debootstrapping ARM64 Ubuntu 20.04 on a drive that's mounted at `/mnt/`:

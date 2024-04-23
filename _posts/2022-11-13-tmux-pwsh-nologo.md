@@ -3,7 +3,7 @@ title: "Launch Powershell in Tmux with -NoLogo Argument"
 layout: post
 published: true
 permalink: tmux-pwsh-nologo
-tags: all, linux, tmux, pwsh, nologo, banner, powershell, core
+tags: [ linux, tmux, pwsh, nologo, banner, powershell, core ]
 ---
 
 I recently switched to Powershell as my main shell on Linux and MacOS and I couldn't find any examples online on how to launch Powershell Core, `pwsh`, in `tmux` with the `-NoLogo` argument. So this is my quick solution to that.

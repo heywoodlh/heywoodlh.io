@@ -3,7 +3,7 @@ title: "NixOS: Managing GNOME Keyboard Shortcuts and Settings with Home Manager"
 layout: post
 published: true
 permalink: nixos-gnome-settings-and-keyboard-shortcuts
-tags: all, linux, nix, nixos, keyboard, settings, home, manager
+tags: [ linux, nix, nixos, keyboard, settings, home, manager ]
 ---
 
 EDIT: June 21, 2023: thanks to [u/jtojnar](https://reddit.com/u/jtojnar) for pointing out the issue on this post with using `"@as []"` for disabled dconf settings. Shortly after posting this in January, I figured out that `"disabled"` was one of the ways to disable a setting with GNOME -- but I forgot to update this post! I have updated the config shown on this post. Here's the Reddit post referring to this article: https://reddit.com/r/NixOS/comments/14fenpb/issue_with_declarative_gnome_keyboard_shortcuts/

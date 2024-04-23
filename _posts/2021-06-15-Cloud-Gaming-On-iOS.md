@@ -3,7 +3,7 @@ title: 'My Cloud Gaming Setup for iOS on Paperspace'
 layout: post
 published: true
 permalink: paperspace-cloud-gaming-ios
-tags: all, cloud, paperspace, gaming, apple, ios, ipados, ipad, iphone, apple, shortcuts, fallout, 76, bethesda
+tags: [ cloud, paperspace, gaming, apple, ios, ipados, ipad, iphone, apple, shortcuts, fallout, bethesda ]
 ---
 
 This post will outline my setup for cloud gaming on Paperspace for my i[Pad]OS devices.

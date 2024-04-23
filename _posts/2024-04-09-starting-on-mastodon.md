@@ -3,7 +3,7 @@ title: "I'm starting a Mastodon Instance"
 layout: post
 published: true
 permalink: starting-mastodon
-tags: all, social, media, mastodon
+tags: [ social, media, mastodon ]
 ---
 
 _Edit: I decided to switch to Microblog.pub over Mastodon -- it made more sense for me as the sole user of the instance. However, everything still applies in this post._

@@ -2,7 +2,7 @@
 title: 'Configuring MacOS to Use Apple Watch or Touch ID for MFA With Sudo'
 layout: post
 permalink: macos-sudo-watch-touch-id
-tags: all, macos, security, x86
+tags: [ macos, security, x86 ]
 ---
 
 

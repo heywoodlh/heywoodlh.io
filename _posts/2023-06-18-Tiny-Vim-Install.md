@@ -3,7 +3,7 @@ title: "Tiny Vim Install"
 layout: post
 published: true
 permalink: tiny-vim-install
-tags: all, linux, vim, ide, github, actions
+tags: [ linux, vim, ide, github, actions ]
 ---
 
 ## Some background

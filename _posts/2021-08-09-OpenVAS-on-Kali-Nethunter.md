@@ -3,7 +3,7 @@ title: 'Running OpenVAS on Kali Nethunter'
 layout: post
 published: true
 permalink: openvas-nethunter
-tags: all, linux, security, vulnerabilities, vulnerability, openvas
+tags: [ linux, security, vulnerabilities, vulnerability, openvas ]
 ---
 
 This post will document how I got OpenVAS running on Kali Nethunter running on my OnePlus One.

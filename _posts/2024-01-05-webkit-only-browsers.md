@@ -3,7 +3,7 @@ title: "Using WebKit only Browsers (Apple, Linux)"
 layout: post
 published: true
 permalink: webkit-only-browsers
-tags: all, macos, ios, linux, webkit, safari, epiphany, gnome, web, vimb
+tags: [ macos, ios, linux, webkit, safari, epiphany, gnome, web, vimb ]
 ---
 
 I had the idea to see how far I can go with WebKit only browsers a few weeks ago when I saw a post about the [Orion Browser by Kagi](https://kagi.com/orion) pop up on HackerNews (I think it was this post: [https://news.ycombinator.com/item?id=38441139](https://news.ycombinator.com/item?id=38441139)). If Orion was available on Linux, I'd totally use it on Linux (assuming it wasn't Chromium-based and had support for extensions).

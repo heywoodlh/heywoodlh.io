@@ -3,7 +3,7 @@ title: 'Headless Windows Server Setup'
 layout: post
 published: true
 permalink: headless-windows-server
-tags: all, windows, server, 2022, microsoft, ssh, powershell
+tags: [ windows, server, microsoft, ssh, powershell ]
 ---
 
 This post will be used to document how I prefer to setup a fresh installation of Windows Server. Specifically, I am using Windows Server 2022 Standard Core.

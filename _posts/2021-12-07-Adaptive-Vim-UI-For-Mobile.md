@@ -3,7 +3,7 @@ title: 'Adaptive Vim Display for Desktop and Mobile'
 layout: post
 published: true
 permalink: adaptive-vim-display
-tags: all, vim, mobile, desktop
+tags: [ vim, mobile, desktop ]
 ---
 
 This will be a quick post on how I have configured my `vim` setup to adapt its interface based on detected screen size when it is first opened.

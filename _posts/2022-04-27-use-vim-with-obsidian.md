@@ -3,7 +3,7 @@ title: "Using Vim (or any other editor) with Obsidian Notes"
 layout: post
 published: true
 permalink: use-vim-with-obsidian 
-tags: all, obsidian, notes, vim, linux
+tags: [ obsidian, notes, vim, linux ]
 ---
 
 I recently posted [My Notes Setup using Obsidian](https://heywoodlh.io/notes-with-obsidian) -- but I have made some changes to my note-taking workflow that I'm excited about and thought I would briefly document.

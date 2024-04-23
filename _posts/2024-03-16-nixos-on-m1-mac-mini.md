@@ -3,7 +3,7 @@ title: "NixOS Server on M1 Mac Mini"
 layout: post
 published: true
 permalink: nixos-mac-mini
-tags: all, linux, nixos, asahi, m1, mac, mini, server, plex
+tags: [ linux, nixos, asahi, m1, mac, mini, server, plex ]
 ---
 
 This weekend I spent a bunch of time switching my media server from a really beefy Dell machine to an M1 Mac Mini. There were two primary reasons for this:

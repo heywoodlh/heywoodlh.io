@@ -2,7 +2,7 @@
 title: 'My "Linux-like" MacOS Setup'
 layout: post
 permalink: linux-macos-setup
-tags: all, linux, macos, security, x86
+tags: [ linux, macos, security, x86 ]
 ---
 
 This article is my attempt to document my attempt to take the things I like best about desktop Linux and apply them on MacOS through open source tools. 

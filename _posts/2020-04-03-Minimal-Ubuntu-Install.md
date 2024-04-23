@@ -2,7 +2,7 @@
 title: 'Minimal Ubuntu Install'
 layout: post
 permalink: minimal-ubuntu-install
-tags: all, linux
+tags: [ linux ]
 ---
 
 This article will walk through a minimal and manual installation of Ubuntu, comparable to the Arch Linux installation process.

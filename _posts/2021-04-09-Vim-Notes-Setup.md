@@ -2,7 +2,7 @@
 title: 'My Vim Notes Setup'
 layout: post
 permalink: vim-notes-setup
-tags: all, vim, syncthing, notes
+tags: [ vim, syncthing, notes ]
 ---
 
 ## Why I am writing this:

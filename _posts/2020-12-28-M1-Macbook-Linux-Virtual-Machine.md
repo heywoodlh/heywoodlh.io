@@ -2,7 +2,7 @@
 title: 'Create a Linux Virtual Machine on M1 Macbook'
 layout: post
 permalink: m1-mac-linux-vm
-tags: all, mac, linux
+tags: [ mac, linux ]
 ---
 
 In this post I'll outline my process for setting up a Linux virtual machine using [QEMU](https://qemu.org) on an M1 Macbook Pro.

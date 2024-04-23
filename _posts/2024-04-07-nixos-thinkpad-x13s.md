@@ -3,7 +3,7 @@ title: "NixOS on Thinkpad X13s"
 layout: post
 published: true
 permalink: nixos-thinkpad-x13s
-tags: all, linux, nixos, arm64, thinkpad, lenovo, x13s
+tags: [ linux, nixos, arm64, thinkpad, lenovo, x13s ]
 ---
 
 This will be a short article pointing to some resources I struggled to find when initially setting up my new Lenovo X13s with NixOS.

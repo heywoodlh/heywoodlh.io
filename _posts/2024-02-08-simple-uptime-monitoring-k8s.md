@@ -3,7 +3,7 @@ title: "Simple Uptime Monitoring in Kubernetes"
 layout: post
 published: true
 permalink: simple-k8s-uptime-monitoring
-tags: all, linux, kubernetes, monitoring, alert, uptime
+tags: [ linux, kubernetes, monitoring, alert, uptime ]
 ---
 
 > EDIT March 08, 2024: updated with the latest version of the container, netcat example, and keeping track of state in the `uptime-status` PVC
@@ -79,7 +79,7 @@ metadata:
   annotations:
     tailscale.com/expose: "true"
     tailscale.com/hostname: "ntfy"
-    tailscale.com/tags: "tag:http"
+    tailscale.com/tags: [ "tag:http" ]
 spec:
   ports:
   - name: ntfy

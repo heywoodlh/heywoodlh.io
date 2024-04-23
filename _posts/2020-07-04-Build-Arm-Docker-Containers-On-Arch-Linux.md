@@ -2,7 +2,7 @@
 title: 'Build ARM Docker Containers on (x86 64 bit) Linux'
 layout: post
 permalink: arm-containers-linux
-tags: all, linux, docker, container, systems, arm
+tags: [ linux, docker, container, systems, arm ]
 ---
 
 EDIT: [I have a much better cross-architecture build pipeline now](https://heywoodlh.io/cross-architecture-docker-images)
