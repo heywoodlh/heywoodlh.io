@@ -17,19 +17,19 @@ avatar: https://avatars.githubusercontent.com/u/18178614?v=4
 
 # Includes an icon in the footer for each username you enter
 footer-links:
+  github: heywoodlh
+  email: nospam@heywoodlh.io
+  mastodon: https://social.heywoodlh.io
+  rss: feed # just type anything here for a working RSS icon
   dribbble:
-  email: al4wjyz1q@mozmail.com
   facebook:
   flickr:
-  github: heywoodlh
   instagram:
   linkedin:
   pinterest:
-  rss: feed # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  #microblog: https://heywoodlh.tech
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
