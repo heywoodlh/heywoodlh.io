@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 05/08/24
+Generated on 05/09/24
 </div>
 ---
 Title: Hacker News: Front Page
@@ -77,12 +77,6 @@ Title: The GitHub Blog: Product News and Updates
 URL: <https://github.blog/category/product/>
 
 RSS: <https://github.blog/category/product/feed/>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -228,6 +222,12 @@ Title: Xe Iaso's blog
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
