@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 05/09/24
+Generated on 05/16/24
 </div>
 ---
 Title: Hacker News: Front Page
@@ -45,11 +45,24 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
-Title: Cerise Norling
+Title: Changelogs Archive - The GitHub Blog
 
-URL: <https://norling.io/>
+URL: <https://github.blog/changelog/>
 
-RSS: <https://norling.io/index.xml>
+RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
+
+---
+Title: Sabine Hossenfelder - YouTube
+
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
 
 ---
 Title: The Eclectic Light Company
@@ -59,31 +72,25 @@ URL: <https://eclecticlight.co>
 RSS: <https://eclecticlight.co/feed/>
 
 ---
-Title: Changelogs Archive - The GitHub Blog
+Title: Jeff Geerling's Blog
 
-URL: <https://github.blog/changelog/>
+URL: <https://www.jeffgeerling.com/>
 
-RSS: <https://github.blog/changelog/feed/>
-
----
-Title: Sabine Hossenfelder - YouTube
-
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
-
+RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
-Title: The GitHub Blog: Product News and Updates
+Title: The GitHub Blog: Open Source News and Updates
 
-URL: <https://github.blog/category/product/>
+URL: <https://github.blog/category/open-source/>
 
-RSS: <https://github.blog/category/product/feed/>
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: /r/unixart: high quality screenshots
+Title: Xe Iaso's blog
 
-URL: <https://www.reddit.com/r/unixart>
+URL: <https://xeiaso.net/>
 
-RSS: <https://www.reddit.com/r/unixart.rss>
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -98,6 +105,13 @@ Title: Brendan Gregg's Blog
 URL: <http://www.brendangregg.com/blog>
 
 RSS: <https://www.brendangregg.com/blog/rss.xml>
+
+---
+Title: Cerise Norling
+
+URL: <https://norling.io/>
+
+RSS: <https://norling.io/index.xml>
 
 ---
 Title: Dave Eargle
@@ -126,13 +140,6 @@ Title: Ian Henry
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
-
----
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Julia Evans
@@ -197,11 +204,11 @@ URL: <https://tvl.fyi/feed.atom>
 RSS: <https://tvl.fyi/feed.atom>
 
 ---
-Title: The GitHub Blog: Open Source News and Updates
+Title: The GitHub Blog: Product News and Updates
 
-URL: <https://github.blog/category/open-source/>
+URL: <https://github.blog/category/product/>
 
-RSS: <https://github.blog/category/open-source/feed/>
+RSS: <https://github.blog/category/product/feed/>
 
 ---
 Title: The GitHub Blog: Security News and Updates
@@ -215,13 +222,6 @@ Title: Vimjoyer - YouTube
 
 URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: marquesbrownlee - YouTube
