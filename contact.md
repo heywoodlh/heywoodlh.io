@@ -6,6 +6,6 @@ permalink: /contact/
 
 nospam [at] heywoodlh [dot] io
 
-[Fediverse: @heywoodlh:@social.heywoodlh.io](https://social.heywoodlh.io)
+[Nostr: @heywoodlh](https://primal.net/p/npub1hqyswhwp2kwkm434zll87knsp3347sscru0ktxl5k9hmzqx5skjq8tkp5h): npub1hqyswhwp2kwkm434zll87knsp3347sscru0ktxl5k9hmzqx5skjq8tkp5h
 
 Matrix: @heywoodlh:matrix.org
