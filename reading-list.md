@@ -7,14 +7,49 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 05/30/24
+Generated on 08/18/24
 </div>
 ---
-Title: Drew DeVault's blog
+Title: The GitHub Blog: Product News and Updates
 
-URL: <https://drewdevault.com>
+URL: <https://github.blog/category/product/>
 
-RSS: <https://drewdevault.com/blog/index.xml>
+RSS: <https://github.blog/category/product/feed/>
+
+---
+Title: The Eclectic Light Company
+
+URL: <https://eclecticlight.co>
+
+RSS: <https://eclecticlight.co/feed/>
+
+---
+Title: Cerise Norling
+
+URL: <https://norling.io/>
+
+RSS: <https://norling.io/index.xml>
+
+---
+Title: TVL blog
+
+URL: <https://tvl.fyi/feed.atom>
+
+RSS: <https://tvl.fyi/feed.atom>
+
+---
+Title: ahoneybun.net
+
+URL: <https://ahoneybun.net/>
+
+RSS: <https://ahoneybun.net/feed.xml>
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: Hacker News: Front Page
@@ -38,6 +73,13 @@ URL: <https://www.reddit.com/r/UnixPorn>
 RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
+Title: Blog on Personal Blog of Maximilian Ehlers
+
+URL: <https://max.sodawa.com/blog/>
+
+RSS: <https://max.sodawa.com/blog/index.xml>
+
+---
 Title: r/Apple: Unofficial Apple Community
 
 URL: <https://www.reddit.com/r/apple>
@@ -52,26 +94,6 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
-Title: Sabine Hossenfelder - YouTube
-
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
-
-
----
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
-
----
-Title: /r/unixart: high quality screenshots
-
-URL: <https://www.reddit.com/r/unixart>
-
-RSS: <https://www.reddit.com/r/unixart.rss>
-
----
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
@@ -79,30 +101,17 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+Title: Sabine Hossenfelder - YouTube
 
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
-
----
-Title: The GitHub Blog: Product News and Updates
-
-URL: <https://github.blog/category/product/>
-
-RSS: <https://github.blog/category/product/feed/>
-
----
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
-Title: marquesbrownlee - YouTube
+Title: /r/unixart: high quality screenshots
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://www.reddit.com/r/unixart>
 
+RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -119,18 +128,18 @@ URL: <http://www.brendangregg.com/blog>
 RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
-Title: Cerise Norling
-
-URL: <https://norling.io/>
-
-RSS: <https://norling.io/index.xml>
-
----
 Title: Dave Eargle
 
 URL: <https://daveeargle.com/>
 
 RSS: <https://daveeargle.com/feed.xml>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: ENOSUCHBLOG
@@ -209,13 +218,6 @@ URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
 
 ---
-Title: TVL blog
-
-URL: <https://tvl.fyi/feed.atom>
-
-RSS: <https://tvl.fyi/feed.atom>
-
----
 Title: The GitHub Blog: Open Source News and Updates
 
 URL: <https://github.blog/category/open-source/>
@@ -230,9 +232,21 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
+
+---
 Title: Xe Iaso's blog
 
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
