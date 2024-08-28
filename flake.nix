@@ -25,8 +25,9 @@
       devShell = pkgs.mkShell {
         name = "heywoodlh.io shell";
         buildInputs = with pkgs; [
-          jekyll
           bundler
+          jekyll
+          marksman
           run
         ];
       };
