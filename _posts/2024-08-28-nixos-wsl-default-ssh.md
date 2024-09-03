@@ -1,6 +1,5 @@
 ---
 title: "Using NixOS-WSL as default SSH on Windows"
-layout: redirect
 published: true
 permalink: /nixos-wsl-ssh/
 tags: [ windows, linux, nix, ssh, openssh ]
