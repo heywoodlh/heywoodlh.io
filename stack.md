@@ -34,7 +34,7 @@ When possible, I try to make my tooling modular and operating system agnostic. T
 
 ## Command line tools
 
-I use Vim for all of my writing, and Tmux for productivity.
+I use Vim (now, mostly Helix) for all of my writing, and Tmux for productivity.
 
 ![vim](../images/vim.png "vim")
 
@@ -47,16 +47,26 @@ The following tools are visible in the above image:
 Try out my Vim configuration on Linux!
 
 ```
-curl -L 'https://github.com/heywoodlh/flakes/releases/download/appimages/vim-x86_64.appimage' -o /tmp/vim
+curl -L "https://github.com/heywoodlh/flakes/releases/download/appimages/vim-$(arch).appimage" -o /tmp/vim
 chmod +x /tmp/vim
 
 /tmp/vim
 ```
 
+
+Try out my Helix configuration on Linux!
+
+```
+curl -L "https://github.com/heywoodlh/flakes/releases/download/appimages/helix-$(arch).appimage" -o /tmp/helix
+chmod +x /tmp/helix
+
+/tmp/helix
+```
+
 Or my Fish configuration:
 
 ```
-curl -L 'https://github.com/heywoodlh/flakes/releases/download/appimages/fish-x86_64.appimage' -o /tmp/fish
+curl -L "https://github.com/heywoodlh/flakes/releases/download/appimages/fish-$(arch).appimage" -o /tmp/fish
 chmod +x /tmp/fish
 
 /tmp/fish
@@ -77,6 +87,8 @@ GNOME Terminal and Guake on Linux:
 ---
 
 ## Firefox configuration
+
+(I have been happily using [Zen Browser](https://zen-browser.app/) as well!)
 
 ![firefox](../images/macos-firefox.png)
 
