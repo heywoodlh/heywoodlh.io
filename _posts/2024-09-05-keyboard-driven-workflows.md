@@ -1,6 +1,6 @@
 ---
 title: "Mouseless Musings (Keeping things Keyboard-Driven on MacOS and Linux)"
-published: true
+published: false
 permalink: /mouseless-musings
 tags: [ linux, macos, vim, helix, moonlander, ergodox, keyboard, mouse, shortcat ]
 ---
