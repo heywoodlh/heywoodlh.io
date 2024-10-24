@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/17/24
+Generated on 10/24/24
 </div>
 ---
 Title: Hacker News: Front Page
@@ -17,18 +17,18 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
+Title: Lobsters
+
+URL: <https://lobste.rs/>
+
+RSS: <https://lobste.rs/rss>
+
+---
 Title: battlestations
 
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: r/unixporn - the home for *NIX customization!
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: r/Apple: Unofficial Apple Community
@@ -38,18 +38,11 @@ URL: <https://www.reddit.com/r/apple>
 RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
-Title: Realworld cyberdecks.
+Title: r/unixporn - the home for *NIX customization!
 
-URL: <https://www.reddit.com/r/cyberdeck>
+URL: <https://www.reddit.com/r/UnixPorn>
 
-RSS: <https://www.reddit.com/r/cyberdeck.rss>
-
----
-Title: /r/unixart: high quality screenshots
-
-URL: <https://www.reddit.com/r/unixart>
-
-RSS: <https://www.reddit.com/r/unixart.rss>
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: Changelogs Archive - The GitHub Blog
@@ -59,10 +52,11 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: Sabine Hossenfelder - YouTube
+Title: Realworld cyberdecks.
 
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+URL: <https://www.reddit.com/r/cyberdeck>
 
+RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
 Title: The Eclectic Light Company
@@ -72,10 +66,30 @@ URL: <https://eclecticlight.co>
 RSS: <https://eclecticlight.co/feed/>
 
 ---
-Title: marquesbrownlee - YouTube
+Title: Sabine Hossenfelder - YouTube
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
+
+---
+Title: Solene'%
+
+URL: <https://dataswamp.org/~solene/>
+
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
+
+---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -169,13 +183,6 @@ URL: <https://samy.link>
 RSS: <https://samy.link/blog/feed>
 
 ---
-Title: Solene'%
-
-URL: <https://dataswamp.org/~solene/>
-
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
-
----
 Title: Stephane Travostino
 
 URL: <https://combo.cc>
@@ -217,12 +224,6 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
-
----
 Title: Xe Iaso's blog
 
 URL: <https://xeiaso.net/>
@@ -235,6 +236,12 @@ Title: ahoneybun.net
 URL: <https://ahoneybun.net/>
 
 RSS: <https://ahoneybun.net/feed.xml>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
