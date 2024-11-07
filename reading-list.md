@@ -7,8 +7,15 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/31/24
+Generated on 11/07/24
 </div>
+---
+Title: Lobsters
+
+URL: <https://lobste.rs/>
+
+RSS: <https://lobste.rs/rss>
+
 ---
 Title: Hacker News: Front Page
 
@@ -22,20 +29,6 @@ Title: battlestations
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: Lobsters
-
-URL: <https://lobste.rs/>
-
-RSS: <https://lobste.rs/rss>
-
----
-Title: r/Apple: Unofficial Apple Community
-
-URL: <https://www.reddit.com/r/apple>
-
-RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
 Title: The Eclectic Light Company
@@ -52,6 +45,20 @@ URL: <https://www.reddit.com/r/UnixPorn>
 RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
+Title: r/Apple: Unofficial Apple Community
+
+URL: <https://www.reddit.com/r/apple>
+
+RSS: <https://www.reddit.com/r/apple.rss>
+
+---
+Title: Changelogs Archive - The GitHub Blog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
+
+---
 Title: Realworld cyberdecks.
 
 URL: <https://www.reddit.com/r/cyberdeck>
@@ -59,11 +66,17 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+Title: Sabine Hossenfelder - YouTube
 
-URL: <https://vermaden.wordpress.com>
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
-RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: Stories by Admiral Cloudberg on Medium
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -71,12 +84,6 @@ Title: /r/unixart: high quality screenshots
 URL: <https://www.reddit.com/r/unixart>
 
 RSS: <https://www.reddit.com/r/unixart.rss>
-
----
-Title: Sabine Hossenfelder - YouTube
-
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
-
 
 ---
 Title: Blog on Asahi Linux
@@ -105,13 +112,6 @@ Title: Cerise Norling
 URL: <https://norling.io/>
 
 RSS: <https://norling.io/index.xml>
-
----
-Title: Changelogs Archive - The GitHub Blog
-
-URL: <https://github.blog/changelog/>
-
-RSS: <https://github.blog/changelog/feed/>
 
 ---
 Title: Dave Eargle
@@ -191,13 +191,6 @@ URL: <https://combo.cc>
 RSS: <https://combo.cc/rss.xml>
 
 ---
-Title: Stories by Admiral Cloudberg on Medium
-
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
-
-RSS: <https://admiralcloudberg.medium.com/feed>
-
----
 Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
@@ -249,4 +242,11 @@ Title: marquesbrownlee - YouTube
 
 URL: <https://www.youtube.com/user/marquesbrownlee>
 
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
