@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 12/12/24
+Generated on 12/19/24
 </div>
 ---
 Title: ahoneybun.net
@@ -17,13 +17,6 @@ URL: <https://ahoneybun.net/>
 RSS: <https://ahoneybun.net/feed.xml>
 
 ---
-Title: battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
 Title: Hacker News: Front Page
 
 URL: <https://news.ycombinator.com/>
@@ -31,18 +24,11 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
-Title: r/unixporn - the home for *NIX customization!
+Title: battlestations
 
-URL: <https://www.reddit.com/r/UnixPorn>
+URL: <https://www.reddit.com/r/battlestations>
 
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
-Title: r/Apple: Unofficial Apple Community
-
-URL: <https://www.reddit.com/r/apple>
-
-RSS: <https://www.reddit.com/r/apple.rss>
+RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
 Title: Lobsters
@@ -52,18 +38,11 @@ URL: <https://lobste.rs/>
 RSS: <https://lobste.rs/rss>
 
 ---
-Title: Realworld cyberdecks.
+Title: r/unixporn - the home for *NIX customization!
 
-URL: <https://www.reddit.com/r/cyberdeck>
+URL: <https://www.reddit.com/r/UnixPorn>
 
-RSS: <https://www.reddit.com/r/cyberdeck.rss>
-
----
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: Changelogs Archive - The GitHub Blog
@@ -73,10 +52,11 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: Sabine Hossenfelder - YouTube
+Title: r/Apple: Unofficial Apple Community
 
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+URL: <https://www.reddit.com/r/apple>
 
+RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -86,44 +66,43 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
-Title: Jeff Geerling's Blog
+Title: The Eclectic Light Company
 
-URL: <https://www.jeffgeerling.com/>
+URL: <https://eclecticlight.co>
 
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
-Title: ENOSUCHBLOG
-
-URL: <https://blog.yossarian.net/>
-
-RSS: <https://blog.yossarian.net/feed.xml>
+RSS: <https://eclecticlight.co/feed/>
 
 ---
-Title: Solene'%
+Title: Realworld cyberdecks.
 
-URL: <https://dataswamp.org/~solene/>
+URL: <https://www.reddit.com/r/cyberdeck>
 
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
-
----
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
+RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
-Title: The GitHub Blog: Security News and Updates
+Title: Sabine Hossenfelder - YouTube
 
-URL: <https://github.blog/category/security/>
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
-RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: marquesbrownlee - YouTube
+Title: Stephane Travostino
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://combo.cc>
+
+RSS: <https://combo.cc/rss.xml>
+
+---
+Title: Privacy Guides – Tools and Resources for Protecting Your Data
+
+URL: <https://www.reddit.com/r/PrivacyGuides>
+
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
 
 ---
@@ -169,11 +148,25 @@ URL: <https://drewdevault.com>
 RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
+Title: ENOSUCHBLOG
+
+URL: <https://blog.yossarian.net/>
+
+RSS: <https://blog.yossarian.net/feed.xml>
+
+---
 Title: Ian Henry
 
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
+
+---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Julia Evans
@@ -190,13 +183,6 @@ URL: <https://kylesferrazza.com/>
 RSS: <https://kylesferrazza.com/rss.xml>
 
 ---
-Title: Privacy Guides – Tools and Resources for Protecting Your Data
-
-URL: <https://www.reddit.com/r/PrivacyGuides>
-
-RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
-
----
 Title: Ramblings from Jessie
 
 URL: <https://blog.jessfraz.com/>
@@ -211,11 +197,11 @@ URL: <https://samy.link>
 RSS: <https://samy.link/blog/feed>
 
 ---
-Title: Stephane Travostino
+Title: Solene'%
 
-URL: <https://combo.cc>
+URL: <https://dataswamp.org/~solene/>
 
-RSS: <https://combo.cc/rss.xml>
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
 
 ---
 Title: Stories by Admiral Cloudberg on Medium
@@ -238,10 +224,18 @@ URL: <https://tvl.fyi/feed.atom>
 RSS: <https://tvl.fyi/feed.atom>
 
 ---
-Title: Vimjoyer - YouTube
+Title: The GitHub Blog: Open Source News and Updates
 
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+URL: <https://github.blog/category/open-source/>
 
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: The GitHub Blog: Security News and Updates
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: Xe Iaso's blog
@@ -249,6 +243,12 @@ Title: Xe Iaso's blog
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
