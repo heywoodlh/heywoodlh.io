@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 02/27/25
+Generated on 03/06/25
 </div>
 ---
 Title: ahoneybun.net
@@ -17,18 +17,18 @@ URL: <https://ahoneybun.net/>
 RSS: <https://ahoneybun.net/feed.xml>
 
 ---
+Title: Brendan Gregg's Blog
+
+URL: <http://www.brendangregg.com/blog>
+
+RSS: <https://www.brendangregg.com/blog/rss.xml>
+
+---
 Title: Hacker News: Front Page
 
 URL: <https://news.ycombinator.com/>
 
 RSS: <https://hnrss.org/frontpage>
-
----
-Title: Drew DeVault's blog
-
-URL: <https://drewdevault.com>
-
-RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: Lobsters
@@ -43,6 +43,13 @@ Title: battlestations
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -100,6 +107,13 @@ URL: <https://www.jeffgeerling.com/>
 RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
+Title: Privacy Guides – Tools and Resources for Protecting Your Data
+
+URL: <https://www.reddit.com/r/PrivacyGuides>
+
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
+
+---
 Title: Xe Iaso's blog
 
 URL: <https://xeiaso.net/>
@@ -114,11 +128,10 @@ URL: <https://vermaden.wordpress.com>
 RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
-Title: Privacy Guides – Tools and Resources for Protecting Your Data
+Title: marquesbrownlee - YouTube
 
-URL: <https://www.reddit.com/r/PrivacyGuides>
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
-RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
 Title: The GitHub Blog: Open Source News and Updates
@@ -126,6 +139,12 @@ Title: The GitHub Blog: Open Source News and Updates
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
 
 ---
 Title: Blog on Asahi Linux
@@ -140,13 +159,6 @@ Title: Blog on Personal Blog of Maximilian Ehlers
 URL: <https://max.sodawa.com/blog/>
 
 RSS: <https://max.sodawa.com/blog/index.xml>
-
----
-Title: Brendan Gregg's Blog
-
-URL: <http://www.brendangregg.com/blog>
-
-RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
 Title: Cerise Norling
@@ -244,16 +256,4 @@ Title: The GitHub Blog: Security News and Updates
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
-
----
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
