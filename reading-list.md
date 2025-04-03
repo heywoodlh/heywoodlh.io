@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 03/27/25
+Generated on 04/03/25
 </div>
 ---
 Title: Hacker News: Front Page
@@ -24,20 +24,6 @@ URL: <https://lobste.rs/>
 RSS: <https://lobste.rs/rss>
 
 ---
-Title: battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: r/unixporn - the home for *NIX customization!
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
 Title: r/Apple: Unofficial Apple Community
 
 URL: <https://www.reddit.com/r/apple>
@@ -52,17 +38,25 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
+Title: battlestations
+
+URL: <https://www.reddit.com/r/battlestations>
+
+RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
+Title: r/unixporn - the home for *NIX customization!
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
 Title: The Eclectic Light Company
 
 URL: <https://eclecticlight.co>
 
 RSS: <https://eclecticlight.co/feed/>
-
----
-Title: Sabine Hossenfelder - YouTube
-
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
-
 
 ---
 Title: Changelogs Archive - The GitHub Blog
@@ -72,11 +66,10 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: Privacy Guides – Tools and Resources for Protecting Your Data
+Title: Sabine Hossenfelder - YouTube
 
-URL: <https://www.reddit.com/r/PrivacyGuides>
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
-RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
 Title: The GitHub Blog: Security News and Updates
@@ -84,6 +77,12 @@ Title: The GitHub Blog: Security News and Updates
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
 
 ---
 Title: Xe Iaso's blog
@@ -184,6 +183,13 @@ URL: <https://kylesferrazza.com/>
 RSS: <https://kylesferrazza.com/rss.xml>
 
 ---
+Title: Privacy Guides – Tools and Resources for Protecting Your Data
+
+URL: <https://www.reddit.com/r/PrivacyGuides>
+
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
+
+---
 Title: Ramblings from Jessie
 
 URL: <https://blog.jessfraz.com/>
@@ -237,12 +243,6 @@ Title: The GitHub Blog: Open Source News and Updates
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
-
----
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
 
 ---
 Title: ahoneybun.net
