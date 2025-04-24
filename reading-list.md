@@ -7,15 +7,8 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 04/17/25
+Generated on 04/24/25
 </div>
----
-Title: ahoneybun.net
-
-URL: <https://ahoneybun.net/>
-
-RSS: <https://ahoneybun.net/feed.xml>
-
 ---
 Title: Hacker News: Front Page
 
@@ -31,18 +24,18 @@ URL: <https://lobste.rs/>
 RSS: <https://lobste.rs/rss>
 
 ---
-Title: r/unixporn - the home for *NIX customization!
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
 Title: battlestations
 
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
+Title: r/unixporn - the home for *NIX customization!
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: r/Apple: Unofficial Apple Community
@@ -100,6 +93,13 @@ URL: <https://www.reddit.com/r/PrivacyGuides>
 RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
 Title: The GitHub Blog: Security News and Updates
 
 URL: <https://github.blog/category/security/>
@@ -107,11 +107,17 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: The GitHub Blog: Open Source News and Updates
+Title: marquesbrownlee - YouTube
 
-URL: <https://github.blog/category/open-source/>
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
-RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: Samy Security Blog
@@ -121,17 +127,17 @@ URL: <https://samy.link>
 RSS: <https://samy.link/blog/feed>
 
 ---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
+
+---
 Title: Xe Iaso's blog
 
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
@@ -174,13 +180,6 @@ Title: Dave Eargle
 URL: <https://daveeargle.com/>
 
 RSS: <https://daveeargle.com/feed.xml>
-
----
-Title: Drew DeVault's blog
-
-URL: <https://drewdevault.com>
-
-RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: ENOSUCHBLOG
@@ -252,8 +251,9 @@ URL: <https://tvl.fyi/feed.atom>
 RSS: <https://tvl.fyi/feed.atom>
 
 ---
-Title: Vimjoyer - YouTube
+Title: ahoneybun.net
 
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+URL: <https://ahoneybun.net/>
 
+RSS: <https://ahoneybun.net/feed.xml>
 
