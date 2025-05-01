@@ -7,8 +7,15 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 04/24/25
+Generated on 05/01/25
 </div>
+---
+Title: TVL blog
+
+URL: <https://tvl.fyi/feed.atom>
+
+RSS: <https://tvl.fyi/feed.atom>
+
 ---
 Title: Hacker News: Front Page
 
@@ -52,18 +59,18 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
-Title: Changelogs Archive - The GitHub Blog
-
-URL: <https://github.blog/changelog/>
-
-RSS: <https://github.blog/changelog/feed/>
-
----
 Title: The Eclectic Light Company
 
 URL: <https://eclecticlight.co>
 
 RSS: <https://eclecticlight.co/feed/>
+
+---
+Title: Changelogs Archive - The GitHub Blog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
 
 ---
 Title: Sabine Hossenfelder - YouTube
@@ -79,18 +86,18 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
 
 URL: <https://www.reddit.com/r/PrivacyGuides>
 
 RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
+
+---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: The GitHub Blog: Open Source News and Updates
@@ -111,6 +118,20 @@ Title: marquesbrownlee - YouTube
 
 URL: <https://www.youtube.com/user/marquesbrownlee>
 
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: Brendan Gregg's Blog
+
+URL: <http://www.brendangregg.com/blog>
+
+RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
 Title: Drew DeVault's blog
@@ -140,13 +161,6 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
-
----
 Title: Blog on Asahi Linux
 
 URL: <https://asahilinux.org/blog/>
@@ -159,13 +173,6 @@ Title: Blog on Personal Blog of Maximilian Ehlers
 URL: <https://max.sodawa.com/blog/>
 
 RSS: <https://max.sodawa.com/blog/index.xml>
-
----
-Title: Brendan Gregg's Blog
-
-URL: <http://www.brendangregg.com/blog>
-
-RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
 Title: Cerise Norling
@@ -242,13 +249,6 @@ Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
-
----
-Title: TVL blog
-
-URL: <https://tvl.fyi/feed.atom>
-
-RSS: <https://tvl.fyi/feed.atom>
 
 ---
 Title: ahoneybun.net
