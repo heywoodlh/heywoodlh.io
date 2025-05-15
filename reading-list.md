@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 05/08/25
+Generated on 05/15/25
 </div>
 ---
 Title: TVL blog
@@ -93,18 +93,18 @@ URL: <https://www.reddit.com/r/PrivacyGuides>
 RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
-
----
 Title: Jeff Geerling's Blog
 
 URL: <https://www.jeffgeerling.com/>
 
 RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
 Title: The GitHub Blog: Security News and Updates
@@ -127,11 +127,16 @@ URL: <https://vermaden.wordpress.com>
 RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
-Title: Drew DeVault's blog
+Title: Sun Knudsen - YouTube
 
-URL: <https://drewdevault.com>
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
-RSS: <https://drewdevault.com/blog/index.xml>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
 
 ---
 Title: Xe Iaso's blog
@@ -162,10 +167,11 @@ URL: <https://samy.link>
 RSS: <https://samy.link/blog/feed>
 
 ---
-Title: Vimjoyer - YouTube
+Title: Stories by Admiral Cloudberg on Medium
 
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 
+RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
 Title: Blog on Asahi Linux
@@ -194,6 +200,13 @@ Title: Dave Eargle
 URL: <https://daveeargle.com/>
 
 RSS: <https://daveeargle.com/feed.xml>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: Ian Henry
@@ -236,19 +249,6 @@ Title: Stephane Travostino
 URL: <https://combo.cc>
 
 RSS: <https://combo.cc/rss.xml>
-
----
-Title: Stories by Admiral Cloudberg on Medium
-
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
-
-RSS: <https://admiralcloudberg.medium.com/feed>
-
----
-Title: Sun Knudsen - YouTube
-
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
-
 
 ---
 Title: ahoneybun.net
