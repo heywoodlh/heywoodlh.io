@@ -7,8 +7,15 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 05/22/25
+Generated on 05/29/25
 </div>
+---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
 ---
 Title: Hacker News: Front Page
 
@@ -52,13 +59,6 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
-
----
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
@@ -72,24 +72,11 @@ URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
-Title: Sun Knudsen - YouTube
+Title: The Eclectic Light Company
 
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
+URL: <https://eclecticlight.co>
 
-
----
-Title: /r/unixart: high quality screenshots
-
-URL: <https://www.reddit.com/r/unixart>
-
-RSS: <https://www.reddit.com/r/unixart.rss>
-
----
-Title: ahoneybun.net
-
-URL: <https://ahoneybun.net/>
-
-RSS: <https://ahoneybun.net/feed.xml>
+RSS: <https://eclecticlight.co/feed/>
 
 ---
 Title: marquesbrownlee - YouTube
@@ -98,11 +85,32 @@ URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
+Title: Privacy Guides – Tools and Resources for Protecting Your Data
+
+URL: <https://www.reddit.com/r/PrivacyGuides>
+
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
+
+---
+Title: The GitHub Blog: Security News and Updates
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
+
+---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
 URL: <https://vermaden.wordpress.com>
 
 RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -175,13 +183,6 @@ URL: <http://jvns.ca>
 RSS: <https://jvns.ca/atom.xml>
 
 ---
-Title: Privacy Guides – Tools and Resources for Protecting Your Data
-
-URL: <https://www.reddit.com/r/PrivacyGuides>
-
-RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
-
----
 Title: Ramblings from Jessie
 
 URL: <https://blog.jessfraz.com/>
@@ -217,18 +218,10 @@ URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
-Title: The GitHub Blog: Open Source News and Updates
+Title: Sun Knudsen - YouTube
 
-URL: <https://github.blog/category/open-source/>
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
-RSS: <https://github.blog/category/open-source/feed/>
-
----
-Title: The GitHub Blog: Security News and Updates
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: Vimjoyer - YouTube
@@ -242,4 +235,11 @@ Title: Xe Iaso's blog
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
+
+---
+Title: ahoneybun.net
+
+URL: <https://ahoneybun.net/>
+
+RSS: <https://ahoneybun.net/feed.xml>
 
