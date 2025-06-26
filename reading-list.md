@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 06/19/25
+Generated on 06/26/25
 </div>
 ---
 Title: ENOSUCHBLOG
@@ -24,18 +24,18 @@ URL: <https://combo.cc>
 RSS: <https://combo.cc/rss.xml>
 
 ---
+Title: ahoneybun.net
+
+URL: <https://ahoneybun.net/>
+
+RSS: <https://ahoneybun.net/feed.xml>
+
+---
 Title: Hacker News: Front Page
 
 URL: <https://news.ycombinator.com/>
 
 RSS: <https://hnrss.org/frontpage>
-
----
-Title: r/unixporn - the home for *NIX customization!
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: Lobsters
@@ -45,6 +45,13 @@ URL: <https://lobste.rs/>
 RSS: <https://lobste.rs/rss>
 
 ---
+Title: battlestations
+
+URL: <https://www.reddit.com/r/battlestations>
+
+RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
 Title: r/Apple: Unofficial Apple Community
 
 URL: <https://www.reddit.com/r/apple>
@@ -52,11 +59,25 @@ URL: <https://www.reddit.com/r/apple>
 RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
-Title: battlestations
+Title: Changelogs Archive - The GitHub Blog
 
-URL: <https://www.reddit.com/r/battlestations>
+URL: <https://github.blog/changelog/>
 
-RSS: <https://www.reddit.com/r/battlestations.rss>
+RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: r/unixporn - the home for *NIX customization!
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
 Title: Realworld cyberdecks.
@@ -73,58 +94,10 @@ URL: <https://eclecticlight.co>
 RSS: <https://eclecticlight.co/feed/>
 
 ---
-Title: /r/unixart: high quality screenshots
-
-URL: <https://www.reddit.com/r/unixart>
-
-RSS: <https://www.reddit.com/r/unixart.rss>
-
----
-Title: Changelogs Archive - The GitHub Blog
-
-URL: <https://github.blog/changelog/>
-
-RSS: <https://github.blog/changelog/feed/>
-
----
 Title: Sabine Hossenfelder - YouTube
 
 URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
-
----
-Title: Privacy Guides – Tools and Resources for Protecting Your Data
-
-URL: <https://www.reddit.com/r/PrivacyGuides>
-
-RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
-
----
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: Blog on Asahi Linux
@@ -190,6 +163,13 @@ URL: <http://jvns.ca>
 RSS: <https://jvns.ca/atom.xml>
 
 ---
+Title: Privacy Guides – Tools and Resources for Protecting Your Data
+
+URL: <https://www.reddit.com/r/PrivacyGuides>
+
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
+
+---
 Title: Ramblings from Jessie
 
 URL: <https://blog.jessfraz.com/>
@@ -224,6 +204,13 @@ URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
 
 ---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
 Title: The GitHub Blog: Security News and Updates
 
 URL: <https://github.blog/category/security/>
@@ -237,9 +224,22 @@ URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
 
 ---
-Title: ahoneybun.net
+Title: Xe Iaso's blog
 
-URL: <https://ahoneybun.net/>
+URL: <https://xeiaso.net/>
 
-RSS: <https://ahoneybun.net/feed.xml>
+RSS: <https://xeiaso.net/blog.rss>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
