@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/03/25
+Generated on 07/10/25
 </div>
 ---
 Title: ENOSUCHBLOG
@@ -24,6 +24,13 @@ URL: <https://combo.cc>
 RSS: <https://combo.cc/rss.xml>
 
 ---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
+
+---
 Title: ahoneybun.net
 
 URL: <https://ahoneybun.net/>
@@ -38,6 +45,13 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
+Title: r/unixporn - the home for *NIX customization!
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
 Title: Lobsters
 
 URL: <https://lobste.rs/>
@@ -50,13 +64,6 @@ Title: battlestations
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: r/unixporn - the home for *NIX customization!
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: r/Apple: Unofficial Apple Community
@@ -87,6 +94,12 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
+Title: Sabine Hossenfelder - YouTube
+
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
+
+---
 Title: /r/unixart: high quality screenshots
 
 URL: <https://www.reddit.com/r/unixart>
@@ -94,24 +107,10 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
-Title: Sabine Hossenfelder - YouTube
+Title: marquesbrownlee - YouTube
 
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+URL: <https://www.youtube.com/user/marquesbrownlee>
 
-
----
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
-Title: The GitHub Blog: Security News and Updates
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
@@ -121,37 +120,16 @@ URL: <https://vermaden.wordpress.com>
 RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
-Title: Drew DeVault's blog
+Title: The GitHub Blog: Open Source News and Updates
 
-URL: <https://drewdevault.com>
+URL: <https://github.blog/category/open-source/>
 
-RSS: <https://drewdevault.com/blog/index.xml>
-
----
-Title: Julia Evans
-
-URL: <http://jvns.ca>
-
-RSS: <https://jvns.ca/atom.xml>
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: Stories by Admiral Cloudberg on Medium
+Title: Vimjoyer - YouTube
 
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
-
-RSS: <https://admiralcloudberg.medium.com/feed>
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
 
 ---
@@ -190,11 +168,32 @@ URL: <https://daveeargle.com/>
 RSS: <https://daveeargle.com/feed.xml>
 
 ---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
+
+---
 Title: Ian Henry
 
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
+
+---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Julia Evans
+
+URL: <http://jvns.ca>
+
+RSS: <https://jvns.ca/atom.xml>
 
 ---
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
@@ -225,21 +224,22 @@ URL: <https://dataswamp.org/~solene/>
 RSS: <https://dataswamp.org/~solene/rss-html.xml>
 
 ---
+Title: Stories by Admiral Cloudberg on Medium
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
+
+---
 Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
 
 ---
-Title: The GitHub Blog: Open Source News and Updates
+Title: The GitHub Blog: Security News and Updates
 
-URL: <https://github.blog/category/open-source/>
+URL: <https://github.blog/category/security/>
 
-RSS: <https://github.blog/category/open-source/feed/>
-
----
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
+RSS: <https://github.blog/category/security/feed/>
 
