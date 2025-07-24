@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/17/25
+Generated on 07/24/25
 </div>
 ---
 Title: ENOSUCHBLOG
@@ -128,6 +128,12 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
 Title: The GitHub Blog: Security News and Updates
 
 URL: <https://github.blog/category/security/>
@@ -138,12 +144,6 @@ RSS: <https://github.blog/category/security/feed/>
 Title: Vimjoyer - YouTube
 
 URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
