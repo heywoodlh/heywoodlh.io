@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/24/25
+Generated on 07/31/25
 </div>
 ---
 Title: ENOSUCHBLOG
@@ -15,6 +15,13 @@ Title: ENOSUCHBLOG
 URL: <https://blog.yossarian.net/>
 
 RSS: <https://blog.yossarian.net/feed.xml>
+
+---
+Title: Samy Security Blog
+
+URL: <https://samy.link>
+
+RSS: <https://samy.link/blog/feed>
 
 ---
 Title: Stephane Travostino
@@ -38,53 +45,11 @@ URL: <https://ahoneybun.net/>
 RSS: <https://ahoneybun.net/feed.xml>
 
 ---
-Title: Hacker News: Front Page
-
-URL: <https://news.ycombinator.com/>
-
-RSS: <https://hnrss.org/frontpage>
-
----
 Title: battlestations
 
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: r/unixporn - the home for *NIX customization!
-
-URL: <https://www.reddit.com/r/UnixPorn>
-
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
-Title: Lobsters
-
-URL: <https://lobste.rs/>
-
-RSS: <https://lobste.rs/rss>
-
----
-Title: r/Apple: Unofficial Apple Community
-
-URL: <https://www.reddit.com/r/apple>
-
-RSS: <https://www.reddit.com/r/apple.rss>
-
----
-Title: Realworld cyberdecks.
-
-URL: <https://www.reddit.com/r/cyberdeck>
-
-RSS: <https://www.reddit.com/r/cyberdeck.rss>
-
----
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
 
 ---
 Title: Changelogs Archive - The GitHub Blog
@@ -94,10 +59,25 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: Sabine Hossenfelder - YouTube
+Title: The Eclectic Light Company
 
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+URL: <https://eclecticlight.co>
 
+RSS: <https://eclecticlight.co/feed/>
+
+---
+Title: Hacker News: Front Page
+
+URL: <https://news.ycombinator.com/>
+
+RSS: <https://hnrss.org/frontpage>
+
+---
+Title: Lobsters
+
+URL: <https://lobste.rs/>
+
+RSS: <https://lobste.rs/rss>
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -107,18 +87,18 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+Title: r/Apple: Unofficial Apple Community
 
-URL: <https://vermaden.wordpress.com>
+URL: <https://www.reddit.com/r/apple>
 
-RSS: <https://vermaden.wordpress.com/feed/>
+RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
-Title: Jeff Geerling's Blog
+Title: r/unixporn - the home for *NIX customization!
 
-URL: <https://www.jeffgeerling.com/>
+URL: <https://www.reddit.com/r/UnixPorn>
 
-RSS: <https://www.jeffgeerling.com/blog.xml>
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: The GitHub Blog: Open Source News and Updates
@@ -128,23 +108,11 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: marquesbrownlee - YouTube
+Title: Realworld cyberdecks.
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://www.reddit.com/r/cyberdeck>
 
-
----
-Title: The GitHub Blog: Security News and Updates
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
-
----
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
+RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -196,6 +164,13 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
 Title: Julia Evans
 
 URL: <http://jvns.ca>
@@ -217,11 +192,10 @@ URL: <https://blog.jessfraz.com/>
 RSS: <https://blog.jessfraz.com/index.xml>
 
 ---
-Title: Samy Security Blog
+Title: Sabine Hossenfelder - YouTube
 
-URL: <https://samy.link>
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
-RSS: <https://samy.link/blog/feed>
 
 ---
 Title: Solene'%
@@ -242,4 +216,30 @@ Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
+
+---
+Title: The GitHub Blog: Security News and Updates
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
