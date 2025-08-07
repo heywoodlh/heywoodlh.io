@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/31/25
+Generated on 08/07/25
 </div>
 ---
 Title: ENOSUCHBLOG
@@ -45,32 +45,18 @@ URL: <https://ahoneybun.net/>
 RSS: <https://ahoneybun.net/feed.xml>
 
 ---
-Title: battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
-Title: Changelogs Archive - The GitHub Blog
-
-URL: <https://github.blog/changelog/>
-
-RSS: <https://github.blog/changelog/feed/>
-
----
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
-
----
 Title: Hacker News: Front Page
 
 URL: <https://news.ycombinator.com/>
 
 RSS: <https://hnrss.org/frontpage>
+
+---
+Title: battlestations
+
+URL: <https://www.reddit.com/r/battlestations>
+
+RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
 Title: Lobsters
@@ -80,11 +66,11 @@ URL: <https://lobste.rs/>
 RSS: <https://lobste.rs/rss>
 
 ---
-Title: /r/unixart: high quality screenshots
+Title: r/unixporn - the home for *NIX customization!
 
-URL: <https://www.reddit.com/r/unixart>
+URL: <https://www.reddit.com/r/UnixPorn>
 
-RSS: <https://www.reddit.com/r/unixart.rss>
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: r/Apple: Unofficial Apple Community
@@ -94,18 +80,11 @@ URL: <https://www.reddit.com/r/apple>
 RSS: <https://www.reddit.com/r/apple.rss>
 
 ---
-Title: r/unixporn - the home for *NIX customization!
+Title: The Eclectic Light Company
 
-URL: <https://www.reddit.com/r/UnixPorn>
+URL: <https://eclecticlight.co>
 
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
-
----
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
+RSS: <https://eclecticlight.co/feed/>
 
 ---
 Title: Realworld cyberdecks.
@@ -113,6 +92,33 @@ Title: Realworld cyberdecks.
 URL: <https://www.reddit.com/r/cyberdeck>
 
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
+
+---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
+
+---
+Title: Changelogs Archive - The GitHub Blog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: Sabine Hossenfelder - YouTube
+
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
+
+---
+Title: Brendan Gregg's Blog
+
+URL: <http://www.brendangregg.com/blog>
+
+RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
 Title: Blog on Asahi Linux
@@ -127,13 +133,6 @@ Title: Blog on Personal Blog of Maximilian Ehlers
 URL: <https://max.sodawa.com/blog/>
 
 RSS: <https://max.sodawa.com/blog/index.xml>
-
----
-Title: Brendan Gregg's Blog
-
-URL: <http://www.brendangregg.com/blog>
-
-RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
 Title: Cerise Norling
@@ -192,12 +191,6 @@ URL: <https://blog.jessfraz.com/>
 RSS: <https://blog.jessfraz.com/index.xml>
 
 ---
-Title: Sabine Hossenfelder - YouTube
-
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
-
-
----
 Title: Solene'%
 
 URL: <https://dataswamp.org/~solene/>
@@ -216,6 +209,13 @@ Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
+
+---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
 Title: The GitHub Blog: Security News and Updates
