@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 09/11/25
+Generated on 09/18/25
 </div>
 ---
 Title: /r/unixart: high quality screenshots
@@ -106,6 +106,54 @@ URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
+
+---
+Title: ENOSUCHBLOG
+
+URL: <https://blog.yossarian.net/>
+
+RSS: <https://blog.yossarian.net/feed.xml>
+
+---
+Title: Stories by Admiral Cloudberg on Medium
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
+
+---
+Title: Sun Knudsen - YouTube
+
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
+
+
+---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
+
+---
 Title: Blog on Asahi Linux
 
 URL: <https://asahilinux.org/blog/>
@@ -141,32 +189,11 @@ URL: <https://daveeargle.com/>
 RSS: <https://daveeargle.com/feed.xml>
 
 ---
-Title: Drew DeVault's blog
-
-URL: <https://drewdevault.com>
-
-RSS: <https://drewdevault.com/blog/index.xml>
-
----
-Title: ENOSUCHBLOG
-
-URL: <https://blog.yossarian.net/>
-
-RSS: <https://blog.yossarian.net/feed.xml>
-
----
 Title: Ian Henry
 
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
-
----
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Julia Evans
@@ -197,26 +224,6 @@ URL: <https://dataswamp.org/~solene/>
 RSS: <https://dataswamp.org/~solene/rss-html.xml>
 
 ---
-Title: Stories by Admiral Cloudberg on Medium
-
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
-
-RSS: <https://admiralcloudberg.medium.com/feed>
-
----
-Title: Sun Knudsen - YouTube
-
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
-
-
----
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
-
----
 Title: The GitHub Blog: Security News and Updates
 
 URL: <https://github.blog/category/security/>
@@ -235,11 +242,4 @@ Title: ahoneybun.net
 URL: <https://ahoneybun.net/>
 
 RSS: <https://ahoneybun.net/feed.xml>
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
 
