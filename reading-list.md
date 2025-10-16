@@ -7,15 +7,8 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/09/25
+Generated on 10/16/25
 </div>
----
-Title: Lobsters
-
-URL: <https://lobste.rs/>
-
-RSS: <https://lobste.rs/rss>
-
 ---
 Title: Hacker News: Front Page
 
@@ -24,11 +17,11 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
-Title: r/unixporn - the home for *NIX customization!
+Title: Lobsters
 
-URL: <https://www.reddit.com/r/UnixPorn>
+URL: <https://lobste.rs/>
 
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
+RSS: <https://lobste.rs/rss>
 
 ---
 Title: battlestations
@@ -36,6 +29,13 @@ Title: battlestations
 URL: <https://www.reddit.com/r/battlestations>
 
 RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
+Title: r/unixporn - the home for *NIX customization!
+
+URL: <https://www.reddit.com/r/UnixPorn>
+
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: r/Apple: Unofficial Apple Community
@@ -66,9 +66,49 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
+Title: Privacy Guides – Tools and Resources for Protecting Your Data
+
+URL: <https://www.reddit.com/r/PrivacyGuides>
+
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
+
+---
+Title: Sabine Hossenfelder - YouTube
+
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
+
+---
 Title: marquesbrownlee - YouTube
 
 URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
+
+---
+Title: The GitHub Blog: Security News and Updates
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: Sun Knudsen - YouTube
+
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
 
 ---
@@ -79,44 +119,31 @@ URL: <https://www.jeffgeerling.com/>
 RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
-Title: Sabine Hossenfelder - YouTube
+Title: Julia Evans
 
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+URL: <http://jvns.ca>
 
-
----
-Title: The GitHub Blog: Security News and Updates
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
+RSS: <https://jvns.ca/atom.xml>
 
 ---
-Title: /r/unixart: high quality screenshots
+Title: The GitHub Blog: Open Source News and Updates
 
-URL: <https://www.reddit.com/r/unixart>
+URL: <https://github.blog/category/open-source/>
 
-RSS: <https://www.reddit.com/r/unixart.rss>
-
----
-Title: Privacy Guides – Tools and Resources for Protecting Your Data
-
-URL: <https://www.reddit.com/r/PrivacyGuides>
-
-RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
 Title: Vimjoyer - YouTube
 
 URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
+
+---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -175,13 +202,6 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
-Title: Julia Evans
-
-URL: <http://jvns.ca>
-
-RSS: <https://jvns.ca/atom.xml>
-
----
 Title: Ramblings from Jessie
 
 URL: <https://blog.jessfraz.com/>
@@ -208,26 +228,6 @@ Title: Stories by Admiral Cloudberg on Medium
 URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 
 RSS: <https://admiralcloudberg.medium.com/feed>
-
----
-Title: Sun Knudsen - YouTube
-
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
-
-
----
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: ahoneybun.net
