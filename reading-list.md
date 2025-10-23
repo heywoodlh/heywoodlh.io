@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/16/25
+Generated on 10/23/25
 </div>
 ---
 Title: Hacker News: Front Page
@@ -24,18 +24,18 @@ URL: <https://lobste.rs/>
 RSS: <https://lobste.rs/rss>
 
 ---
-Title: battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
-
----
 Title: r/unixporn - the home for *NIX customization!
 
 URL: <https://www.reddit.com/r/UnixPorn>
 
 RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
+Title: battlestations
+
+URL: <https://www.reddit.com/r/battlestations>
+
+RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
 Title: r/Apple: Unofficial Apple Community
@@ -66,17 +66,17 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
+Title: Sabine Hossenfelder - YouTube
+
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
+
+---
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
 
 URL: <https://www.reddit.com/r/PrivacyGuides>
 
 RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
-
----
-Title: Sabine Hossenfelder - YouTube
-
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
-
 
 ---
 Title: marquesbrownlee - YouTube
@@ -112,25 +112,25 @@ URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
 
 ---
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
-Title: Julia Evans
-
-URL: <http://jvns.ca>
-
-RSS: <https://jvns.ca/atom.xml>
-
----
 Title: The GitHub Blog: Open Source News and Updates
 
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
+
+---
+Title: Stories by Admiral Cloudberg on Medium
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
 Title: Vimjoyer - YouTube
@@ -181,13 +181,6 @@ URL: <https://daveeargle.com/>
 RSS: <https://daveeargle.com/feed.xml>
 
 ---
-Title: Drew DeVault's blog
-
-URL: <https://drewdevault.com>
-
-RSS: <https://drewdevault.com/blog/index.xml>
-
----
 Title: ENOSUCHBLOG
 
 URL: <https://blog.yossarian.net/>
@@ -200,6 +193,20 @@ Title: Ian Henry
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
+
+---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Julia Evans
+
+URL: <http://jvns.ca>
+
+RSS: <https://jvns.ca/atom.xml>
 
 ---
 Title: Ramblings from Jessie
@@ -221,13 +228,6 @@ Title: Solene'%
 URL: <https://dataswamp.org/~solene/>
 
 RSS: <https://dataswamp.org/~solene/rss-html.xml>
-
----
-Title: Stories by Admiral Cloudberg on Medium
-
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
-
-RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
 Title: ahoneybun.net
