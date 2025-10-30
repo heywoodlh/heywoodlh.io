@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/23/25
+Generated on 10/30/25
 </div>
 ---
 Title: Hacker News: Front Page
@@ -119,11 +119,18 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: Drew DeVault's blog
+Title: Jeff Geerling's Blog
 
-URL: <https://drewdevault.com>
+URL: <https://www.jeffgeerling.com/>
 
-RSS: <https://drewdevault.com/blog/index.xml>
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Blog on Asahi Linux
+
+URL: <https://asahilinux.org/blog/>
+
+RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Stories by Admiral Cloudberg on Medium
@@ -144,13 +151,6 @@ Title: Xe Iaso's blog
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
-
----
-Title: Blog on Asahi Linux
-
-URL: <https://asahilinux.org/blog/>
-
-RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Blog on Personal Blog of Maximilian Ehlers
@@ -181,6 +181,13 @@ URL: <https://daveeargle.com/>
 RSS: <https://daveeargle.com/feed.xml>
 
 ---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
+
+---
 Title: ENOSUCHBLOG
 
 URL: <https://blog.yossarian.net/>
@@ -193,13 +200,6 @@ Title: Ian Henry
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
-
----
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Julia Evans
