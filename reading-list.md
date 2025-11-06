@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/30/25
+Generated on 11/06/25
 </div>
 ---
 Title: Hacker News: Front Page
@@ -52,13 +52,6 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
-
----
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
@@ -85,11 +78,11 @@ URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+Title: The Eclectic Light Company
 
-URL: <https://vermaden.wordpress.com>
+URL: <https://eclecticlight.co>
 
-RSS: <https://vermaden.wordpress.com/feed/>
+RSS: <https://eclecticlight.co/feed/>
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -99,24 +92,18 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
-Title: The GitHub Blog: Security News and Updates
+Title: Xe Iaso's blog
 
-URL: <https://github.blog/category/security/>
+URL: <https://xeiaso.net/>
 
-RSS: <https://github.blog/category/security/feed/>
-
----
-Title: Sun Knudsen - YouTube
-
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
-
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: The GitHub Blog: Open Source News and Updates
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
-URL: <https://github.blog/category/open-source/>
+URL: <https://vermaden.wordpress.com>
 
-RSS: <https://github.blog/category/open-source/feed/>
+RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: Jeff Geerling's Blog
@@ -126,11 +113,17 @@ URL: <https://www.jeffgeerling.com/>
 RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
-Title: Blog on Asahi Linux
+Title: The GitHub Blog: Security News and Updates
 
-URL: <https://asahilinux.org/blog/>
+URL: <https://github.blog/category/security/>
 
-RSS: <https://asahilinux.org/blog/index.xml>
+RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
 
 ---
 Title: Stories by Admiral Cloudberg on Medium
@@ -140,17 +133,11 @@ URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
-Title: Vimjoyer - YouTube
+Title: Blog on Asahi Linux
 
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+URL: <https://asahilinux.org/blog/>
 
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
+RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Blog on Personal Blog of Maximilian Ehlers
@@ -228,6 +215,19 @@ Title: Solene'%
 URL: <https://dataswamp.org/~solene/>
 
 RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
+Title: Sun Knudsen - YouTube
+
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
+
+
+---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
 Title: ahoneybun.net
