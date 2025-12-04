@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 11/27/25
+Generated on 12/04/25
 </div>
 ---
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
@@ -52,6 +52,13 @@ URL: <https://www.reddit.com/r/UnixPorn>
 RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
+
+---
 Title: Hacker News: Front Page
 
 URL: <https://news.ycombinator.com/>
@@ -86,17 +93,17 @@ URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
-
----
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
 URL: <https://vermaden.wordpress.com>
 
 RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
 ---
 Title: Ian Henry
@@ -106,11 +113,32 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
-Title: /r/unixart: high quality screenshots
+Title: Jeff Geerling's Blog
 
-URL: <https://www.reddit.com/r/unixart>
+URL: <https://www.jeffgeerling.com/>
 
-RSS: <https://www.reddit.com/r/unixart.rss>
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Brendan Gregg's Blog
+
+URL: <http://www.brendangregg.com/blog>
+
+RSS: <https://www.brendangregg.com/blog/rss.xml>
+
+---
+Title: Stories by Admiral Cloudberg on Medium
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
+
+---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
 
 ---
 Title: Blog on Asahi Linux
@@ -125,13 +153,6 @@ Title: Blog on Personal Blog of Maximilian Ehlers
 URL: <https://max.sodawa.com/blog/>
 
 RSS: <https://max.sodawa.com/blog/index.xml>
-
----
-Title: Brendan Gregg's Blog
-
-URL: <http://www.brendangregg.com/blog>
-
-RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
 Title: Cerise Norling
@@ -162,13 +183,6 @@ URL: <https://blog.yossarian.net/>
 RSS: <https://blog.yossarian.net/feed.xml>
 
 ---
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
 Title: Julia Evans
 
 URL: <http://jvns.ca>
@@ -197,24 +211,10 @@ URL: <https://dataswamp.org/~solene/>
 RSS: <https://dataswamp.org/~solene/rss-html.xml>
 
 ---
-Title: Stories by Admiral Cloudberg on Medium
-
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
-
-RSS: <https://admiralcloudberg.medium.com/feed>
-
----
 Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
-
----
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
 
 ---
 Title: The GitHub Blog: Security News and Updates
