@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 12/04/25
+Generated on 12/11/25
 </div>
 ---
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
@@ -52,13 +52,6 @@ URL: <https://www.reddit.com/r/UnixPorn>
 RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
-Title: /r/unixart: high quality screenshots
-
-URL: <https://www.reddit.com/r/unixart>
-
-RSS: <https://www.reddit.com/r/unixart.rss>
-
----
 Title: Hacker News: Front Page
 
 URL: <https://news.ycombinator.com/>
@@ -87,17 +80,17 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
+
+---
 Title: Sabine Hossenfelder - YouTube
 
 URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: marquesbrownlee - YouTube
@@ -106,11 +99,11 @@ URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
-Title: Ian Henry
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
-URL: <https://ianthehenry.com/>
+URL: <https://vermaden.wordpress.com>
 
-RSS: <https://ianthehenry.com/feed.xml>
+RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: Jeff Geerling's Blog
@@ -127,11 +120,11 @@ URL: <http://www.brendangregg.com/blog>
 RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
-Title: Stories by Admiral Cloudberg on Medium
+Title: Ian Henry
 
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+URL: <https://ianthehenry.com/>
 
-RSS: <https://admiralcloudberg.medium.com/feed>
+RSS: <https://ianthehenry.com/feed.xml>
 
 ---
 Title: The GitHub Blog: Open Source News and Updates
@@ -139,6 +132,13 @@ Title: The GitHub Blog: Open Source News and Updates
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: Stories by Admiral Cloudberg on Medium
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
 Title: Blog on Asahi Linux
