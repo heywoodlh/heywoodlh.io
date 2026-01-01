@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 12/25/25
+Generated on 01/01/26
 </div>
 ---
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
@@ -66,18 +66,18 @@ URL: <https://lobste.rs/>
 RSS: <https://lobste.rs/rss>
 
 ---
-Title: Changelogs Archive - The GitHub Blog
-
-URL: <https://github.blog/changelog/>
-
-RSS: <https://github.blog/changelog/feed/>
-
----
 Title: The Eclectic Light Company
 
 URL: <https://eclecticlight.co>
 
 RSS: <https://eclecticlight.co/feed/>
+
+---
+Title: Changelogs Archive - The GitHub Blog
+
+URL: <https://github.blog/changelog/>
+
+RSS: <https://github.blog/changelog/feed/>
 
 ---
 Title: /r/unixart: high quality screenshots
@@ -100,31 +100,11 @@ URL: <https://www.jeffgeerling.com/>
 RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
-
----
 Title: The GitHub Blog: Open Source News and Updates
 
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
-
----
-Title: Blog on Asahi Linux
-
-URL: <https://asahilinux.org/blog/>
-
-RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: The GitHub Blog: Security News and Updates
@@ -134,11 +114,38 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: ENOSUCHBLOG
+
+URL: <https://blog.yossarian.net/>
+
+RSS: <https://blog.yossarian.net/feed.xml>
+
+---
 Title: ahoneybun.net
 
 URL: <https://ahoneybun.net/>
 
 RSS: <https://ahoneybun.net/feed.xml>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
+Title: Blog on Asahi Linux
+
+URL: <https://asahilinux.org/blog/>
+
+RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
 Title: Blog on Personal Blog of Maximilian Ehlers
@@ -174,13 +181,6 @@ Title: Drew DeVault's blog
 URL: <https://drewdevault.com>
 
 RSS: <https://drewdevault.com/blog/index.xml>
-
----
-Title: ENOSUCHBLOG
-
-URL: <https://blog.yossarian.net/>
-
-RSS: <https://blog.yossarian.net/feed.xml>
 
 ---
 Title: Ian Henry
