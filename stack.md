@@ -6,6 +6,8 @@ permalink: /stack/
 
 <center><h2>heywoodlh tech stack</h2></center>
 
+> _Updated January 5th, 2026_
+
 Core principles:
 - Command-line driven
 - Keyboard oriented (using Vim-style keybindings)
@@ -23,76 +25,62 @@ The following projects allow me to codify various environments:
 - [NixOS](https://nixos.org/) => my preferred Linux distribution
 - [Nix-Darwin](https://github.com/LNL7/nix-darwin) => all the benefits of NixOS on MacOS
 - [Home-Manager](https://github.com/nix-community/home-manager) => dotfiles
+- [Kubernetes](https://kubernetes.io/), specifically, k3s on NixOS: [github:heywoodlh/nixos-configs - nixos/roles/containers/k3s.nix](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/nixos/roles/containers/k3s-server.nix)
 
-I store all of my configurations in the following repositories:
-- [github:heywoodlh/flakes](https://github.com/heywoodlh/flakes)
+I store all of my meaningful configuration in the following repository:
 - [github:heywoodlh/nixos-configs](https://github.com/heywoodlh/nixos-configs)
 
-When possible, I try to make my tooling modular and operating system agnostic. This allows me to reap the benefits of Nix anywhere as long as I can run Nix.
+When possible, I try to make my tooling modular and operating system agnostic (aside from the constraint of being on a Unix-like operating system -- I don't really use Windows outside of gaming). This allows me to reap the benefits of Nix anywhere as long as I can run Nix.
 
 ---
 
 ## Command line tools
 
-I use Vim (now, mostly Helix) for all of my writing, and Tmux for productivity.
+I use Helix for all of my writing, and Tmux for productivity.
 
-![vim](../images/vim.png "vim")
+![helix](../images/helix.png "helix")
 
 The following tools are visible in the above image:
-- [My Vim flake](https://github.com/heywoodlh/flakes/tree/66d5fb1b89f9c163d96ff8ca5ee2e737f92b0429/vim)
-- [My Fish flake](https://github.com/heywoodlh/flakes/tree/66d5fb1b89f9c163d96ff8ca5ee2e737f92b0429/fish)
-- [My Tmux flake](https://github.com/heywoodlh/flakes/tree/66d5fb1b89f9c163d96ff8ca5ee2e737f92b0429/tmux)
+- [My Helix flake](https://github.com/heywoodlh/nixos-configs/tree/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/flakes/helix)
+- [My Fish flake](https://github.com/heywoodlh/nixos-configs/tree/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/flakes/fish)
+  - Tmux output: `github:heywoodlh/nixos-configs?dir=flakes/fish#tmux`
+  - [Ghostty](ghostty.org) configuration: [github:heywoodlh/nixos-configs: flakes/fish/flake.nix#L343-L369](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/flakes/fish/flake.nix#L343-L369)
 - [Starship prompt](https://starship.rs/)
+- [MacOS] [Shortcat](https://shortcat.app/) for Vim-like keybindings to navigate MacOS.
+- [MacOS] [SketchyBar](https://github.com/FelixKratz/SketchyBar): [sketchybar.nix](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/darwin/modules/sketchybar.nix)
+- [MacOS] [Yabai](https://github.com/asmvik/yabai) tiling window manager: [yabai.nix](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/darwin/modules/yabai.nix)
 
-Try out my Vim configuration on Linux!
-
-```
-curl -L "https://github.com/heywoodlh/flakes/releases/download/appimages/vim-$(arch).appimage" -o /tmp/vim
-chmod +x /tmp/vim
-
-/tmp/vim
-```
-
-
-Try out my Helix configuration on Linux!
+Try out my Helix configuration on MacOS or Linux!
 
 ```
-curl -L "https://github.com/heywoodlh/flakes/releases/download/appimages/helix-$(arch).appimage" -o /tmp/helix
-chmod +x /tmp/helix
-
-/tmp/helix
+nix --extra-experimental-features "flakes nix-command" run "github:heywoodlh/nixos-configs?dir=flakes/helix"
 ```
 
-Or my Fish configuration:
+Or my Fish/Tmux configuration:
 
 ```
-curl -L "https://github.com/heywoodlh/flakes/releases/download/appimages/fish-$(arch).appimage" -o /tmp/fish
-chmod +x /tmp/fish
+# Fish
+nix --extra-experimental-features "flakes nix-command" run "github:heywoodlh/nixos-configs?dir=flakes/fish"
 
-/tmp/fish
+# Tmux
+nix --extra-experimental-features "flakes nix-command" run "github:heywoodlh/nixos-configs?dir=flakes/fish#tmux"
 ```
 
-(Other appimage releases for x86 and ARM64 are [here](https://github.com/heywoodlh/flakes/releases/tag/appimages))
+### Communication
 
-### Terminal emulators
+Email:
+- [Protonmail Bridge](https://proton.me/mail/bridge): [protonmail-bridge.yaml](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/flakes/kube/manifests/protonmail-bridge.yaml)
+- [Aerc](https://aerc-mail.org/): [home/base.nix#programs.aerc](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/home/base.nix#L464-L490)
 
-iTerm on MacOS:
-
-![neofetch](../images/macos-neofetch.png)
-
-GNOME Terminal and Guake on Linux:
-
-![gnome-terminal](../images/gnome-terminal.png "gnome-terminal on nixos")
-
----
+Messaging:
+- [Matrix](https://matrix.org/), [Beeper](https://beeper.com) bridges: [beeper-bridges.yaml](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/flakes/kube/manifests/beeper-bridges.yaml)
+- [Gomuks](https://go.mau.fi/gomuks)
 
 ## Firefox configuration
 
-(I have been happily using [Zen Browser](https://zen-browser.app/) as well!)
-
 ![firefox](../images/macos-firefox.png)
 
-Home-Manager configuration in this screenshot:
+Home-Manager Firefox configuration in this screenshot:
 - [github:heywoodlh/nixos-configs - home/desktop.nix#L11-L241](https://github.com/heywoodlh/nixos-configs/blob/a8f96221ae02a9da1d8559063a9cd4118d662134/home/desktop.nix#L11-L241)
 - [github:heywoodlh/nixos-configs - home/desktop.nix#L258-L259](https://github.com/heywoodlh/nixos-configs/blob/a8f96221ae02a9da1d8559063a9cd4118d662134/home/desktop.nix#L258-L259)
 
@@ -100,26 +88,8 @@ Home-Manager configuration in this screenshot:
 
 ## Honorable mentions
 
-[Yabai for tiling windows on MacOS](https://github.com/koekeishiya/yabai) and [my config](https://github.com/heywoodlh/nixos-configs/blob/a8f96221ae02a9da1d8559063a9cd4118d662134/darwin/roles/yabai.nix#L32-L92)
+- [Vimium](https://vimium.github.io/) for Vim-like keybindings in Firefox.
 
-[SKHD for custom keyboard shortcuts on MacOS](https://github.com/koekeishiya/skhd) and [my config](https://github.com/heywoodlh/nixos-configs/blob/a8f96221ae02a9da1d8559063a9cd4118d662134/darwin/roles/yabai.nix#L94-L237)
-
-[My GNOME flake](https://github.com/heywoodlh/flakes/tree/main/gnome)
-
-[Vimium](https://vimium.github.io/) for Vim-like keybindings in Firefox
-
-[Shortcat](https://shortcat.app/) for Vim-like keybindings to navigate MacOS
-
-[SketchyBar](https://github.com/FelixKratz/SketchyBar) and [my config](https://github.com/heywoodlh/nixos-configs/blob/a8f96221ae02a9da1d8559063a9cd4118d662134/darwin/roles/sketchybar.nix)
-
-
-[Ergodox EZ keyboard](https://ergodox-ez.com/)
-
-### Back-end stack
-
-The following components are absolutely essential for powering my home lab:
-- Proxmox
-- Git (using GitHub as my Git repository hosting provider)
-- NixOS servers
-- Kubernetes
-- GitHub Actions
+- [Linux] [Hyprland](https://hypr.land/) tiling window manager:
+  - Home-Manager module: [hyprland.nix](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/home/modules/hyprland.nix)
+  - NixOS module: [hyprland.nix](https://github.com/heywoodlh/nixos-configs/blob/744934cdfdfa5d9b033a4f5092a5d263548f4b2a/nixos/modules/hyprland.nix)
