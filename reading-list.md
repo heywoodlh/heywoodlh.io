@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 01/22/26
+Generated on 01/29/26
 </div>
 ---
 Title: ahoneybun.net
@@ -79,13 +79,6 @@ URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
-
----
 Title: /r/unixart: high quality screenshots
 
 URL: <https://www.reddit.com/r/unixart>
@@ -93,17 +86,17 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
+
+---
 Title: marquesbrownlee - YouTube
 
 URL: <https://www.youtube.com/user/marquesbrownlee>
 
-
----
-Title: The GitHub Blog: Security News and Updates
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: Vimjoyer - YouTube
@@ -119,11 +112,32 @@ URL: <https://www.jeffgeerling.com/>
 RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
+Title: The GitHub Blog: Security News and Updates
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: Julia Evans
+
+URL: <http://jvns.ca>
+
+RSS: <https://jvns.ca/atom.xml>
+
+---
 Title: The GitHub Blog: Open Source News and Updates
 
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -182,13 +196,6 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
-Title: Julia Evans
-
-URL: <http://jvns.ca>
-
-RSS: <https://jvns.ca/atom.xml>
-
----
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
 
 URL: <https://www.reddit.com/r/PrivacyGuides>
@@ -228,11 +235,4 @@ Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
 
