@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 02/05/26
+Generated on 02/12/26
 </div>
 ---
 Title: ahoneybun.net
@@ -66,13 +66,6 @@ URL: <https://eclecticlight.co>
 RSS: <https://eclecticlight.co/feed/>
 
 ---
-Title: /r/unixart: high quality screenshots
-
-URL: <https://www.reddit.com/r/unixart>
-
-RSS: <https://www.reddit.com/r/unixart.rss>
-
----
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
@@ -80,10 +73,24 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
+
+---
 Title: Sabine Hossenfelder - YouTube
 
 URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
+
+---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
@@ -93,11 +100,37 @@ URL: <https://vermaden.wordpress.com>
 RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
-Title: Xe Iaso's blog
+Title: Jeff Geerling's Blog
 
-URL: <https://xeiaso.net/>
+URL: <https://www.jeffgeerling.com/>
 
-RSS: <https://xeiaso.net/blog.rss>
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Brendan Gregg's Blog
+
+URL: <http://www.brendangregg.com/blog>
+
+RSS: <https://www.brendangregg.com/blog/rss.xml>
+
+---
+Title: Solene'%
+
+URL: <https://dataswamp.org/~solene/>
+
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
 ---
 Title: Blog on Asahi Linux
@@ -112,13 +145,6 @@ Title: Blog on Personal Blog of Maximilian Ehlers
 URL: <https://max.sodawa.com/blog/>
 
 RSS: <https://max.sodawa.com/blog/index.xml>
-
----
-Title: Brendan Gregg's Blog
-
-URL: <http://www.brendangregg.com/blog>
-
-RSS: <https://www.brendangregg.com/blog/rss.xml>
 
 ---
 Title: Cerise Norling
@@ -156,13 +182,6 @@ URL: <https://ianthehenry.com/>
 RSS: <https://ianthehenry.com/feed.xml>
 
 ---
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
 Title: Julia Evans
 
 URL: <http://jvns.ca>
@@ -191,13 +210,6 @@ URL: <https://samy.link>
 RSS: <https://samy.link/blog/feed>
 
 ---
-Title: Solene'%
-
-URL: <https://dataswamp.org/~solene/>
-
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
-
----
 Title: Stories by Admiral Cloudberg on Medium
 
 URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
@@ -223,16 +235,4 @@ Title: The GitHub Blog: Security News and Updates
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
-
----
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
 
