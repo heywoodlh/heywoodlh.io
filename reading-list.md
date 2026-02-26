@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 02/19/26
+Generated on 02/26/26
 </div>
 ---
 Title: ahoneybun.net
@@ -93,13 +93,6 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
 URL: <https://vermaden.wordpress.com>
@@ -107,11 +100,17 @@ URL: <https://vermaden.wordpress.com>
 RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
-Title: The GitHub Blog: Open Source News and Updates
+Title: Jeff Geerling's Blog
 
-URL: <https://github.blog/category/open-source/>
+URL: <https://www.jeffgeerling.com/>
 
-RSS: <https://github.blog/category/open-source/feed/>
+RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
 ---
 Title: Solene'%
@@ -121,15 +120,16 @@ URL: <https://dataswamp.org/~solene/>
 RSS: <https://dataswamp.org/~solene/rss-html.xml>
 
 ---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
 Title: Vimjoyer - YouTube
 
 URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
