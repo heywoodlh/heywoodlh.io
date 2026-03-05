@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 02/26/26
+Generated on 03/05/26
 </div>
 ---
 Title: ahoneybun.net
@@ -15,27 +15,6 @@ Title: ahoneybun.net
 URL: <https://ahoneybun.net/>
 
 RSS: <https://ahoneybun.net/feed.xml>
-
----
-Title: Hacker News: Front Page
-
-URL: <https://news.ycombinator.com/>
-
-RSS: <https://hnrss.org/frontpage>
-
----
-Title: Lobsters
-
-URL: <https://lobste.rs/>
-
-RSS: <https://lobste.rs/rss>
-
----
-Title: battlestations
-
-URL: <https://www.reddit.com/r/battlestations>
-
-RSS: <https://www.reddit.com/r/battlestations.rss>
 
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -59,6 +38,34 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
+Title: /r/unixart: high quality screenshots
+
+URL: <https://www.reddit.com/r/unixart>
+
+RSS: <https://www.reddit.com/r/unixart.rss>
+
+---
+Title: Hacker News: Front Page
+
+URL: <https://news.ycombinator.com/>
+
+RSS: <https://hnrss.org/frontpage>
+
+---
+Title: Lobsters
+
+URL: <https://lobste.rs/>
+
+RSS: <https://lobste.rs/rss>
+
+---
+Title: battlestations
+
+URL: <https://www.reddit.com/r/battlestations>
+
+RSS: <https://www.reddit.com/r/battlestations.rss>
+
+---
 Title: The Eclectic Light Company
 
 URL: <https://eclecticlight.co>
@@ -71,13 +78,6 @@ Title: Changelogs Archive - The GitHub Blog
 URL: <https://github.blog/changelog/>
 
 RSS: <https://github.blog/changelog/feed/>
-
----
-Title: /r/unixart: high quality screenshots
-
-URL: <https://www.reddit.com/r/unixart>
-
-RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
 Title: Sabine Hossenfelder - YouTube
@@ -93,18 +93,18 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
-
----
 Title: Jeff Geerling's Blog
 
 URL: <https://www.jeffgeerling.com/>
 
 RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: marquesbrownlee - YouTube
