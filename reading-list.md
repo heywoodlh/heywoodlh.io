@@ -7,8 +7,15 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 04/02/26
+Generated on 04/09/26
 </div>
+---
+Title: Lobsters
+
+URL: <https://lobste.rs/>
+
+RSS: <https://lobste.rs/rss>
+
 ---
 Title: ahoneybun.net
 
@@ -22,13 +29,6 @@ Title: Hacker News: Front Page
 URL: <https://news.ycombinator.com/>
 
 RSS: <https://hnrss.org/frontpage>
-
----
-Title: Lobsters
-
-URL: <https://lobste.rs/>
-
-RSS: <https://lobste.rs/rss>
 
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -113,18 +113,18 @@ URL: <https://www.jeffgeerling.com/>
 RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
-Title: The GitHub Blog: Security News and Updates
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
-
----
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
 URL: <https://vermaden.wordpress.com>
 
 RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: The GitHub Blog: Security News and Updates
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: Vimjoyer - YouTube
