@@ -264,16 +264,18 @@ nav {
   border-bottom: none;
 }
 
-.post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
+blockquote {
+  background: #4c566a;
+  border-left: 3px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
 
+blockquote p {
+  display: inline;
+}
+
+.post {
   .comments {
     margin-top: 10px;
   }
