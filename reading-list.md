@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 04/09/26
+Generated on 04/16/26
 </div>
 ---
 Title: Lobsters
@@ -15,6 +15,13 @@ Title: Lobsters
 URL: <https://lobste.rs/>
 
 RSS: <https://lobste.rs/rss>
+
+---
+Title: Blog on Personal Blog of Maximilian Ehlers
+
+URL: <https://max.sodawa.com/blog/>
+
+RSS: <https://max.sodawa.com/blog/index.xml>
 
 ---
 Title: ahoneybun.net
@@ -99,18 +106,18 @@ URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
-
----
 Title: Jeff Geerling's Blog
 
 URL: <https://www.jeffgeerling.com/>
 
 RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
@@ -133,6 +140,13 @@ URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
 
 ---
+Title: Solene'%
+
+URL: <https://dataswamp.org/~solene/>
+
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
 Title: The GitHub Blog: Open Source News and Updates
 
 URL: <https://github.blog/category/open-source/>
@@ -147,11 +161,11 @@ URL: <https://drewdevault.com>
 RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
-Title: Solene'%
+Title: ENOSUCHBLOG
 
-URL: <https://dataswamp.org/~solene/>
+URL: <https://blog.yossarian.net/>
 
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
+RSS: <https://blog.yossarian.net/feed.xml>
 
 ---
 Title: Julia Evans
@@ -166,13 +180,6 @@ Title: Blog on Asahi Linux
 URL: <https://asahilinux.org/blog/>
 
 RSS: <https://asahilinux.org/blog/index.xml>
-
----
-Title: Blog on Personal Blog of Maximilian Ehlers
-
-URL: <https://max.sodawa.com/blog/>
-
-RSS: <https://max.sodawa.com/blog/index.xml>
 
 ---
 Title: Brendan Gregg's Blog
@@ -194,13 +201,6 @@ Title: Dave Eargle
 URL: <https://daveeargle.com/>
 
 RSS: <https://daveeargle.com/feed.xml>
-
----
-Title: ENOSUCHBLOG
-
-URL: <https://blog.yossarian.net/>
-
-RSS: <https://blog.yossarian.net/feed.xml>
 
 ---
 Title: Ian Henry
