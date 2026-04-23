@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 04/16/26
+Generated on 04/23/26
 </div>
 ---
 Title: Lobsters
@@ -66,6 +66,13 @@ URL: <https://www.reddit.com/r/cyberdeck>
 RSS: <https://www.reddit.com/r/cyberdeck.rss>
 
 ---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
+
+---
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
@@ -87,6 +94,12 @@ URL: <https://www.reddit.com/r/unixart>
 RSS: <https://www.reddit.com/r/unixart.rss>
 
 ---
+Title: Sabine Hossenfelder - YouTube
+
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
+
+---
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
 
 URL: <https://www.reddit.com/r/PrivacyGuides>
@@ -94,15 +107,15 @@ URL: <https://www.reddit.com/r/PrivacyGuides>
 RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
-Title: Sabine Hossenfelder - YouTube
-
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
-
-
----
 Title: marquesbrownlee - YouTube
 
 URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
 
 ---
@@ -134,19 +147,6 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
-
----
-Title: Solene'%
-
-URL: <https://dataswamp.org/~solene/>
-
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
-
----
 Title: The GitHub Blog: Open Source News and Updates
 
 URL: <https://github.blog/category/open-source/>
@@ -154,11 +154,11 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: Drew DeVault's blog
+Title: Solene'%
 
-URL: <https://drewdevault.com>
+URL: <https://dataswamp.org/~solene/>
 
-RSS: <https://drewdevault.com/blog/index.xml>
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
 
 ---
 Title: ENOSUCHBLOG
