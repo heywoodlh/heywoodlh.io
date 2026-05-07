@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 04/30/26
+Generated on 05/07/26
 </div>
 ---
 Title: Lobsters
@@ -126,18 +126,18 @@ URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
 
 ---
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
-
----
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
 URL: <https://vermaden.wordpress.com>
 
 RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: The GitHub Blog: Security News and Updates
@@ -152,6 +152,13 @@ Title: The GitHub Blog: Open Source News and Updates
 URL: <https://github.blog/category/open-source/>
 
 RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: Julia Evans
+
+URL: <http://jvns.ca>
+
+RSS: <https://jvns.ca/atom.xml>
 
 ---
 Title: Solene'%
@@ -173,13 +180,6 @@ Title: Blog on Asahi Linux
 URL: <https://asahilinux.org/blog/>
 
 RSS: <https://asahilinux.org/blog/index.xml>
-
----
-Title: Julia Evans
-
-URL: <http://jvns.ca>
-
-RSS: <https://jvns.ca/atom.xml>
 
 ---
 Title: Brendan Gregg's Blog
