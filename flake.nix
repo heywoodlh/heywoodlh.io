@@ -1,17 +1,16 @@
 {
   description = "devshell for heywoodlh.io";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs";
-  inputs.flake-utils.url = "github:numtide/flake-utils";
+  inputs.nixos-configs.url = "git+https://tangled.org/heywoodlh.io/nixos-configs";
 
-  outputs = inputs @ {
+  outputs = {
     self,
-    nixpkgs,
-    flake-utils,
+    nixos-configs,
   }:
-    flake-utils.lib.eachDefaultSystem (system: let
+    nixos-configs.inputs.flake-utils.lib.eachDefaultSystem (system: let
+      nixpkgs = nixos-configs.inputs.nixpkgs;
       pkgs = nixpkgs.legacyPackages.${system};
-      opener = if pkgs.stdenv.isDarwin then "open" else "${pkgs.xdg-utils}/bin/xdg-open";
+      tangled-sync = nixos-configs.packages.${system}.tangled-sync;
       myRuby = pkgs.ruby.withPackages (p: with p; [
         jekyll
         jekyll-feed
@@ -33,6 +32,9 @@
           myRuby
           run
         ];
+        shellHook = ''
+          ${tangled-sync}/bin/tangled-sync.sh
+        '';
       };
 
       formatter = pkgs.alejandra;
