@@ -7,21 +7,21 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/02/26
+Generated on 07/09/26
 </div>
----
-Title: Privacy Guides – Tools and Resources for Protecting Your Data
-
-URL: <https://www.reddit.com/r/PrivacyGuides>
-
-RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
-
 ---
 Title: r/unixporn - the home for *NIX customization!
 
 URL: <https://www.reddit.com/r/UnixPorn>
 
 RSS: <https://www.reddit.com/r/UnixPorn.rss>
+
+---
+Title: Privacy Guides – Tools and Resources for Protecting Your Data
+
+URL: <https://www.reddit.com/r/PrivacyGuides>
+
+RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
 Title: Hacker News: Front Page
@@ -126,6 +126,13 @@ URL: <http://jvns.ca>
 RSS: <https://jvns.ca/atom.xml>
 
 ---
+Title: ENOSUCHBLOG
+
+URL: <https://blog.yossarian.net/>
+
+RSS: <https://blog.yossarian.net/feed.xml>
+
+---
 Title: Solene'%
 
 URL: <https://dataswamp.org/~solene/>
@@ -138,13 +145,6 @@ Title: Blog on Asahi Linux
 URL: <https://asahilinux.org/blog/>
 
 RSS: <https://asahilinux.org/blog/index.xml>
-
----
-Title: ENOSUCHBLOG
-
-URL: <https://blog.yossarian.net/>
-
-RSS: <https://blog.yossarian.net/feed.xml>
 
 ---
 Title: Sun Knudsen - YouTube
