@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/09/26
+Generated on 07/16/26
 </div>
 ---
 Title: r/unixporn - the home for *NIX customization!
