@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/16/26
+Generated on 07/23/26
 </div>
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -147,6 +147,13 @@ URL: <https://asahilinux.org/blog/>
 RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
+Title: Stories by Admiral Cloudberg on Medium
+
+URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
+
+RSS: <https://admiralcloudberg.medium.com/feed>
+
+---
 Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
@@ -193,13 +200,6 @@ Title: Samy Security Blog
 URL: <https://samy.link>
 
 RSS: <https://samy.link/blog/feed>
-
----
-Title: Stories by Admiral Cloudberg on Medium
-
-URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
-
-RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
 Title: ahoneybun.net
