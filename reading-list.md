@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/23/26
+Generated on 07/30/26
 </div>
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -38,18 +38,18 @@ URL: <https://lobste.rs/>
 RSS: <https://lobste.rs/rss>
 
 ---
-Title: Drew DeVault's blog
-
-URL: <https://drewdevault.com>
-
-RSS: <https://drewdevault.com/blog/index.xml>
-
----
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
 
 RSS: <https://github.blog/changelog/feed/>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: The Eclectic Light Company
@@ -106,17 +106,17 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: Vimjoyer - YouTube
-
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
-
-
----
 Title: The GitHub Blog: Security News and Updates
 
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
+
+---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
 
 ---
 Title: Julia Evans
@@ -154,6 +154,13 @@ URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
+Title: Ian Henry
+
+URL: <https://ianthehenry.com/>
+
+RSS: <https://ianthehenry.com/feed.xml>
+
+---
 Title: Sun Knudsen - YouTube
 
 URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
@@ -179,13 +186,6 @@ Title: Dave Eargle
 URL: <https://daveeargle.com/>
 
 RSS: <https://daveeargle.com/feed.xml>
-
----
-Title: Ian Henry
-
-URL: <https://ianthehenry.com/>
-
-RSS: <https://ianthehenry.com/feed.xml>
 
 ---
 Title: Ramblings from Jessie
