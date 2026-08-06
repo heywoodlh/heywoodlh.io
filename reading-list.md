@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 07/30/26
+Generated on 08/06/26
 </div>
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -78,18 +78,18 @@ URL: <https://www.youtube.com/user/marquesbrownlee>
 
 
 ---
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
-
----
 Title: Jeff Geerling's Blog
 
 URL: <https://www.jeffgeerling.com/>
 
 RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
