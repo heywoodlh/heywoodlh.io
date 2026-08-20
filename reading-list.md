@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 08/13/26
+Generated on 08/20/26
 </div>
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -85,18 +85,18 @@ URL: <https://xeiaso.net/>
 RSS: <https://xeiaso.net/blog.rss>
 
 ---
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
 URL: <https://vermaden.wordpress.com>
 
 RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: The GitHub Blog: Open Source News and Updates
@@ -119,18 +119,18 @@ URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
 
 ---
-Title: Julia Evans
-
-URL: <http://jvns.ca>
-
-RSS: <https://jvns.ca/atom.xml>
-
----
 Title: ENOSUCHBLOG
 
 URL: <https://blog.yossarian.net/>
 
 RSS: <https://blog.yossarian.net/feed.xml>
+
+---
+Title: Julia Evans
+
+URL: <http://jvns.ca>
+
+RSS: <https://jvns.ca/atom.xml>
 
 ---
 Title: Solene'%
