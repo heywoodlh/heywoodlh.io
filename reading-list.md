@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 09/10/26
+Generated on 09/17/26
 </div>
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -147,6 +147,13 @@ URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
+Title: Ramblings from Jessie
+
+URL: <https://blog.jessfraz.com/>
+
+RSS: <https://blog.jessfraz.com/index.xml>
+
+---
 Title: Solene'%
 
 URL: <https://dataswamp.org/~solene/>
@@ -159,13 +166,6 @@ Title: Ian Henry
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
-
----
-Title: Ramblings from Jessie
-
-URL: <https://blog.jessfraz.com/>
-
-RSS: <https://blog.jessfraz.com/index.xml>
 
 ---
 Title: Sun Knudsen - YouTube
