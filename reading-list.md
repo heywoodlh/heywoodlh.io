@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 09/17/26
+Generated on 09/24/26
 </div>
 ---
 Title: r/unixporn - the home for *NIX customization!
@@ -85,18 +85,18 @@ URL: <https://vermaden.wordpress.com>
 RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
-
----
 Title: Xe Iaso's blog
 
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
+
+---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: The GitHub Blog: Open Source News and Updates
@@ -140,11 +140,24 @@ URL: <https://asahilinux.org/blog/>
 RSS: <https://asahilinux.org/blog/index.xml>
 
 ---
+Title: Solene'%
+
+URL: <https://dataswamp.org/~solene/>
+
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
 Title: Stories by Admiral Cloudberg on Medium
 
 URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 
 RSS: <https://admiralcloudberg.medium.com/feed>
+
+---
+Title: Sun Knudsen - YouTube
+
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
+
 
 ---
 Title: Ramblings from Jessie
@@ -154,24 +167,11 @@ URL: <https://blog.jessfraz.com/>
 RSS: <https://blog.jessfraz.com/index.xml>
 
 ---
-Title: Solene'%
-
-URL: <https://dataswamp.org/~solene/>
-
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
-
----
 Title: Ian Henry
 
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
-
----
-Title: Sun Knudsen - YouTube
-
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
-
 
 ---
 Title: Brendan Gregg's Blog
