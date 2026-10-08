@@ -7,14 +7,14 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/01/26
+Generated on 10/08/26
 </div>
 ---
-Title: r/unixporn - the home for *NIX customization!
+Title: Blog on Personal Blog of Maximilian Ehlers
 
-URL: <https://www.reddit.com/r/UnixPorn>
+URL: <https://max.sodawa.com/blog/>
 
-RSS: <https://www.reddit.com/r/UnixPorn.rss>
+RSS: <https://max.sodawa.com/blog/index.xml>
 
 ---
 Title: Privacy Guides – Tools and Resources for Protecting Your Data
@@ -24,11 +24,11 @@ URL: <https://www.reddit.com/r/PrivacyGuides>
 RSS: <https://www.reddit.com/r/PrivacyGuides.rss>
 
 ---
-Title: Blog on Personal Blog of Maximilian Ehlers
+Title: r/unixporn - the home for *NIX customization!
 
-URL: <https://max.sodawa.com/blog/>
+URL: <https://www.reddit.com/r/UnixPorn>
 
-RSS: <https://max.sodawa.com/blog/index.xml>
+RSS: <https://www.reddit.com/r/UnixPorn.rss>
 
 ---
 Title: Hacker News: Front Page
@@ -77,18 +77,11 @@ URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
 
 ---
-Title: Drew DeVault's blog
+Title: Xe Iaso's blog
 
-URL: <https://drewdevault.com>
+URL: <https://xeiaso.net/>
 
-RSS: <https://drewdevault.com/blog/index.xml>
-
----
-Title: Solene'%
-
-URL: <https://dataswamp.org/~solene/>
-
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
@@ -124,6 +117,13 @@ Title: Dave Eargle
 URL: <https://daveeargle.com/>
 
 RSS: <https://daveeargle.com/feed.xml>
+
+---
+Title: Drew DeVault's blog
+
+URL: <https://drewdevault.com>
+
+RSS: <https://drewdevault.com/blog/index.xml>
 
 ---
 Title: ENOSUCHBLOG
@@ -168,6 +168,13 @@ URL: <https://samy.link>
 RSS: <https://samy.link/blog/feed>
 
 ---
+Title: Solene'%
+
+URL: <https://dataswamp.org/~solene/>
+
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
 Title: Stories by Admiral Cloudberg on Medium
 
 URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
@@ -193,13 +200,6 @@ Title: The GitHub Blog: Security News and Updates
 URL: <https://github.blog/category/security/>
 
 RSS: <https://github.blog/category/security/feed/>
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: ahoneybun.net
