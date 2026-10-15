@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/08/26
+Generated on 10/15/26
 </div>
 ---
 Title: Blog on Personal Blog of Maximilian Ehlers
@@ -38,13 +38,6 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
-Title: Lobsters
-
-URL: <https://lobste.rs/>
-
-RSS: <https://lobste.rs/rss>
-
----
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
@@ -52,11 +45,18 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: The Eclectic Light Company
+Title: Lobsters
 
-URL: <https://eclecticlight.co>
+URL: <https://lobste.rs/>
 
-RSS: <https://eclecticlight.co/feed/>
+RSS: <https://lobste.rs/rss>
+
+---
+Title: Jeff Geerling's Blog
+
+URL: <https://www.jeffgeerling.com/>
+
+RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Sabine Hossenfelder - YouTube
@@ -65,10 +65,11 @@ URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
-Title: marquesbrownlee - YouTube
+Title: The Eclectic Light Company
 
-URL: <https://www.youtube.com/user/marquesbrownlee>
+URL: <https://eclecticlight.co>
 
+RSS: <https://eclecticlight.co/feed/>
 
 ---
 Title: Vimjoyer - YouTube
@@ -82,13 +83,6 @@ Title: Xe Iaso's blog
 URL: <https://xeiaso.net/>
 
 RSS: <https://xeiaso.net/blog.rss>
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: Blog on Asahi Linux
@@ -138,13 +132,6 @@ Title: Ian Henry
 URL: <https://ianthehenry.com/>
 
 RSS: <https://ianthehenry.com/feed.xml>
-
----
-Title: Jeff Geerling's Blog
-
-URL: <https://www.jeffgeerling.com/>
-
-RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
 Title: Julia Evans
@@ -207,4 +194,17 @@ Title: ahoneybun.net
 URL: <https://ahoneybun.net/>
 
 RSS: <https://ahoneybun.net/feed.xml>
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
