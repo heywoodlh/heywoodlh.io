@@ -7,8 +7,15 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/15/26
+Generated on 10/22/26
 </div>
+---
+Title: Lobsters
+
+URL: <https://lobste.rs/>
+
+RSS: <https://lobste.rs/rss>
+
 ---
 Title: Blog on Personal Blog of Maximilian Ehlers
 
@@ -38,6 +45,13 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
+Title: The Eclectic Light Company
+
+URL: <https://eclecticlight.co>
+
+RSS: <https://eclecticlight.co/feed/>
+
+---
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
@@ -45,11 +59,23 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: Lobsters
+Title: Xe Iaso's blog
 
-URL: <https://lobste.rs/>
+URL: <https://xeiaso.net/>
 
-RSS: <https://lobste.rs/rss>
+RSS: <https://xeiaso.net/blog.rss>
+
+---
+Title: Sabine Hossenfelder - YouTube
+
+URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+
+
+---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
 
 ---
 Title: Jeff Geerling's Blog
@@ -59,30 +85,18 @@ URL: <https://www.jeffgeerling.com/>
 RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
-Title: Sabine Hossenfelder - YouTube
+Title: Solene'%
 
-URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
+URL: <https://dataswamp.org/~solene/>
 
-
----
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
 
 ---
-Title: Vimjoyer - YouTube
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
-URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+URL: <https://vermaden.wordpress.com>
 
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
+RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: Blog on Asahi Linux
@@ -155,13 +169,6 @@ URL: <https://samy.link>
 RSS: <https://samy.link/blog/feed>
 
 ---
-Title: Solene'%
-
-URL: <https://dataswamp.org/~solene/>
-
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
-
----
 Title: Stories by Admiral Cloudberg on Medium
 
 URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
@@ -189,22 +196,15 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
+Title: Vimjoyer - YouTube
+
+URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
+
+
+---
 Title: ahoneybun.net
 
 URL: <https://ahoneybun.net/>
 
 RSS: <https://ahoneybun.net/feed.xml>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
-
----
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
-
-URL: <https://vermaden.wordpress.com>
-
-RSS: <https://vermaden.wordpress.com/feed/>
 
