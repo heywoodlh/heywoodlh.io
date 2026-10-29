@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/22/26
+Generated on 10/29/26
 </div>
 ---
 Title: Lobsters
@@ -45,13 +45,6 @@ URL: <https://news.ycombinator.com/>
 RSS: <https://hnrss.org/frontpage>
 
 ---
-Title: The Eclectic Light Company
-
-URL: <https://eclecticlight.co>
-
-RSS: <https://eclecticlight.co/feed/>
-
----
 Title: Changelogs Archive - The GitHub Blog
 
 URL: <https://github.blog/changelog/>
@@ -59,11 +52,11 @@ URL: <https://github.blog/changelog/>
 RSS: <https://github.blog/changelog/feed/>
 
 ---
-Title: Xe Iaso's blog
+Title: The Eclectic Light Company
 
-URL: <https://xeiaso.net/>
+URL: <https://eclecticlight.co>
 
-RSS: <https://xeiaso.net/blog.rss>
+RSS: <https://eclecticlight.co/feed/>
 
 ---
 Title: Sabine Hossenfelder - YouTube
@@ -90,6 +83,13 @@ Title: Solene'%
 URL: <https://dataswamp.org/~solene/>
 
 RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
+Title: The GitHub Blog: Security News and Updates
+
+URL: <https://github.blog/category/security/>
+
+RSS: <https://github.blog/category/security/feed/>
 
 ---
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
@@ -189,17 +189,17 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: The GitHub Blog: Security News and Updates
-
-URL: <https://github.blog/category/security/>
-
-RSS: <https://github.blog/category/security/feed/>
-
----
 Title: Vimjoyer - YouTube
 
 URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
+
+---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: ahoneybun.net
