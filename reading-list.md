@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 10/29/26
+Generated on 11/05/26
 </div>
 ---
 Title: Lobsters
@@ -65,6 +65,13 @@ URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
+Title: Solene'%
+
+URL: <https://dataswamp.org/~solene/>
+
+RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
 Title: marquesbrownlee - YouTube
 
 URL: <https://www.youtube.com/user/marquesbrownlee>
@@ -78,11 +85,24 @@ URL: <https://www.jeffgeerling.com/>
 RSS: <https://www.jeffgeerling.com/blog.xml>
 
 ---
-Title: Solene'%
+Title: Sun Knudsen - YouTube
 
-URL: <https://dataswamp.org/~solene/>
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
 
-RSS: <https://dataswamp.org/~solene/rss-html.xml>
+
+---
+Title: The GitHub Blog: Open Source News and Updates
+
+URL: <https://github.blog/category/open-source/>
+
+RSS: <https://github.blog/category/open-source/feed/>
+
+---
+Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+
+URL: <https://vermaden.wordpress.com>
+
+RSS: <https://vermaden.wordpress.com/feed/>
 
 ---
 Title: The GitHub Blog: Security News and Updates
@@ -92,11 +112,11 @@ URL: <https://github.blog/category/security/>
 RSS: <https://github.blog/category/security/feed/>
 
 ---
-Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
+Title: Xe Iaso's blog
 
-URL: <https://vermaden.wordpress.com>
+URL: <https://xeiaso.net/>
 
-RSS: <https://vermaden.wordpress.com/feed/>
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -176,30 +196,10 @@ URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 RSS: <https://admiralcloudberg.medium.com/feed>
 
 ---
-Title: Sun Knudsen - YouTube
-
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
-
-
----
-Title: The GitHub Blog: Open Source News and Updates
-
-URL: <https://github.blog/category/open-source/>
-
-RSS: <https://github.blog/category/open-source/feed/>
-
----
 Title: Vimjoyer - YouTube
 
 URL: <https://www.youtube.com/channel/UC_zBdZ0_H_jn41FDRG7q4Tw>
 
-
----
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: ahoneybun.net
