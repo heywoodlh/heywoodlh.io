@@ -7,7 +7,7 @@ permalink: /reading-list/
 My tech reading list generated weekly via [reading-list.yml](https://github.com/heywoodlh/heywoodlh.io/blob/main/.github/workflows/reading-list.yml).
 
 <div class=date>
-Generated on 11/19/26
+Generated on 11/26/26
 </div>
 ---
 Title: Blog on Personal Blog of Maximilian Ehlers
@@ -65,11 +65,23 @@ URL: <https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw>
 
 
 ---
+Title: marquesbrownlee - YouTube
+
+URL: <https://www.youtube.com/user/marquesbrownlee>
+
+
+---
 Title: Jeff Geerling's Blog
 
 URL: <https://www.jeffgeerling.com/>
 
 RSS: <https://www.jeffgeerling.com/blog.xml>
+
+---
+Title: Sun Knudsen - YouTube
+
+URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
+
 
 ---
 Title: The GitHub Blog: Open Source News and Updates
@@ -79,24 +91,18 @@ URL: <https://github.blog/category/open-source/>
 RSS: <https://github.blog/category/open-source/feed/>
 
 ---
-Title: Xe Iaso's blog
-
-URL: <https://xeiaso.net/>
-
-RSS: <https://xeiaso.net/blog.rss>
-
----
-Title: marquesbrownlee - YouTube
-
-URL: <https://www.youtube.com/user/marquesbrownlee>
-
-
----
 Title: 𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗
 
 URL: <https://vermaden.wordpress.com>
 
 RSS: <https://vermaden.wordpress.com/feed/>
+
+---
+Title: Xe Iaso's blog
+
+URL: <https://xeiaso.net/>
+
+RSS: <https://xeiaso.net/blog.rss>
 
 ---
 Title: Blog on Asahi Linux
@@ -181,12 +187,6 @@ Title: Stories by Admiral Cloudberg on Medium
 URL: <https://medium.com/@admiralcloudberg?source=rss-e119a26506e3------2>
 
 RSS: <https://admiralcloudberg.medium.com/feed>
-
----
-Title: Sun Knudsen - YouTube
-
-URL: <https://www.youtube.com/channel/UCkHN7h7CFeYL6Y1N5JcEZug>
-
 
 ---
 Title: The GitHub Blog: Security News and Updates
